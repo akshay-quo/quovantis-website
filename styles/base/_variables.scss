@@ -1,0 +1,94 @@
+/* Variables */
+
+/*
+* Breakpoints
+*/
+$breakpoints: (
+  xSmall: 576px,
+  small: 768px,
+  xMedium: 992px,
+  medium: 1200px,
+  xLarge: 1408px,
+  large: 1920px
+);
+
+/*
+* Theme Colors
+*/
+$theme: (
+  light: #ffffff,
+  dark: #111012
+);
+
+/*
+* Font Family
+*/
+$font-families: (
+  primary: (Poppins, sans-serif),
+  secondary: (Heebo, sans-serif),
+);
+
+/*
+* Typography Colors
+*/
+$typography-colors: (
+  theme-light: #ffffff,
+  semi-dim: #eeeeee,
+  dim: #d3d3d3,
+  dark: #000000,
+  theme-dark: #111012,
+  semi-dark: #34383D
+);
+
+/*
+* Social media icons Colors
+*/
+$social-media-colors: (
+  facebook: #425A97,
+  instagram: #DD2A7B,
+  twitter: #08a0e9,
+);
+
+/*
+* Typography Weights
+*/
+$typography-weights: (
+  thin: 100,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semi-bold: 600,
+  bold: 700
+);
+
+/*
+* Typography Sizes
+*/
+$typography-sizes: ();
+
+/*
+* Typography Hierarchies
+* Ref:
+* example:
+* font: (italic bold 4.2vw/1.2 (Poppins, sans-serif)),
+* font: (font-style font-weight font-size/line-height (font-family, sans-serif)),
+*/
+$heading-fonts: (
+  hf1: (bold 4.2vw/1.2 map-get($font-families, primary)),
+  mhf1: (600 7vw/1.2 map-get($font-families, primary)),
+  hf2: (500 1.4vw/1.2 map-get($font-families, primary)),
+  mhf2: (600 6vw/1.2 map-get($font-families, primary)),
+  hf3: (bold 3vw/1.2 map-get($font-families, primary)),
+  mhf3: (600 6vw/1.2 map-get($font-families, primary)),
+);
+$paragraph-fonts: (
+  pf1: (200 1.25vw/1.5 map-get($font-families, secondary)),
+  mpf1: (300 4vw/1.5 map-get($font-families, secondary)),
+  pf2: (200 1.1vw/1.5 map-get($font-families, secondary)),
+  mpf2: (300 4vw/1.5 map-get($font-families, secondary)),
+);
+$letter-spacings: (
+  ls1: 0.61px,
+  mls1: 0.44px
+)
+

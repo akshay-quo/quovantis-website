@@ -1,0 +1,35 @@
+// Single line ellipses
+%text-ellipses {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+// Multiline ellipses
+%block-ellipsis {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+// Use where you need preformatted text
+%nextline {
+  white-space: pre-line;
+}
+// Show Scrollbar on hover
+%show-scrollbar-on-hover {
+  &::-webkit-scrollbar {
+    &-thumb {
+      background-color: transparent;
+    }
+  }
+  &:hover {
+    &::-webkit-scrollbar {
+      &-thumb {
+        background-color: #e3dee6;
+      }
+    }
+  }
+}

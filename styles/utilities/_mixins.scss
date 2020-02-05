@@ -1,0 +1,262 @@
+@import '../base/variables';
+
+// Mixin for Font Properties
+@mixin font_property(
+  $fontFace,
+  $fontSize,
+  $fontLineHeight,
+  $fontWeight,
+  $fontColor
+) {
+  // Optional Param - Font Family
+  @if $fontFace != '' {
+    font-family: $fontFace;
+  }
+  // Optional Param - Font Size
+  @if $fontSize != '' {
+    font-size: $fontSize;
+  }
+  // Optional Param - Line Height
+  @if $fontLineHeight != '' {
+    line-height: $fontLineHeight;
+  }
+  // Optional Param - Font Weight
+  @if $fontWeight != '' {
+    font-weight: $fontWeight;
+  }
+  // Optional Param - Font Color
+  @if $fontColor != '' {
+    color: $fontColor;
+  }
+}
+
+// Mixin for Element Positioning
+@mixin element_position(
+  $positionType,
+  $postionTop,
+  $positionRight,
+  $positionBottom,
+  $positionLeft
+) {
+  // Required Param - Position Type ['absolute', 'relative', 'fixed', 'static', 'sticky']
+  position: $positionType;
+  // Optional Param - Top
+  @if $postionTop != '' {
+    top: $postionTop;
+  }
+  // Optional Param - Right
+  @if $positionRight != '' {
+    right: $positionRight;
+  }
+  // Optional Param - Bottom
+  @if $positionBottom != '' {
+    bottom: $positionBottom;
+  }
+  // Optional Param - Left
+  @if $positionLeft != '' {
+    left: $positionLeft;
+  }
+}
+
+
+//mixin
+@mixin element($el) {
+  &__#{$el} {
+    @content
+  }
+}
+
+@mixin modifier($mod) {
+  &--#{$mod} {
+    @content
+  }
+}
+
+@mixin doubly($margin) {
+  & + & {
+    margin-left: $margin;
+    @content;
+  }
+}
+
+.col {
+  @include doubly(20px);
+  float: left;
+}
+
+.nav {
+  @include element(item) {
+    @include modifier(current) {
+
+    }
+  }
+}
+
+.bunny {
+  animation: hop 1s infinite;
+  @keyframes hop {
+    50% {
+
+    }
+  }
+}
+
+/*
+* Break points - Small to large screens
+*/
+@mixin break-small-to-large($point, $breakpoints: $breakpoints) {
+  @if $point == xMobile {
+    @media (min-width: map-get($breakpoints, xSmall)) {
+      @content;
+    }
+  } @else if $point == mobile {
+    @media (min-width: map-get($breakpoints, small)) {
+      @content;
+    }
+  } @else if $point == xTablet {
+    @media (min-width: map-get($breakpoints, xMedium)) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (min-width: map-get($breakpoints, medium)) {
+      @content;
+    }
+  } @else if $point == xDesktop {
+    @media (min-width: map-get($breakpoints, xLarge)) {
+      @content
+    }
+  } @else if $point == desktop {
+    @media (min-width: map-get($breakpoints, large)) {
+      @content
+    }
+  }
+}
+
+/*
+* Break points - Large to small screens
+*/
+@mixin break-large-to-small($point) {
+  @if $point == desktop {
+    @media (max-width: map-get($breakpoints, large)) {
+      @content
+    }
+  } @else if $point == xDesktop {
+    @media (max-width: map-get($breakpoints, xLarge)) {
+      @content
+    }
+  } @else if $point == tablet {
+    @media (max-width: map-get($breakpoints, medium)) {
+      @content;
+    }
+  } @else if $point == xTablet {
+    @media (max-width: map-get($breakpoints, xMedium)) {
+      @content;
+    }
+  } @else if $point == mobile {
+    @media (max-width: map-get($breakpoints, small)) {
+      @content;
+    }
+  } @else if $point == xMobile {
+    @media (max-width: map-get($breakpoints, xSmall)) {
+      @content;
+    }
+  }
+}
+
+//border animation
+@mixin link-animation($thickness: 1px, $type: "theme-light") {
+  display: inline-block;
+  text-decoration: none;
+  &::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: $thickness;
+    background: map-get($typography-colors, $type);
+    transition: width .3s;
+  }
+  &:hover::after {
+    width: 100%;
+  }
+}
+//end of border animation
+
+//button animation effects
+@mixin button-animation($btn-bg: "theme-light", $btn-bg-hover: "semi-dim") {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: unset;
+  background: map-get($typography-colors, $btn-bg);
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  display: inline-block;
+
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: map-get($typography-colors, $btn-bg-hover);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  &:hover:before {
+    transform: scale(1);
+  }
+}
+//end of button animation effects
+
+
+/*
+* Font Smoothing
+* @ref-link: https://stackoverflow.com/questions/11487427/is-there-any-font-smoothing-in-google-chrome
+* @ref-link: https://developer.mozilla.org/en-US/docs/Web/CSS/font-smooth
+*/
+@mixin font-smoothing($stroke-width: .5px) {
+  -webkit-text-stroke-width: $stroke-width;
+  -webkit-text-stroke-color: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+* Custom Scrollbar
+*/
+@mixin custom-scrollbar($thumb: #111012, $track: transparent) {
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+
+    &-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      border-radius: 0;
+      background-color: $track;
+    }
+
+    &-thumb {
+      border-radius: 0;
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+      background-color: $thumb;
+    }
+  }
+}
+
+
+//TODO: Add Sass Resource Loader for globalizing the mixins & variables
+// @ref-link: https://stackoverflow.com/questions/50025676/react-css-modules-using-scss-with-global-mixins
+// @ref-link: https://github.com/shakacode/sass-resources-loader

@@ -1,0 +1,67 @@
+@import '../../styles/utilities/mixins';
+
+:global {
+  .theme-light-color {
+    color: map-get($theme, light) !important;
+  }
+
+  .theme-dark-color {
+    color: map-get($theme, dark) !important;
+  }
+
+  input.small {
+    width: 46px;
+  }
+
+  .button-theme-black {
+    background-color: map-get($theme, dark);
+    color: #fff;
+  }
+
+  .button-theme-white {
+    background-color: map-get($theme, light);
+    color: #111012;
+  }
+
+  .button-prop {
+    padding: 1.2vw 2.5vw;
+    border-radius: 2px;
+    border: none;
+    line-height: 1;
+    font-size: 1.1vw;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.7px;
+
+    @include break-large-to-small(mobile)  {
+      font-size: 3.5vw;
+      font-weight: 500;
+      letter-spacing: 1px;
+      padding: 2vw 4vw;
+    }
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+
+  .text-capitalize {
+    text-transform: capitalize;
+  }
+
+  .tg-block {
+    display: block;
+  }
+
+  .tg-inline-block {
+    display: inline-block;
+  }
+
+  .tg-inline {
+    display: inline;
+  }
+
+  .d-none {
+    display: none !important;
+  }
+}

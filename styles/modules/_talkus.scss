@@ -1,0 +1,21 @@
+@import '../base/variables';
+
+:global {
+  .talkus-body {
+    .talkus-button {
+      right: 7px !important;
+      bottom: 7px !important;
+      @include break-large-to-small(mobile) {
+        right: 20px !important;
+        bottom: 20px !important;
+      }
+      &-content {
+        background-color: map-get($theme, light) !important;
+
+        svg {
+          fill: map-get($theme, dark) !important;
+        }
+      }
+    }
+  }
+}
