@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="546px" height="491px" viewBox="0 0 546 491" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 62 (101010) - https://sketch.com -->
+    <title>363B24C2-EBBE-4044-BDC1-D9EF4DDB6D79</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="58.7602676%" y2="95.6244849%" id="linearGradient-1">
+            <stop stop-color="#FFF29E" offset="0%"></stop>
+            <stop stop-color="#FFD382" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="01.-Homepage-Layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage---Desktop-" transform="translate(-376.000000, -1438.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="::-Portfolio-::" transform="translate(0.000000, 1257.000000)">
+                <g id="Visual" transform="translate(195.000000, 91.000000)">
+                    <path d="M675.62825,169.159404 C712.624986,219.759577 717.504924,289.235321 722.611835,363.714229 C727.718747,438.193136 732.939145,517.788914 695.942409,572.368877 C658.832185,626.94884 579.39134,656.512986 511.866622,644.573619 C444.341904,632.634252 388.619826,579.305081 337.550711,524.725118 C286.481596,470.145155 240.065446,414.314402 236.433864,354.958693 C232.802283,295.602984 272.068757,232.60861 323.137872,182.008437 C374.206987,131.408263 437.078741,93.2022892 503.128129,90.018458 C569.177518,86.8346269 638.518027,118.55923 675.62825,169.159404 Z" id="Path" transform="translate(481.200873, 368.500000) scale(-1, 1) rotate(-49.000000) translate(-481.200873, -368.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
