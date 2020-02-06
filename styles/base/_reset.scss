@@ -1,19 +1,18 @@
-:global {
-  h1, h2, h3, h4, h5, h6, p, ul {
-    padding: 0;
-    margin: 0;
-  }
-
-  a {
-    text-decoration: unset;
-    color: unset;
-  }
-
-  h2 {
-    color: map-get($typography-colors, dark);
-  }
-
-  video:focus, button:focus{
-    outline: none;
-  }
+h1, h2, h3, h4, h5, h6, p, ul {
+  padding: 0;
+  margin: 0;
 }
+
+a {
+  text-decoration: unset;
+  color: unset;
+}
+
+h2 {
+  color: map-get($typography-colors, dark);
+}
+
+video:focus, button:focus {
+  outline: none;
+}
+

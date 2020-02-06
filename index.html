@@ -3,237 +3,259 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Quovantis Website</title>
-    <link href="styles/styles.css" rel="stylesheet" />
+	<link href="styles/styles.css" rel="stylesheet" />
+	<link crossorigin="anonymous"
+	      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	      rel="stylesheet">
 </head>
 <body>
 
-    <header id="header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="header-wrapper other-pages clearfix">
-                    <div class="col-xs-12 col-lg-11 mobile-pos">
-                        <a class="company-logo" href="/"></a>
-                        <a href="http://www.greatplacetowork.in/" target="_blank"><img src="~/images/award-landing.png" class="award-landing" alt="Great place to work"></a>
-                        <span class="masthead-right">
-                            
-                            <!-- ON CLICK ADD isOpen TO navTrigger -->
-                            <button type="button" class="navTrigger" aria-controls="site-navigation" aria-expanded="true">
-                                <span class="navTrigger-outer">
-                                    <span class="navTrigger-inner"></span>
-                                </span>
-                                <span class="navTrigger-instructions">Toggle Navigation</span>
-                            </button>
-                            
-                        </span>
-                        <!-- Start Navigation for Desktop and Larger Screen Devices -->
-                        <div class="navigation-wrapper">
-                            <nav class="navigation-wrapper__content">
-                                <ul>
-                                    <li class="navigation-wrapper__content-link">
-                                        <a class="link--underline" href="/what-we-do">What we do</a>
-                                    </li>
-                                    <li class="navigation-wrapper__content-link">
-                                        <a class="link--underline" href="/who-we-are">Who we are</a>
-                                    </li>
-                                    <li class="navigation-wrapper__content-link">
-                                        <a class="link--underline" href="/our-work">Our work</a>
-                                    </li>
-                                    <li class="navigation-wrapper__content-link active-state">
-                                        <a class="link--underline focus-link" href="/contact-us">Get in touch</a>
-                                    </li>
-                                </ul>
-                                <img src="~/Images/new-version/menu.svg" class="nav-circle" alt="nav-icon" />
-                            </nav>
-                        </div>
-                        <!-- Start Navigation for Mobile Devices and Small Screen Devices -->
-                        <div class="site-navigation" id="site-navigation" aria-hidden="true">
-                            <nav class="site-navigation--nav" role="navigation">
-                                <ul class="site-navigation--primary-links">
-                                    <li class="site-navigation--link-container">
-                                        <a class="link--underline" href="/what-we-do">What we do</a>
-                                    </li>
-                                    <li class="site-navigation--link-container">
-                                        <a class="link--underline" href="/who-we-are">Who we are</a>
-                                    </li>
-                                    <li class="site-navigation--link-container">
-                                        <a class="link--underline" href="/our-work">Our work</a>
-                                    </li>
-                                </ul>
-                                <ul class="site-navigation--secondary-links">
-                                    <li class="site-navigation--link-container">
-                                        <a class="link--underline" href="/careers">Careers</a>
-                                    </li>
-                                    <li class="site-navigation--link-container">
-                                        <a class="link--underline" href="http://blogs.quovantis.com/" target="_blank">Blog</a>
-                                    </li>
-                                    <li class="site-navigation--link-container">
-                                        <a class="link--underline" href="/contact-us">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<!--<header id="header">-->
+<!--	<div class="container-fluid">-->
+<!--		<div class="row">-->
+<!--			<div class="header-wrapper other-pages clearfix">-->
+<!--				<div class="col-xs-12 col-lg-11 mobile-pos">-->
+<!--					<a class="company-logo" href="/"></a>-->
+<!--					<a href="http://www.greatplacetowork.in/" target="_blank"><img-->
+<!--						alt="Great place to work" class="award-landing"-->
+<!--						src="~/images/award-landing.png"></a>-->
+<!--					<span class="masthead-right">-->
+<!--                            -->
+<!--                            &lt;!&ndash; ON CLICK ADD isOpen TO navTrigger &ndash;&gt;-->
+<!--                            <button aria-controls="site-navigation" aria-expanded="true"-->
+<!--                                    class="navTrigger"-->
+<!--                                    type="button">-->
+<!--                                <span class="navTrigger-outer">-->
+<!--                                    <span class="navTrigger-inner"></span>-->
+<!--                                </span>-->
+<!--                                <span class="navTrigger-instructions">Toggle Navigation</span>-->
+<!--                            </button>-->
+<!--                            -->
+<!--                        </span>-->
+<!--					&lt;!&ndash; Start Navigation for Desktop and Larger Screen Devices &ndash;&gt;-->
+<!--					<div class="navigation-wrapper">-->
+<!--						<nav class="navigation-wrapper__content">-->
+<!--							<ul>-->
+<!--								<li class="navigation-wrapper__content-link">-->
+<!--									<a class="link&#45;&#45;underline" href="/what-we-do">What we do</a>-->
+<!--								</li>-->
+<!--								<li class="navigation-wrapper__content-link">-->
+<!--									<a class="link&#45;&#45;underline" href="/who-we-are">Who we are</a>-->
+<!--								</li>-->
+<!--								<li class="navigation-wrapper__content-link">-->
+<!--									<a class="link&#45;&#45;underline" href="/our-work">Our work</a>-->
+<!--								</li>-->
+<!--								<li class="navigation-wrapper__content-link active-state">-->
+<!--									<a class="link&#45;&#45;underline focus-link" href="/contact-us">Get-->
+<!--										in touch</a>-->
+<!--								</li>-->
+<!--							</ul>-->
+<!--							<img alt="nav-icon"-->
+<!--							     class="nav-circle" src="./images/menu.svg" />-->
+<!--						</nav>-->
+<!--					</div>-->
+<!--					&lt;!&ndash; Start Navigation for Mobile Devices and Small Screen Devices &ndash;&gt;-->
+<!--					<div aria-hidden="true" class="site-navigation" id="site-navigation">-->
+<!--						<nav class="site-navigation&#45;&#45;nav" role="navigation">-->
+<!--							<ul class="site-navigation&#45;&#45;primary-links">-->
+<!--								<li class="site-navigation&#45;&#45;link-container">-->
+<!--									<a class="link&#45;&#45;underline" href="/what-we-do">What we do</a>-->
+<!--								</li>-->
+<!--								<li class="site-navigation&#45;&#45;link-container">-->
+<!--									<a class="link&#45;&#45;underline" href="/who-we-are">Who we are</a>-->
+<!--								</li>-->
+<!--								<li class="site-navigation&#45;&#45;link-container">-->
+<!--									<a class="link&#45;&#45;underline" href="/our-work">Our work</a>-->
+<!--								</li>-->
+<!--							</ul>-->
+<!--							<ul class="site-navigation&#45;&#45;secondary-links">-->
+<!--								<li class="site-navigation&#45;&#45;link-container">-->
+<!--									<a class="link&#45;&#45;underline" href="/careers">Careers</a>-->
+<!--								</li>-->
+<!--								<li class="site-navigation&#45;&#45;link-container">-->
+<!--									<a class="link&#45;&#45;underline" href="http://blogs.quovantis.com/"-->
+<!--									   target="_blank">Blog</a>-->
+<!--								</li>-->
+<!--								<li class="site-navigation&#45;&#45;link-container">-->
+<!--									<a class="link&#45;&#45;underline" href="/contact-us">Contact</a>-->
+<!--								</li>-->
+<!--							</ul>-->
+<!--						</nav>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</header>-->
 
-    <section>
-        <div class="common-container">
-            <div class="container  position-rel">
-                <div class="row">
-                    <div class="col-sm-12 col-md-9 col-lg-12">
-                        <div class="heading-section quovantis-tag">
-                            <h1 class="tag-line quovantis-tag">
-                                We help SaaS companies create impact with design led engineering
-                            </h1>
-                            <p class="sub-tag-line quovantis-sub-tag">
-                                Whether you are a Fortune 500 company or an early stage startup, our focus and commitment always</br>
-                                remains the same.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="hero-image"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="our-work">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <div class="our-work case-study">
-                                <div class="case-study-text">
-                                    <h3 class="case-study-text heading">WHAT WORK WE HAVE DONE</h3>
-                                    <h2 class="case-study-text title-heading">Our work is amazing. Some of it is extraordinary.</h2>
-                                    <p class="case-study-text para-detail">
-                                        We know it’s difficult to believe some random website which claims to be the best.
-                                        That’s why we curated a few of our projects so that you get a glimpse of the work we’ve done so far.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-section">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="project-section illustration">
-                                    <div class="project-section illustration-path">
-                                        <div class="project-section device-mockup"></div>
-                                        <div class="project-section award-badge"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="project-section project-text">
-                                    <h3 class="project-text project-heading">
-                                        How lucid dreaming helps explore maximum human exponential
-                                    </h3>
-                                    <div class="project-text project-tag">
-                                        <span class="tag">UX</span>
-                                        <span class="tag">APPDEVELOPMENT</span>
-                                        <span class="tag">HEALTHCARE</span>
-                                        <span class="tag">PRODUCTENGINEERING</span>
-                                    </div>
-                                    <p class="project-detail">
-                                        We designed the user experience and developed the application for iOS.
-                                        The application won the Best Design Project trophy at India’s Best Design awards 2019.
-                                    </p>
-                                    <a class="action-cta" href="#">
-                                        View case study →
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="what-we-do">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <div class="work-tag-line">
-                                    <h3 class="work-tag-line heading">WHAT WE DO</h3>
-                                    <h2 class="work-tag-line title-heading">We build delightful digital experiences for web and mobile</h2>
-                                    <p class="work-tag-line para-detail">
-                                        There are thousands of companies who do the same work as we do. But there’s one thing that makes us different.
-                                        We are unrivaled when it comes to the level of ownership we take right from the ideation phase to achieving your moonshot.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="service-section">
-                            <div class="row">
-                                <div class="col-md-3">1</div>
-                                <div class="col-md-3">2</div>
-                                <div class="col-md-3">3</div>
-                                <div class="col-md-3">4</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section>
+	<div class="common-container">
+		<div class="container  position-rel">
+			<div class="row">
+				<div class="col-sm-12 col-md-9 col-lg-12">
+					<div class="heading-section quovantis-tag">
+						<h1 class="tag-line quovantis-tag">
+							We help SaaS companies create impact with design led engineering
+						</h1>
+						<p class="sub-tag-line quovantis-sub-tag">
+							Whether you are a Fortune 500 company or an early stage startup,
+							our focus and commitment always</br>
+							remains the same.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<div class="hero-image"></div>
+				</div>
+			</div>
+		</div>
+		<div class="our-work">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="our-work case-study">
+							<div class="case-study-text">
+								<h3 class="case-study-text heading">WHAT WORK WE HAVE DONE</h3>
+								<h2 class="case-study-text title-heading">Our work is amazing.
+									Some of it is extraordinary.</h2>
+								<p class="case-study-text para-detail">
+									We know it’s difficult to believe some random website which
+									claims to be the best.
+									That’s why we curated a few of our projects so that you get a
+									glimpse of the work we’ve done so far.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="project-section">
+					<div class="row">
+						<div class="col-md-7">
+							<div class="project-section illustration">
+								<div class="project-section illustration-path">
+									<div class="project-section device-mockup"></div>
+									<div class="project-section award-badge"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="project-section project-text">
+								<h3 class="project-text project-heading">
+									How lucid dreaming helps explore maximum human exponential
+								</h3>
+								<div class="project-text project-tag">
+									<span class="tag">UX</span>
+									<span class="tag">APPDEVELOPMENT</span>
+									<span class="tag">HEALTHCARE</span>
+									<span class="tag">PRODUCTENGINEERING</span>
+								</div>
+								<p class="project-detail">
+									We designed the user experience and developed the application
+									for iOS.
+									The application won the Best Design Project trophy at India’s
+									Best Design awards 2019.
+								</p>
+								<a class="action-cta" href="#">
+									View case study →
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="what-we-do">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="work-tag-line">
+								<h3 class="work-tag-line heading">WHAT WE DO</h3>
+								<h2 class="work-tag-line title-heading">We build delightful
+									digital experiences for web and mobile</h2>
+								<p class="work-tag-line para-detail">
+									There are thousands of companies who do the same work as we
+									do. But there’s one thing that makes us different.
+									We are unrivaled when it comes to the level of ownership we
+									take right from the ideation phase to achieving your moonshot.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="service-section">
+						<div class="row">
+							<div class="col-md-3">1</div>
+							<div class="col-md-3">2</div>
+							<div class="col-md-3">3</div>
+							<div class="col-md-3">4</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-wrapper">
-                    <div class="col-md-4">
-                        <div class="footer-text">
-                            <h2 class="heading">
-                                Got an interesting project?
-                            </h2>
-                            <p class="footer-para">
-                                Because we got a rockstar team! Tell us </br>
-                                about your idea.
-                            </p>
-                            <a class="get-in-btn" href="/contact-us#talk-to-us">
-                                Get in touch
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-9">
-                        <div class="content-right">
-                            <div class="about-heading">ABOUT US</div>
-                            <div class="link">
-                                <div><a class="link" href="/what-we-do">What we do</a></div>
-                                <div><a class="link" href="/who-we-are">Who we are</a></div>
-                                <div><a class="link" href="/our-work">Our work</a></div>
-                                <div><a class="link" href="/our-review">Reviews</a></div>
-                                <div><a class="link" href="/Resources/csr/Quovantis_CSR_template.pdf" target="_blank">Social Impact</a></div>
-                                <div><a class="link" href="/careers">Careers</a></div>
-                                <div><a class="link" href="http://blogs.quovantis.com/" target="_blank">Blog</a></div>
-                                <div><a class="link" href="/contact-us">Contact us</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="content-end">
-                            <div class="about-heading">OUR FOCUS</div>
-                            <div class="link">
-                                <div>
-                                    <a class="link" href="/digital-healthcare-solutions">Healthcare</a>
-                                </div>
-                                <div>
-                                    <a class="link" href="/hrtech">HRTech</a>
-                                </div>
-                                <div>
-                                    <a class="link" href="/martech">MarTech</a>
-                                </div>
-                                <div>
-                                    <a class="link" href="/edtech">EdTech</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </footer>
-
+<footer id="footer">
+	<div class="container">
+		<div class="row footer-wrapper">
+			<div class="col-md-4">
+				<div class="footer-text">
+					<h2 class="heading">
+						Got an interesting project?
+					</h2>
+					<p class="footer-para">
+						Because we got a rockstar team! Tell us </br>
+						about your idea.
+					</p>
+					<a class="get-in-btn" href="/contact-us#talk-to-us">
+						Get in touch
+					</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-9">
+				<div class="content-right">
+					<div class="about-heading">ABOUT US</div>
+					<div class="link">
+						<div><a class="link" href="/what-we-do">What we do</a></div>
+						<div><a class="link" href="/who-we-are">Who we are</a></div>
+						<div><a class="link" href="/our-work">Our work</a></div>
+						<div><a class="link" href="/our-review">Reviews</a></div>
+						<div><a class="link"
+						        href="/Resources/csr/Quovantis_CSR_template.pdf"
+						        target="_blank">Social Impact</a></div>
+						<div><a class="link" href="/careers">Careers</a></div>
+						<div><a class="link" href="http://blogs.quovantis.com/"
+						        target="_blank">Blog</a></div>
+						<div><a class="link" href="/contact-us">Contact us</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="content-end">
+					<div class="about-heading">OUR FOCUS</div>
+					<div class="link">
+						<div>
+							<a class="link"
+							   href="/digital-healthcare-solutions">Healthcare</a>
+						</div>
+						<div>
+							<a class="link" href="/hrtech">HRTech</a>
+						</div>
+						<div>
+							<a class="link" href="/martech">MarTech</a>
+						</div>
+						<div>
+							<a class="link" href="/edtech">EdTech</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 </body>
 </html>

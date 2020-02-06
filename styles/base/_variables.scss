@@ -24,8 +24,14 @@ $theme: (
 * Font Family
 */
 $font-families: (
-  primary: (Poppins, sans-serif),
-  secondary: (Heebo, sans-serif),
+  primary: 'apercu-pro',
+  primary-bold:' apercu-bold',
+  primary-italic: 'apercu-italic',
+  primary-medium: 'apercu-medium',
+  secondary: 'circular-pro',
+  secondary-bold: 'circular-bold',
+  secondary-book: 'circular-pro-book',
+  secondary-medium: 'circular-medium',
 );
 
 /*

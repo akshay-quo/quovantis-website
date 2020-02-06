@@ -7,12 +7,10 @@ $primary-font-medium: 'apercu-medium';
 $secondary-font: 'circular-pro';
 $secondary-font-bold: 'circular-bold';
 $secondary-font-medium: 'circular-medium'; 
-$secondary-font-book: 'circular-pro-book'; 
-html,
-body {
-    margin: 0;
-    padding:0;
-}
+$secondary-font-book: 'circular-pro-book';
+
+@import '../base/variables';
+
 .common-container {
     .heading-section {
         /*padding: 80px 0px 84px;*/
@@ -36,7 +34,7 @@ body {
     .hero-image {
         height: 696px;
         margin-top: 2%;
-        background: url(images/company-image.png) bottom no-repeat;
+        background: url(../images/company-image.png) bottom no-repeat;
     }
     .our-work {
         /*height: 900px;*/
@@ -75,17 +73,17 @@ body {
         }
         .project-section {
             .illustration-path {
-                background: url(../../Images/new-version/Path.svg) no-repeat;
+                background: url(../images/Path.svg) no-repeat;
                 height: 558px;
                 /*transform: scaleX(-1) rotate(49deg);
                 background: linear-gradient(173.24deg, #FFF29E 0%, #FFD382 100%);*/
             }
             .device-mockup {
-                background: url('../../Images/new-version/Device Mockup.png') no-repeat;
+                background: url('../images/device-mockup.png') no-repeat;
                 height: 545px;
             }
             .award-badge {
-                background: url('../../Images/new-version/Award Badge.png') no-repeat;
+                background: url('../images/award-badge.png') no-repeat;
                 height: 100px;
             }
             .project-text {
@@ -146,7 +144,7 @@ body {
                  line-height: 18px;
                  letter-spacing: -.2px;
                  color: #01C4CF;
-                 font-family: circular-medium;
+                 font-family: map-get($font-families, secondary-medium);
                 }
              .title-heading {
                  font-size: 36px;
