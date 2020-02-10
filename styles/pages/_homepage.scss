@@ -1,12 +1,12 @@
 ﻿$heading-size: 46px;
 $primary-font: 'apercu-pro';
 $primary-font-bold: 'apercu-bold';
-$primary-font-italic: 'apercu-italic';            
-$primary-font-medium: 'apercu-medium';            
+$primary-font-italic: 'apercu-italic';
+$primary-font-medium: 'apercu-medium';
 
 $secondary-font: 'circular-pro';
 $secondary-font-bold: 'circular-bold';
-$secondary-font-medium: 'circular-medium'; 
+$secondary-font-medium: 'circular-medium';
 $secondary-font-book: 'circular-pro-book';
 
 @import '../base/variables';
@@ -15,6 +15,7 @@ $secondary-font-book: 'circular-pro-book';
     .heading-section {
         /*padding: 80px 0px 84px;*/
         padding: 191px 111px 84px;
+
         .tag-line {
             font-size: $heading-size;
             line-height: 50px;
@@ -23,6 +24,7 @@ $secondary-font-book: 'circular-pro-book';
             font-family: $secondary-font-bold;
             padding: 80px 1px 20px;
         }
+
         .sub-tag-line {
             font-size: 18px;
             line-height: 28px;
@@ -31,21 +33,26 @@ $secondary-font-book: 'circular-pro-book';
             color: #3B3B3B;
         }
     }
+
     .hero-image {
         height: 696px;
         margin-top: 2%;
         background: url(../images/company-image.png) bottom no-repeat;
     }
+
     .our-work {
         /*height: 900px;*/
         .case-study {
-               border: 1px solid #fff;;
-               position: relative;
-               bottom: 88px;
-               border-radius: 5px;
-               .case-study-text {
-                   padding: 0px 63px 0px;
-                   margin-top: 44px;
+            border: 1px solid #fff;
+            ;
+            position: relative;
+            bottom: 88px;
+            border-radius: 5px;
+
+            .case-study-text {
+                padding: 0px 63px 0px;
+                margin-top: 44px;
+
                 .heading {
                     font-size: 14px;
                     line-height: 18px;
@@ -53,14 +60,16 @@ $secondary-font-book: 'circular-pro-book';
                     color: #01C4CF;
                     font-family: $secondary-font-medium;
                 }
+
                 .title-heading {
                     font-size: 36px;
                     line-height: 44px;
                     letter-spacing: -0.2px;
                     color: #000000;
                     font-family: $secondary-font-bold;
-                    margin-top: 10px; 
+                    margin-top: 10px;
                 }
+
                 .para-detail {
                     font-size: 18px;
                     line-height: 28px;
@@ -69,8 +78,9 @@ $secondary-font-book: 'circular-pro-book';
                     font-family: $primary-font;
                     margin-top: 20px;
                 }
-             }
+            }
         }
+
         .project-section {
             .illustration-path {
                 background: url(../images/Path.svg) no-repeat;
@@ -78,16 +88,22 @@ $secondary-font-book: 'circular-pro-book';
                 /*transform: scaleX(-1) rotate(49deg);
                 background: linear-gradient(173.24deg, #FFF29E 0%, #FFD382 100%);*/
             }
+
             .device-mockup {
                 background: url('../images/device-mockup.png') no-repeat;
                 height: 545px;
+                margin-left: -20%;
             }
+
             .award-badge {
                 background: url('../images/award-badge.png') no-repeat;
                 height: 100px;
+                margin-left: 64%;
             }
+
             .project-text {
                 margin-top: 10%;
+
                 .project-heading {
                     font-size: 26px;
                     line-height: 36px;
@@ -96,10 +112,12 @@ $secondary-font-book: 'circular-pro-book';
                     font-family: $secondary-font-bold;
                     padding-left: 12%;
                 }
+
                 .project-tag {
                     padding-left: 11%;
                     margin-top: 21px;
-                .tag {
+
+                    .tag {
                         background: #E8EFF2;
                         border-radius: 5px;
                         color: #01C4CF;
@@ -113,7 +131,8 @@ $secondary-font-book: 'circular-pro-book';
                         font-family: $secondary-font-medium;
                     }
                 }
-                .project-detail{
+
+                .project-detail {
                     font-size: 16px;
                     line-height: 24px;
                     letter-spacing: -0.2px;
@@ -121,51 +140,310 @@ $secondary-font-book: 'circular-pro-book';
                     font-family: $primary-font;
                     padding: 21px 52px;
                 }
+
                 a:hover {
                     text-decoration: none;
-                    }
-                 .action-cta {
-                    color: #FC7764;
-                    font-size: 18px;
+                }
+
+                .action-cta {
+                    color: map-get($cta-colors, primary);
+                    font: map-get($cta-fonts, ctaf1);
                     margin-left: 12%;
+                    /*font-size: 18px;
                     line-height: 32px;
-                    font-family: $secondary-font;
+                    font-family: $secondary-font;*/
                 }
             }
         }
+
         .what-we-do {
-            border: 1px solid red;
-            height: 1000px;
             margin-top: 100px;
+
             .work-tag-line {
                 padding: 0px 63px;
-             .heading {
-                 font-size: 14px;
-                 line-height: 18px;
-                 letter-spacing: -.2px;
-                 color: #01C4CF;
-                 font-family: map-get($font-families, secondary-medium);
+
+                .heading {
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: -.2px;
+                    color: #01C4CF;
+                    font-family: map-get($font-families, secondary-medium);
                 }
-             .title-heading {
-                 font-size: 36px;
-                 line-height: 44px;
-                 letter-spacing: -.2px;
-                 color: #000;
-                 font-family: circular-bold;
-                 margin-top: 10px;
-              }
-             .para-detail {
-                 font-size: 18px;
-                 line-height: 28px;
-                 letter-spacing: -.2px;
-                 color: #3B3B3B;
-                 font-family: apercu-pro;
-                 margin-top: 20px;
-             }
-           }
-            .service-section {
+
+                .title-heading {
+                    font-size: 36px;
+                    line-height: 44px;
+                    letter-spacing: -.2px;
+                    color: #000;
+                    font-family: circular-bold;
+                    margin-top: 10px;
+                }
+
+                .para-detail {
+                    font-size: 18px;
+                    line-height: 28px;
+                    letter-spacing: -.2px;
+                    color: #3B3B3B;
+                    font-family: apercu-pro;
+                    margin-top: 20px;
+                }
+            }
+
+            .service-icons {
                 margin-left: 9.5%;
                 margin-top: 7%;
+
+                .discovery {
+                    background: url(../images/discovery.svg) no-repeat;
+                    height: 64px;
+                }
+
+                .exp-design {
+                    background: url(../images/design.svg) no-repeat;
+                    height: 64px;
+                }
+
+                .product-eng {
+                    background: url(../images/scale.svg) no-repeat;
+                    height: 64px;
+                }
+
+                .mvp {
+                    background: url(../images/launch.svg) no-repeat;
+                    height: 64px;
+                }
+
+                .service-heading {
+                    font-size: 20px;
+                    line-height: 28px;
+                    letter-spacing: -0.2px;
+                    color: #000;
+                    font-family: map-get($font-families, secondary-medium);
+                    margin-top: 30px;
+                }
+
+                .service-para {
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: -0.2px;
+                    color: #3B3B3B;
+                    margin-top: 38px;
+                    font-family: map-get($font-families, primary);
+                }
+            }
+        }
+        .cta {
+            margin-top: 20px;
+            margin-left: 9.5%;
+            a {
+                text-decoration: none;
+            }           
+             .action-cta {
+                    color: map-get($cta-colors, primary);
+                    font: map-get($cta-fonts, ctaf1);
+          }
+        }
+
+        .our-partners {
+            margin-top: 192px;
+            .work-tag-line {
+                padding: 0px 58px;
+                position: relative;
+                .heading {
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: -.2px;
+                    color: #01C4CF;
+                    font-family: map-get($font-families, secondary-medium);
+                    .quo-txt {
+                        position: absolute;
+                        top: -17px;
+                        left: 11.5em;
+                    }
+                }
+
+                .title-heading {
+                    font-size: 36px;
+                    line-height: 44px;
+                    letter-spacing: -.2px;
+                    color: #000;
+                    font-family: circular-bold;
+                    margin-top: 10px;
+            }
+          }
+            .partners-logo {
+                padding: 80px 60px;
+                .item-list {
+                    height: 130px;
+                    border-radius: 10px;
+                    background-color: #F7F7F7;
+                    .partner-1 {
+                        margin-top: 47px;
+                        margin-left: 28px;
+                    }
+                    .partner-2 {
+                        margin-top: 47px;
+                        margin-left: 32px;
+                    }
+                    .partner-3 {
+                        margin-top: 47px;
+                        margin-left: 54px;
+                    }
+                    .partner-4 {
+                        margin-top: 47px;
+                        margin-left: 25px;
+                    }
+                    .partner-5 {
+                        margin-top: 35px;
+                        margin-left: 27px;
+                    }
+                    .partner-6 {
+                        margin-top: 51px;
+                        margin-left: 34px;
+                    }
+                    .partner-7 {
+                        margin-top: 14px;
+                        margin-left: 61px;
+                    }
+                    .partner-8 {
+                        margin-top: 51px;
+                        margin-left: 37px;
+                    }
+                    .partner-9 {
+                        margin-top: 35px;
+                        margin-left: 57px;
+                    }
+                    .partner-10 {
+                        margin-top: 47px;
+                        margin-left: 41px;
+                    }
+                    .partner-11 {
+                        margin-top: 45px;
+                        margin-left: 37px;
+                    }
+                    .partner-12 {
+                        margin-top: 45px;
+                        margin-left: 46px;
+                    }
+                }
+                .custom-row {
+                    margin-top: 20px;
+                }
+            }
+        }
+        .partner-reviews {
+            height: 1010px;
+            background: linear-gradient(180deg, #E8EFF2 0%, #EBF1F4 61.71%, #FFFFFF 100%); 
+            .work-tag-line {
+                padding: 0 58px;
+                margin-top: 100px;
+            .heading{
+                font-size: 14px;
+                line-height: 18px;
+                letter-spacing: -.2px;
+                color: #01C4CF;
+                font-family: "circular-medium";
+            }
+            .title-heading{
+                font-size: 36px;
+                line-height: 44px;
+                letter-spacing: -.2px;
+                color: #000;
+                font-family: circular-bold;
+                margin-top: 10px;
+            }
+            .para-detail{
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: -.2px;
+                color: #3B3B3B;
+                font-family: apercu-pro;
+                margin-top: 20px;
+            }
+           }
+            .testimonials-wrapper {
+                margin-top: 78px;
+                .video-testimonial {
+                    height: 404px;
+                    width: 380px;
+                    border-radius: 5px;	
+                    background-color: #01C4CF;
+                    position: relative;
+                    .placeholder-img {
+                        text-align: center;
+                    }
+                    .placeholder-container {
+                        height: 276px;
+                        position: absolute;
+                        border-radius: 5px;
+                        background-color: #fff;
+                        width: 350px;
+                        top: 76%;
+                        right: 2%;
+                        .inner-text {
+                            color: #000000;	
+                            font-family: map-get($font-families, secondary-medium);	
+                            font-size: 20px;	
+                            font-weight: 500;	
+                            letter-spacing: -0.2px;	
+                            line-height: 28px;
+                            padding: 24px 19px 0;
+                        }
+                    }
+                }
+                .text-testimonial {
+                    height: 280px;
+                    border-radius: 5px;
+                    background-color: #FFFFFF;
+                    .inner-wrapper {
+                        padding: 25px 13px;
+                        .description {
+                            font-size: 18px;
+                            line-height: 28px;
+                            color: #3B3B3B;
+                            letter-spacing: -0.2px;
+                            font-family: map-get($font-families, primary);
+                        }
+                    }
+                    .item-footer {
+                        text-align: left;
+                        display: table;
+                        margin-left: 38px;
+                        .image-container {
+                            width: 12%;
+                            display: table-cell;
+                            vertical-align: middle;
+                        }
+                        .details {
+                            padding: 25px;
+                            display: grid;
+                            .name {
+                                color: #01C4CF;	
+                                font-family: map-get($font-families, primary-bold);	
+                                font-size: 16px;	
+                                line-height: 20px;
+                                text-transform:uppercase;
+                            }
+                            .company {
+                                color: #3B3B3B;	
+                                font-family: map-get($font-families, primary);	
+                                font-size: 16px;	
+                                line-height: 20px;
+                            }
+                        }
+                    }                  
+                }
+                .bottom-testimonial {
+                    margin-top: 20px;
+                    .bottom-description {
+                            font-size: 18px;
+                            line-height: 28px;
+                            color: #3B3B3B;
+                            letter-spacing: -0.2px;
+                            font-family: map-get($font-families, primary);
+                            padding: 25px 13px;
+                   }
+                }
             }
         }
     }

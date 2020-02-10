@@ -47,6 +47,17 @@ $typography-colors: (
 );
 
 /*
+* CTA Colors
+*/
+$cta-colors: (
+  primary: #FC7764,
+);
+
+$cta-fonts: (
+  ctaf1: (18px/32px map-get($font-families, secondary)),
+);
+
+/*
 * Social media icons Colors
 */
 $social-media-colors: (
@@ -97,4 +108,5 @@ $letter-spacings: (
   ls1: 0.61px,
   mls1: 0.44px
 )
+
 
