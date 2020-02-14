@@ -103,7 +103,7 @@ body {
                     letter-spacing: -0.2px;
                     color: #3B3B3B;
                     font-family: $primary-font;
-                    margin-top: 20px;
+                    margin-top: 10px;
                 }
             }
             }
@@ -150,18 +150,17 @@ body {
                     padding-left: 11%;
                     margin-top: 21px;
 
-                    .tag {
-                        background: #E8EFF2;
+                    .tag {                        
                         border-radius: 5px;
                         color: #01C4CF;
                         display: inline-block;
-                        height: 26px;
                         line-height: 18px;
-                        padding: 10px 14px 30px;
+                        padding: 5px;
                         margin: 4px;
                         font-size: 14px;
                         letter-spacing: -0.2px;
                         font-family: $secondary-font-medium;
+                        border: 2px solid #01C4CF;
                     }
                 }
 
@@ -222,7 +221,7 @@ body {
                     letter-spacing: -.2px;
                     color: #3B3B3B;
                     font-family: apercu-pro;
-                    margin-top: 20px;
+                    margin-top: 10px;
                 }
             }
 
@@ -291,7 +290,7 @@ body {
             margin: 0 auto;
             .work-tag-line {
                 padding: 0px 35px;
-                margin-top: 192px;
+                margin-top: 100px;
                 /*padding: 0 116px 0 113px;*/
                 position: relative;
                 .heading {
@@ -326,54 +325,9 @@ body {
                     height: 130px;
                     border-radius: 10px;
                     background-color: #F7F7F7;
-                    .partner-1 {
-                        margin-top: 47px;
-                        margin-left: 28px;
-                    }
-                    .partner-2 {
-                        margin-top: 47px;
-                        margin-left: 32px;
-                    }
-                    .partner-3 {
-                        margin-top: 47px;
-                        margin-left: 54px;
-                    }
-                    .partner-4 {
-                        margin-top: 47px;
-                        margin-left: 25px;
-                    }
-                    .partner-5 {
-                        margin-top: 35px;
-                        margin-left: 27px;
-                    }
-                    .partner-6 {
-                        margin-top: 51px;
-                        margin-left: 34px;
-                    }
-                    .partner-7 {
-                        margin-top: 14px;
-                        margin-left: 61px;
-                    }
-                    .partner-8 {
-                        margin-top: 51px;
-                        margin-left: 37px;
-                    }
-                    .partner-9 {
-                        margin-top: 35px;
-                        margin-left: 57px;
-                    }
-                    .partner-10 {
-                        margin-top: 47px;
-                        margin-left: 41px;
-                    }
-                    .partner-11 {
-                        margin-top: 45px;
-                        margin-left: 37px;
-                    }
-                    .partner-12 {
-                        margin-top: 45px;
-                        margin-left: 46px;
-                    }
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;                   
                 }
                 .custom-row {
                     margin-top: 20px;
@@ -404,7 +358,7 @@ body {
                 letter-spacing: -.2px;
                 color: #000;
                 font-family: circular-bold;
-                margin-top: 10px;
+                margin-top: 100px;
             }
             .para-detail{
                 font-size: 18px;
@@ -412,7 +366,7 @@ body {
                 letter-spacing: -.2px;
                 color: #3B3B3B;
                 font-family: apercu-pro;
-                margin-top: 20px;
+                margin-top: 10px;
             }
            }
             .testimonials-wrapper {
@@ -444,6 +398,17 @@ body {
                             line-height: 28px;
                             padding: 24px 19px 0;
                         }
+                        .placeholder-footer {
+                            text-align: left;
+                            display: table;
+                            margin-left: 38px;
+                           .play-btn {
+                               width: 12%;
+                               display: table-cell;
+                               vertical-align: middle;
+                               background: url(../../images/playBtn.svg) no-repeat;
+                           }
+                        }
                     }
                 }
                 .text-testimonial {
@@ -474,9 +439,10 @@ body {
                             display: grid;
                             .name {
                                 color: #01C4CF;	
-                                font-family: map-get($font-families, primary-bold);	
+                                font-family: map-get($font-families, primary);	
                                 font-size: 16px;	
                                 line-height: 20px;
+                                font-weight: bold;
                                 text-transform:uppercase;
                             }
                             .company {
@@ -526,7 +492,7 @@ body {
                     letter-spacing: -.2px;
                     color: #3B3B3B;
                     font-family: apercu-pro;
-                    margin-top: 20px;
+                    margin-top: 10px;
                 }
             }
             .single {
@@ -689,6 +655,18 @@ body {
                 .title-heading {
                     font-size: 22px;
                     line-height: 30px;
+                }
+            }
+            .partners-logo {
+                padding:0; 
+                img {
+                    width: 80%;
+                }
+                .item-list {
+                    margin-top: 8%;
+                }
+                .custom-row {
+                    margin-top: 0;
                 }
             }
         }

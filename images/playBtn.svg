@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63 (101010) - https://sketch.com -->
+    <title>08839752-27E6-45CA-A56D-A974D4185284</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="01.-Homepage-Layout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage---Desktop-" transform="translate(-360.000000, -4578.000000)">
+            <g id="::-Testimonials-::" transform="translate(0.000000, 3770.000000)">
+                <g id="Testimonial-Set" transform="translate(306.000000, 290.000000)">
+                    <g id="Testimonial-Collection">
+                        <g id="Video-Testimonial">
+                            <g id="Video-Frame">
+                                <g id="Written-Testimonials" transform="translate(23.000000, 304.000000)">
+                                    <g id="Client-Stamp" transform="translate(31.000000, 213.000000)">
+                                        <g id="playBtn" transform="translate(0.000000, 1.000000)">
+                                            <circle id="Oval" fill="#FC7764" cx="15" cy="15" r="15"></circle>
+                                            <path d="M11.918334,9.26459027 C10.8589116,8.64401665 10,9.15239782 10,10.399184 L10,19.5999164 C10,20.8479475 10.8589116,21.3556696 11.918334,20.7356819 L19.7933996,16.1237082 C20.8531805,15.5029149 20.8531805,14.4971375 19.7933996,13.8764906 L11.918334,9.26459027 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
