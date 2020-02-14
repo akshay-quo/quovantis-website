@@ -1,4 +1,4 @@
-﻿$heading-size: 46px;
+﻿    $heading-size: 46px;
 $primary-font: 'apercu-pro';
 $primary-font-bold: 'apercu-bold';
 $primary-font-italic: 'apercu-italic';
@@ -605,6 +605,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
     margin-top: 10%;
+    margin-left: 15%;
     &-wrapper{
         margin-top: 10%;
         .heading {
@@ -661,5 +662,12 @@ h1, h2, h3, h4, h5, h6 {
             margin-top: 8%;
             margin-left: 5rem;
         }
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .footer {
+        margin-top: 80%;
+        margin-left: 0;
     }
 }
