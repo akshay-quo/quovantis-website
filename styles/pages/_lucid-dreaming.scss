@@ -1,0 +1,16 @@
+.hero-banner-wrapper {
+    position: relative;
+    .hero-banner {
+        .hero-image-wrapper {
+            .hero-image {
+                width: 100%;
+            }
+        }
+    }
+    .hero-content-wrapper {
+        position: absolute;
+        top: 14%;
+        color: #fff;
+        left: 20%;
+    }
+}

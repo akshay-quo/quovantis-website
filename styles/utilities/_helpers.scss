@@ -65,3 +65,31 @@ input.small {
   display: none !important;
 }
 
+// Quovantis website buttons
+
+.primary-btn-lg {
+  background-color: #FC7764; // var
+  color: #fff; // var
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.primary-btn-sm {
+  background-color: #FC7764; // var
+  color: #fff; // var
+  border-radius: 5px;
+  border-radius: .4vw;
+  padding: 7px 13px;
+  padding: .55vw 1.02vw;
+}
+
+.primary-btn-lg:hover, .primary-btn-sm:hover {
+  background-color: #FF6B57;
+}
+
+.secondary-btn {
+  background-color: #01C4CF; // var
+  color: #fff; // var
+  border-radius: 5px;
+  padding: 5px;
+}
