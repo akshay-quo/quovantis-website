@@ -1,24 +1,116 @@
+@import '../../styles/base/variables';
+
 // Global Styles
 body {
   margin: 0;
   padding: 0;
 }
 
+// Variables
+$border-radius: 5px;
 
 // Extends
+%top-spacing {
+  padding-top: 180px;
+}
 
+%gutter {
+  //1920
+  padding-left: 24%;
+  padding-right: 24%;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
 
 // Page Styles
 .lucid-reality {
+  position: relative;
+
+  section {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid red;
+    box-sizing: border-box;
+  }
+
+  .inner-container {
+    border: 1px solid black;
+  }
 
   // First Section
   .banner {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    @extend %gutter;
+    @extend %top-spacing;
 
+    .title {
+      color: #FFFFFF;
+      font-family: map-get($font-families, secondary-bold);
+      font-size: 46px;
+      letter-spacing: -0.2px;
+      line-height: 50px;
+    }
+
+    .sub-title {
+      color: #FFFFFF;
+      font-family: map-get($font-families, secondary-book);
+      font-size: 36px;
+      font-weight: 500;
+      letter-spacing: -0.2px;
+      line-height: 44px;
+    }
   }
 
   // Second Section
   .what-we-did {
+    @extend %gutter;
 
+    .flex-items {
+      display: flex;
+
+      .item {
+        border: 1px solid black;
+
+        .title {
+          color: #3B3B3B;
+          font-family: map-get($font-families, secondary-book);
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: -0.2px;
+          line-height: 18px;
+        }
+
+        ul {
+          display: flex;
+          list-style: none;
+
+          li {
+            margin-right: 10px;
+
+            a {
+              color: #01C4CF;
+              font-family: map-get($font-families, secondary-book);
+              font-size: 14px;
+              font-weight: 500;
+              letter-spacing: -0.2px;
+              line-height: 18px;
+              text-decoration: none;
+
+              border: 2px solid #01C4CF;
+              border-radius: $border-radius;
+              padding: 6px 8px;
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
   }
 
   // Third Section
