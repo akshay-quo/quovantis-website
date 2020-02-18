@@ -3,9 +3,11 @@
 html,
 body {
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-.contern-wrapper {
+.content-wrapper {
     .hero-section {       
         .tag-line {
             max-width: 1350px;

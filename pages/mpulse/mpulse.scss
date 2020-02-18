@@ -1,3 +1,5 @@
+
+
 // Global Styles
 body {
   margin: 0;
@@ -13,7 +15,26 @@ body {
 
   // First Section
   .banner {
-
+      .banner-content {
+          padding: 107px;
+          max-width: 1350px;
+          margin: 0 auto;
+          width: 47%;
+      .title-tag {
+          color: #000000;	          
+          font-size: 46px;	
+          font-weight: bold;	
+          letter-spacing: -0.2px;	
+          line-height: 50px;	
+       }
+      .subtitle-tag {
+          color: #000000;	
+          font-size: 36px;	
+          font-weight: 500;	
+          letter-spacing: -0.2px;	
+          line-height: 44px;
+       }
+     }     
   }
 
   // Second Section
@@ -27,7 +48,7 @@ body {
   }
 
   // Fourth Section
-  .the-solution {
+  .the-challenge {
 
   }
 
@@ -37,22 +58,27 @@ body {
   }
 
   // Sixth Section
-  .development {
+  .our-design-process {
 
   }
 
   // Seventh Section
-  .the-outcome {
+  .ui-design {
 
   }
 
   // Eighth Section
-  .read-next {
+  .secondary-banner {
 
   }
 
   // Ninth Section
-  .see-more {
+  .development {
+
+  }
+
+  // Tenth Section
+  .the-outcome {
 
   }
 }
