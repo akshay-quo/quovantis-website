@@ -1,0 +1,33 @@
+﻿@import '../base/variables';
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.contern-wrapper {
+    .hero-section {       
+        .tag-line {
+            max-width: 1350px;
+            margin: 0 auto;
+            padding: 94px 310px;
+            .title-tag {
+                color: #000000;	
+                font-family: map-get($font-families, secondary);	
+                font-size: 46px;	
+                font-weight: bold;	
+                letter-spacing: -0.2px;	
+                line-height: 50px;	
+                text-align: center;
+            }
+            .subtitle-tag {
+                color: #000000;	
+                font-family: map-get($font-families, secondary);	
+                font-size: 36px;	
+                font-weight: 500;	
+                letter-spacing: -0.2px;	
+                line-height: 44px;
+            }
+        }
+    }
+}
