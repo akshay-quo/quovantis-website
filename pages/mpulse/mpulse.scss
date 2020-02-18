@@ -1,4 +1,4 @@
-
+@import '../../styles/base/variables';
 
 // Global Styles
 body {
@@ -15,26 +15,28 @@ body {
 
   // First Section
   .banner {
-      .banner-content {
-          padding: 107px;
-          max-width: 1350px;
-          margin: 0 auto;
-          width: 47%;
+    .banner-content {
+      padding: 107px;
+      max-width: 1350px;
+      margin: 0 auto;
+      width: 47%;
+
       .title-tag {
-          color: #000000;	          
-          font-size: 46px;	
-          font-weight: bold;	
-          letter-spacing: -0.2px;	
-          line-height: 50px;	
-       }
+        color: #000000;
+        font-size: 46px;
+        letter-spacing: -0.2px;
+        line-height: 50px;
+        font-family: map-get($font-families, secondary-bold);
+      }
+
       .subtitle-tag {
-          color: #000000;	
-          font-size: 36px;	
-          font-weight: 500;	
-          letter-spacing: -0.2px;	
-          line-height: 44px;
-       }
-     }     
+        color: #000000;
+        font-size: 36px;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+        font-family: map-get($font-families, secondary-book);
+      }
+    }
   }
 
   // Second Section
