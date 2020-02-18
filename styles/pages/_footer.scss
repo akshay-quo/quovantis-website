@@ -1,4 +1,4 @@
-﻿    $heading-size: 46px;
+﻿$heading-size: 46px;
 $primary-font: 'apercu-pro';
 $primary-font-bold: 'apercu-bold';
 $primary-font-italic: 'apercu-italic';
@@ -664,10 +664,10 @@ h1, h2, h3, h4, h5, h6 {
             margin-left: 5rem;
         }
         .copyright {
-            	color: #7B8080;	
-                font-family: map-get($font-families, primary);	
-                font-size: 14px;	
-                letter-spacing: -0.2px;	
+            	color: #7B8080;
+                font-family: map-get($font-families, primary);
+                font-size: 14px;
+                letter-spacing: -0.2px;
                 line-height: 36px;
         }
         .social-icons {
@@ -695,5 +695,5 @@ h1, h2, h3, h4, h5, h6 {
             margin-top: 25%;
             margin-left: 11rem;
         }
-    }    
+    }
 }
