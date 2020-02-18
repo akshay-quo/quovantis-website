@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1326px" height="495px" viewBox="0 0 1326 495" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63 (101010) - https://sketch.com -->
+    <title>401F6CDF-A0BA-490A-AD51-3775B3E7F153</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-13.9%" y="-22.4%" width="127.9%" height="144.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.909803922   0 0 0 0 0.937254902   0 0 0 0 0.949019608  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-19.3%" y="-41.2%" width="145.7%" height="187.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.909803922   0 0 0 0 0.937254902   0 0 0 0 0.949019608  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M28.0028928,12.1630961 L332.996279,12.0021694 C335.205417,11.9988937 336.997223,13.7888095 336.998388,15.9979482 C336.998389,15.9986518 336.998389,15.9993553 336.996279,16.0000588 L336.996279,180.834911 C336.994168,183.043226 335.204593,184.833745 332.996279,184.837022 L28.0028928,184.997948 C25.7937552,185.001224 24.0019495,183.211308 24.0007839,181.002169 C24.0007835,181.001466 24.0007833,181.000762 24.0028933,181.000059 L24.0028933,16.1652066 C24.0050044,13.9568918 25.7945794,12.1663724 28.0028928,12.1630961 Z" id="path-3"></path>
+        <filter x="-14.5%" y="-26.3%" width="129.1%" height="152.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.909803922   0 0 0 0 0.937254902   0 0 0 0 0.949019608  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="2 0 937 0 937 131 2 131"></polygon>
+        <filter x="-4.9%" y="-34.7%" width="109.7%" height="169.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.909803922   0 0 0 0 0.937254902   0 0 0 0 0.949019608  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M3.99527793,0.383656395 L328.995278,-1.17657857e-05 C331.204415,-0.00261969104 332.997389,1.78612592 332.999997,3.99526338 C332.999999,3.9968374 333,3.99841142 333,3.99998545 L333,409.616317 C333,411.823612 331.212016,413.613709 329.004722,413.616315 L4.00472207,413.999983 C1.79558461,414.002591 0.00261071249,412.213845 2.78723983e-06,410.004708 C9.29080098e-07,410.003134 -9.32568064e-15,410.00156 0,409.999986 L0,4.38365361 C6.17862727e-16,2.17635847 1.78798433,0.386262144 3.99527793,0.383656395 Z" id="path-7"></path>
+        <filter x="-3.3%" y="-1.9%" width="106.6%" height="105.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0549139493 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M3.99999959,0.118933187 L264.000514,0.00180201334 C266.209652,-0.000994820089 268.00132,1.78905921 268.002315,3.99819798 C268.002315,3.99879866 268.002315,3.99939933 268.000514,4 L268.000514,131.879242 L268.000514,131.879242 L0,131.999978 L0,4.1207352 C0.0018024204,1.9122999 1.79156533,0.121730516 3.99999959,0.118933187 Z" id="path-9"></path>
+    </defs>
+    <g id="01.-mPulse---Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Case-Study---mPulse---Desktop" transform="translate(-309.000000, -5981.000000)">
+            <g id="::-UI-Design-::" transform="translate(0.000000, 5019.000000)">
+                <g id="UI-Components" transform="translate(315.000000, 956.000000)">
+                    <g id="Col_02" transform="translate(353.000000, 58.000000)">
+                        <g id="Row_02" transform="translate(0.000000, 151.000000)">
+                            <g id="Card_04" filter="url(#filter-1)">
+                                <path d="M3.99999922,0.262418337 L419.000001,0.0025051865 C421.209138,-0.0013827918 423.00112,1.78835625 423.002504,3.99749481 C423.002504,3.99832988 423.002504,3.99916494 423,4 L423,257.741445 C422.997494,259.949606 421.20816,261.740061 419.000001,261.74395 L3.99999922,262.003863 C1.79086222,262.007751 -0.0011200417,260.218012 -0.002503618,258.008874 C-0.00250414099,258.008038 -0.00250440249,258.007203 0,258.006368 L0,4.26492352 C0.00250597148,2.0567628 1.79184049,0.266307272 3.99999922,0.262418337 Z" id="Rectangle-2" stroke="#F1F2F6" fill="#FFFFFF"></path>
+                                <g id="Group-5" transform="translate(0.000000, 176.000000)">
+                                    <path d="M422.5,0.5 L0.5,0.5 L0.5,85.5 L422.5,85.5 L422.5,0.5 Z" id="Rectangle" stroke="#E9F3F9" fill="#F7FCFF"></path>
+                                    <text id="Messages-Sent" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="14" letter-spacing="0.6" fill="#333333">
+                                        <tspan x="28" y="59">Messages Sent</tspan>
+                                    </text>
+                                    <text id="Delivery-Rate" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="14" letter-spacing="0.6" fill="#333333">
+                                        <tspan x="143" y="59">Delivery Rate</tspan>
+                                    </text>
+                                    <text id="Opt-outs" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="14" letter-spacing="0.6" fill="#333333">
+                                        <tspan x="247" y="59">Opt-outs</tspan>
+                                    </text>
+                                    <text id="Responses" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="14" letter-spacing="0.6" fill="#333333">
+                                        <tspan x="322" y="59">Responses</tspan>
+                                    </text>
+                                    <text id="35,211" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.6222221" fill="#333333">
+                                        <tspan x="27.9809899" y="41">35,211</tspan>
+                                    </text>
+                                    <text id="99.23%" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.6222221" fill="#333333">
+                                        <tspan x="141.379427" y="41">99.23%</tspan>
+                                    </text>
+                                    <text id="320" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.6222221" fill="#333333">
+                                        <tspan x="248.367448" y="41">320</tspan>
+                                    </text>
+                                    <text id="7,320" font-family="OpenSans-Bold, Open Sans" font-size="16" font-weight="bold" letter-spacing="0.6222221" fill="#333333">
+                                        <tspan x="322.358507" y="41">7,320</tspan>
+                                    </text>
+                                </g>
+                                <text id="Flu-Shot-Barriers" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" letter-spacing="0.6222221" fill="#333333">
+                                    <tspan x="24" y="41">Flu Shot Barriers</tspan>
+                                </text>
+                                <text id="Improve-knowledge-Sc" font-family="ArialMT, Arial" font-size="14" font-weight="normal" line-spacing="18" letter-spacing="0.7" fill="#6B757C">
+                                    <tspan x="24" y="62">Improve knowledge Schedule flu vaccination </tspan>
+                                    <tspan x="24" y="80">Assess health beliefs</tspan>
+                                </text>
+                                <text id="Drafted-On--10:54-PM" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" letter-spacing="0.6" fill="#6B757C">
+                                    <tspan x="24" y="100">Drafted On- 10:54 PM IST, Fri Oct 26 2018</tspan>
+                                </text>
+                                <g id="Group-9" transform="translate(24.000000, 142.000000)">
+                                    <text id="members-targeted-in" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" letter-spacing="0.6">
+                                        <tspan x="60" y="11" fill="#6D757D">members targeted in</tspan>
+                                        <tspan x="181.450781" y="11" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#6D757D"> </tspan>
+                                        <tspan x="185.384766" y="11" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#333333">Flu Shot Barriers list</tspan>
+                                    </text>
+                                    <text id="36,200" font-family="Roboto-Bold, Roboto" font-size="12" font-weight="bold" letter-spacing="0.4666666" fill="#333C44">
+                                        <tspan x="15" y="14">36,200</tspan>
+                                    </text>
+                                    <path d="M9.99482101,14.2714923 C9.99482101,14.6062325 9.70432374,14.879264 9.34368559,14.879264 C8.98304743,14.879264 8.69255016,14.6062325 8.69255016,14.2714923 L8.69255016,13.2502521 C8.69255016,12.4569614 8.01010061,11.8155433 7.17054804,11.8155433 L2.82427296,11.8155433 C1.98472039,11.8155433 1.30227084,12.4569614 1.30227084,13.2502521 L1.30227084,14.2714923 C1.30227084,14.6062325 1.01177358,14.879264 0.651135421,14.879264 C0.290497265,14.879264 0,14.6062325 0,14.2714923 L0,13.2502521 C0,11.7874811 1.26344408,10.6 2.82427296,10.6 L7.17054804,10.6 C8.73137692,10.6 9.99482101,11.7874811 9.99482101,13.2502521 L9.99482101,14.2714923 Z M0.6,13.8 L9.4,13.8 C9.73137085,13.8 10,14.0686292 10,14.4 C10,14.7313708 9.73137085,15 9.4,15 L0.6,15 C0.26862915,15 -8.47597195e-16,14.7313708 -8.8817842e-16,14.4 C-9.28759645e-16,14.0686292 0.26862915,13.8 0.6,13.8 Z M4.9974105,10.3005042 C3.43658162,10.3005042 2.17313754,9.11302306 2.17313754,7.6502521 C2.17313754,6.18748115 3.43658162,5 4.9974105,5 C6.55823938,5 7.82168347,6.18748115 7.82168347,7.6502521 C7.82168347,9.11302306 6.55823938,10.3005042 4.9974105,10.3005042 Z M4.9974105,9.08496094 C5.83696307,9.08496094 6.51941262,8.44354278 6.51941262,7.6502521 C6.51941262,6.85696143 5.83696307,6.21554327 4.9974105,6.21554327 C4.15785794,6.21554327 3.47540838,6.85696143 3.47540838,7.6502521 C3.47540838,8.44354278 4.15785794,9.08496094 4.9974105,9.08496094 Z" id="user-icon-program-list" fill="#333333" fill-rule="nonzero"></path>
+                                </g>
+                                <line x1="-5.93001914e-08" y1="127.999985" x2="422" y2="128.5" id="Path-3" stroke="#979797" opacity="0.200000003"></line>
+                            </g>
+                            <g id="Card_03" filter="url(#filter-2)" transform="translate(423.000000, 0.000000)">
+                                <g id="Rectangle-2">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                    <use stroke="#F1F2F6" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                </g>
+                                <g id="Group-6" transform="translate(48.000000, 143.000000)">
+                                    <path d="M4,0 L71,0 C73.209139,-4.05812251e-16 75,1.790861 75,4 L75,22 C75,24.209139 73.209139,26 71,26 L4,26 C1.790861,26 2.705415e-16,24.209139 0,22 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-4" fill="#F88800"></path>
+                                    <text id="Select" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" line-spacing="7" letter-spacing="0.5" fill="#FFFFFF">
+                                        <tspan x="16" y="19">SELECT</tspan>
+                                    </text>
+                                </g>
+                                <g id="Group-24" transform="translate(206.000000, 149.000000)">
+                                    <text id="Communicate" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="12" letter-spacing="0.699999988" fill="#6B757C">
+                                        <tspan x="25" y="11">Communicate</tspan>
+                                    </text>
+                                    <g id="Group-13" transform="translate(0.000000, 1.000000)" fill-rule="nonzero">
+                                        <path d="M13.8201581,11.1111111 C14.0038281,11.1111111 14.1521739,10.9687924 14.1521739,10.7931161 L14.1521739,1.24392097 C14.1521739,1.06824464 14.0038281,0.925925926 13.8201581,0.925925926 L7.1798419,0.925925926 C6.99663831,0.925925926 6.84782609,1.06859352 6.84782609,1.24392097 L6.84782609,10.7931161 C6.84782609,10.9684435 6.99663831,11.1111111 7.1798419,11.1111111 L13.8201581,11.1111111 Z" id="Path" fill="#F3E887"></path>
+                                        <path d="M2.75042326,0 L3.36875241,0.515987094 L3.11388532,0.828944191 C1.5663548,2.7291921 0.801348784,4.56875113 0.801348784,6.35180085 C0.801348784,8.13071287 1.56290447,9.89697317 3.10462468,11.6584942 L3.10462468,11.6584942 L3.37032676,11.9620771 L2.7705189,12.5 L2.50481681,12.1964171 C0.841141884,10.2955545 1.0658141e-14,8.34471153 1.0658141e-14,6.35180085 C1.0658141e-14,4.36302786 0.837691553,2.34868675 2.49555617,0.312957097 L2.49555617,0.312957097 L2.75042326,0 Z M18.2495767,-1.77635684e-15 L18.5044438,0.312957097 C20.1623084,2.34868675 21,4.36302786 21,6.35180085 C21,8.34471153 20.1588581,10.2955545 18.4951832,12.1964171 L18.2294811,12.5 L17.6296732,11.9620771 L17.8953753,11.6584942 C19.4370955,9.89697317 20.1986512,8.13071287 20.1986512,6.35180085 C20.1986512,4.56875113 19.4336452,2.7291921 17.8861147,0.828944191 L17.6312476,0.515987094 L18.2495767,-1.77635684e-15 Z M13.7878609,0.0842432849 C14.4962779,0.0842432849 15.070019,0.665044958 15.070019,1.38160078 L15.070019,11.1094024 C15.070019,11.8259582 14.4962779,12.4067599 13.7878609,12.4067599 L7.37707068,12.4067599 C6.66925269,12.4067599 6.09491263,11.8257534 6.09491263,11.1094024 L6.09491263,1.38160078 C6.09491263,0.665249777 6.66925269,0.0842432849 7.37707068,0.0842432849 L13.7878609,0.0842432849 Z M13.7878609,1.057658 L7.37707068,1.057658 C7.20019962,1.057658 7.05653117,1.20299403 7.05653117,1.38160078 L7.05653117,11.1094024 C7.05653117,11.2880091 7.20019962,11.4333451 7.37707068,11.4333451 L13.7878609,11.4333451 C13.9651823,11.4333451 14.1084005,11.2883645 14.1084005,11.1094024 L14.1084005,1.38160078 C14.1084005,1.20263862 13.9651823,1.057658 13.7878609,1.057658 Z M16.6468792,1.62235786 L16.9017463,1.93531496 C18.0253784,3.31504836 18.5959536,4.68707277 18.5959536,6.04720864 C18.5959536,7.41148221 18.021928,8.74280793 16.8924856,10.0332733 L16.6267835,10.3368562 L16.0269757,9.79893327 L16.2926778,9.49535041 C17.3001654,8.34422665 17.7946049,7.19748355 17.7946049,6.04720864 C17.7946049,4.89279604 17.2967151,3.6955537 16.2834171,2.45130205 L16.02855,2.13834496 L16.6468792,1.62235786 Z M4.35312083,1.62235786 L4.97144997,2.13834496 L4.71658288,2.45130205 C3.70328489,3.6955537 3.20539513,4.89279604 3.20539513,6.04720864 C3.20539513,7.19748355 3.69983456,8.34422665 4.70732224,9.49535041 L4.70732224,9.49535041 L4.97302433,9.79893327 L4.37321646,10.3368562 L4.10751438,10.0332733 C2.97807197,8.74280793 2.40404635,7.41148221 2.40404635,6.04720864 C2.40404635,4.68707277 2.97462164,3.31504836 4.09825374,1.93531496 L4.09825374,1.93531496 L4.35312083,1.62235786 Z M10.8228704,7.87156103 C11.398215,7.87156103 11.8646239,8.34369136 11.8646239,8.92609364 C11.8646239,9.50849592 11.398215,9.98062625 10.8228704,9.98062625 C10.2475259,9.98062625 9.78111703,9.50849592 9.78111703,8.92609364 C9.78111703,8.34369136 10.2475259,7.87156103 10.8228704,7.87156103 Z" id="comminicate" fill="#333330"></path>
+                                    </g>
+                                </g>
+                                <g id="Group-16" transform="translate(48.000000, 28.000000)">
+                                    <text id="Regular-Checkup" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" letter-spacing="0.6222221" fill="#333C44">
+                                        <tspan x="0" y="17">Regular Checkup</tspan>
+                                    </text>
+                                    <text id="Improve-knowledge-Sc" font-family="ArialMT, Arial" font-size="14" font-weight="normal" line-spacing="18" letter-spacing="0.699999988" fill="#6B757C">
+                                        <tspan x="0" y="42">Improve knowledge Schedule flu </tspan>
+                                        <tspan x="0" y="60">vaccination Assess...</tspan>
+                                    </text>
+                                    <text id="SMS" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="16" letter-spacing="0.5" fill="#6B757C">
+                                        <tspan x="19" y="84">SMS</tspan>
+                                    </text>
+                                    <path d="M12.75,76 C13.9903846,76 15,77.0183946 15,78.2695652 L15,78.2695652 L15,84.7349164 C15,85.986087 13.9903846,87.0044816 12.75,87.0044816 L12.75,87.0044816 L7.01538462,87.0044816 L3.96923077,89.9432776 C3.87115385,90.036388 3.73846154,90.0887625 3.60576923,90.0887625 C3.53653846,90.0887625 3.46153846,90.0771237 3.39807692,90.0480268 C3.20769231,89.9665552 3.08076923,89.7745151 3.08076923,89.5650167 L3.08076923,89.5650167 L3.08076923,87.0044816 L2.25,87.0044816 C1.00961538,87.0044816 0,85.986087 0,84.7349164 L0,84.7349164 L0,78.2695652 C0,77.0183946 1.00961538,76 2.25,76 L2.25,76 Z M12.75,77.053311 L2.25,77.053311 C1.58653846,77.053311 1.04423077,77.6003344 1.04423077,78.2695652 L1.04423077,78.2695652 L1.04423077,84.7349164 C1.04423077,85.4041472 1.58653846,85.9511706 2.25,85.9511706 L2.25,85.9511706 L3.6,85.9511706 C3.88846154,85.9511706 4.125,86.1897659 4.125,86.4807358 L4.125,86.4807358 L4.125,88.3313043 L6.43846154,86.0966555 C6.53653846,86.0035452 6.66923077,85.9511706 6.80192308,85.9511706 L6.80192308,85.9511706 L12.75,85.9511706 C13.4134615,85.9511706 13.9557692,85.4041472 13.9557692,84.7349164 L13.9557692,84.7349164 L13.9557692,78.2695652 C13.9557692,77.6003344 13.4134615,77.053311 12.75,77.053311 L12.75,77.053311 Z M7.5,81.1850836 C7.63846154,81.1850836 7.77115385,81.2374582 7.86923077,81.336388 C7.96730769,81.4353177 8.025,81.5691639 8.025,81.7088294 C8.025,81.848495 7.96730769,81.9823411 7.86923077,82.0812709 C7.77115385,82.1802007 7.63846154,82.2383946 7.5,82.2383946 C7.36153846,82.2383946 7.22884615,82.1860201 7.13076923,82.0812709 C7.03269231,81.9823411 6.975,81.848495 6.975,81.7088294 C6.975,81.5691639 7.03269231,81.4353177 7.13076923,81.336388 C7.22884615,81.2432776 7.36153846,81.1850836 7.5,81.1850836 Z M9.44423077,81.1850836 C9.58269231,81.1850836 9.71538462,81.2374582 9.81346154,81.336388 C9.91153846,81.4353177 9.96923077,81.5691639 9.96923077,81.7088294 C9.96923077,81.848495 9.91730769,81.9823411 9.81923077,82.0812709 C9.72115385,82.1802007 9.58846154,82.2383946 9.45,82.2383946 C9.31153846,82.2383946 9.17307692,82.1860201 9.075,82.0812709 C8.97692308,81.9823411 8.91923077,81.848495 8.91923077,81.7088294 C8.91923077,81.5691639 8.97692308,81.4353177 9.075,81.336388 C9.17307692,81.2432776 9.30576923,81.1850836 9.44423077,81.1850836 Z M5.55576923,81.1850836 C5.69423077,81.1850836 5.82692308,81.2374582 5.925,81.336388 C6.02307692,81.4353177 6.08076923,81.5691639 6.08076923,81.7088294 C6.08076923,81.848495 6.02307692,81.9823411 5.925,82.0812709 C5.82692308,82.1802007 5.69423077,82.2383946 5.55576923,82.2383946 C5.41730769,82.2383946 5.28461538,82.1860201 5.18653846,82.0812709 C5.08846154,81.9823411 5.03076923,81.848495 5.03076923,81.7088294 C5.03076923,81.5691639 5.08846154,81.4353177 5.18653846,81.336388 C5.28461538,81.2432776 5.41730769,81.1850836 5.55576923,81.1850836 Z" id="Combined-Shape" fill="#5A5F66" fill-rule="nonzero"></path>
+                                </g>
+                                <g id="Label">
+                                    <g id="WIDTH#8641B1D1-224C-49B5-8039-869C331AEF32" transform="translate(24.000000, 0.000000)">
+                                        <rect id="ruler-start" fill="#FF5500" x="0" y="8" width="1" height="5"></rect>
+                                        <rect id="ruler-end" fill="#FF5500" x="312" y="8" width="1" height="5"></rect>
+                                        <rect id="ruler-line" fill="#FF5500" x="0" y="10" width="313" height="1"></rect>
+                                        <rect id="label-arrow" fill="#FF5500" transform="translate(157.000000, 11.000000) rotate(-45.000000) translate(-157.000000, -11.000000) " x="154" y="8" width="6" height="6"></rect>
+                                        <rect id="label-box" fill="#FF5500" x="136" y="0" width="42" height="22" rx="2"></rect>
+                                        <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                            <tspan x="140.326" y="15">313px</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="HEIGHT#8641B1D1-224C-49B5-8039-869C331AEF32" transform="translate(0.000000, 14.000000)">
+                                        <rect id="ruler-start" fill="#FF5500" x="18" y="0" width="5" height="1"></rect>
+                                        <rect id="ruler-end" fill="#FF5500" x="18" y="172" width="5" height="1"></rect>
+                                        <rect id="ruler-line" fill="#FF5500" x="20" y="0" width="1" height="173"></rect>
+                                        <rect id="label-arrow" fill="#FF5500" transform="translate(21.000000, 87.000000) rotate(-45.000000) translate(-21.000000, -87.000000) " x="18" y="84" width="6" height="6"></rect>
+                                        <rect id="label-box" fill="#FF5500" x="0" y="76" width="42" height="22" rx="2"></rect>
+                                        <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                            <tspan x="4.326" y="91">173px</tspan>
+                                        </text>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Card_02">
+                            <g id="Rectangle">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                <use stroke="#E8EBED" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            </g>
+                            <g id="Data" transform="translate(34.000000, 24.000000)">
+                                <text id="View" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" letter-spacing="0.300000012" fill="#3FA8D7">
+                                    <tspan x="838.305859" y="47">VIEW </tspan>
+                                </text>
+                                <text id="of-appmail-shared-li" font-family="ArialMT, Arial" font-size="14" font-weight="normal" line-spacing="14" letter-spacing="0.7" fill="#6B757C">
+                                    <tspan x="406" y="58">of appmail shared list</tspan>
+                                </text>
+                                <text id="members" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" letter-spacing="0.6" fill="#6B757C">
+                                    <tspan x="434" y="35">members</tspan>
+                                </text>
+                                <text id="0" font-family="Roboto-Bold, Roboto" font-size="14" font-weight="bold" letter-spacing="0.5444444" fill="#333C44">
+                                    <tspan x="421" y="38">0</tspan>
+                                </text>
+                                <path d="M415.994821,37.2714923 C415.994821,37.6062325 415.704324,37.879264 415.343686,37.879264 C414.983047,37.879264 414.69255,37.6062325 414.69255,37.2714923 L414.69255,36.2502521 C414.69255,35.4569614 414.010101,34.8155433 413.170548,34.8155433 L408.824273,34.8155433 C407.98472,34.8155433 407.302271,35.4569614 407.302271,36.2502521 L407.302271,37.2714923 C407.302271,37.6062325 407.011774,37.879264 406.651135,37.879264 C406.290497,37.879264 406,37.6062325 406,37.2714923 L406,36.2502521 C406,34.7874811 407.263444,33.6 408.824273,33.6 L413.170548,33.6 C414.731377,33.6 415.994821,34.7874811 415.994821,36.2502521 L415.994821,37.2714923 Z M406.6,36.8 L415.4,36.8 C415.731371,36.8 416,37.0686292 416,37.4 C416,37.7313708 415.731371,38 415.4,38 L406.6,38 C406.268629,38 406,37.7313708 406,37.4 C406,37.0686292 406.268629,36.8 406.6,36.8 Z M410.997411,33.3005042 C409.436582,33.3005042 408.173138,32.1130231 408.173138,30.6502521 C408.173138,29.1874811 409.436582,28 410.997411,28 C412.558239,28 413.821683,29.1874811 413.821683,30.6502521 C413.821683,32.1130231 412.558239,33.3005042 410.997411,33.3005042 Z M410.997411,32.0849609 C411.836963,32.0849609 412.519413,31.4435428 412.519413,30.6502521 C412.519413,29.8569614 411.836963,29.2155433 410.997411,29.2155433 C410.157858,29.2155433 409.475408,29.8569614 409.475408,30.6502521 C409.475408,31.4435428 410.157858,32.0849609 410.997411,32.0849609 Z" id="profile" fill="#333333" fill-rule="nonzero"></path>
+                                <text id="0" font-family="Roboto-Bold, Roboto" font-size="14" font-weight="bold" letter-spacing="0.5444444" fill="#333C44">
+                                    <tspan x="724" y="47">0</tspan>
+                                </text>
+                                <path d="M709.512561,48.3179889 L709.512561,46.4845747 L709.08988,46.4845747 C707.937015,46.4845747 707,45.5394118 707,44.3787379 L707,39.1058368 C707,37.9451628 707.937015,37 709.08988,37 L717.653291,37 C718.806157,37 719.743172,37.9451628 719.743172,39.1058368 L719.743172,44.3787379 C719.743172,45.5394118 718.806157,46.4845747 717.653291,46.4845747 L713.079251,46.4845747 L710.667496,48.8113193 C710.540532,48.9318536 710.369648,49 710.195595,49 C710.100912,49 710.006755,48.9827601 709.922951,48.9449348 C709.675163,48.8374754 709.512561,48.5893019 709.512561,48.3179889 Z M712.330359,45.304487 C712.457323,45.1839527 712.628207,45.1158063 712.80226,45.1158063 L717.653291,45.1158063 C718.053133,45.1158063 718.381809,44.7842721 718.381809,44.3787379 L718.381809,39.1058368 C718.381809,38.7003026 718.053133,38.3687683 717.653291,38.3687683 L709.08988,38.3687683 C708.690039,38.3687683 708.361363,38.7003026 708.361363,39.1058368 L708.361363,44.3787379 C708.361363,44.7842721 708.690039,45.1158063 709.08988,45.1158063 L710.19089,45.1158063 C710.567402,45.1158063 710.873924,45.4249937 710.873924,45.8025635 L710.873924,46.7112957 L712.330359,45.304487 Z M713.371586,42.5975306 C713.186443,42.5975306 713.011593,42.5245495 712.889461,42.3939567 C712.761794,42.2651797 712.688552,42.0914643 712.688552,41.9107734 C712.688552,41.7300825 712.761794,41.5563671 712.89498,41.422189 C713.023485,41.3001909 713.194617,41.2287622 713.371586,41.2287622 C713.553125,41.2287622 713.726242,41.2990123 713.853711,41.4275901 C713.981378,41.5563671 714.05462,41.7300825 714.05462,41.9107734 C714.05462,42.0914643 713.981378,42.2651797 713.853711,42.3939567 C713.725624,42.5231572 713.552254,42.5975306 713.371586,42.5975306 Z M714.961934,42.5975306 C714.77629,42.5975306 714.597122,42.5244279 714.475103,42.3939567 C714.347436,42.2651797 714.274194,42.0914643 714.274194,41.9107734 C714.274194,41.7300825 714.347436,41.5563671 714.480623,41.422189 C714.609128,41.3001909 714.780259,41.2287622 714.957228,41.2287622 C715.138768,41.2287622 715.311884,41.2990123 715.439353,41.4275901 C715.56702,41.5563671 715.640262,41.7300825 715.640262,41.9107734 C715.640262,42.0923998 715.571101,42.2658092 715.444059,42.3939567 C715.315972,42.5231572 715.142602,42.5975306 714.961934,42.5975306 Z M711.785943,42.5975306 C711.600801,42.5975306 711.42595,42.5245495 711.303818,42.3939567 C711.176151,42.2651797 711.102909,42.0914643 711.102909,41.9107734 C711.102909,41.7300825 711.176151,41.5563671 711.309337,41.422189 C711.437843,41.3001909 711.608974,41.2287622 711.785943,41.2287622 C711.967483,41.2287622 712.140599,41.2990123 712.268068,41.4275901 C712.395735,41.5563671 712.468977,41.7300825 712.468977,41.9107734 C712.468977,42.0914643 712.395735,42.2651797 712.268068,42.3939567 C712.139981,42.5231572 711.966611,42.5975306 711.785943,42.5975306 Z" id="sms-icon-program-list" fill="#333333" fill-rule="nonzero"></path>
+                                <text id="Flu-Shot-Barriers" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" letter-spacing="0.6222221" fill="#333333">
+                                    <tspan x="0" y="17">Flu Shot Barriers</tspan>
+                                </text>
+                                <text id="Improve-knowledge-Sc" font-family="ArialMT, Arial" font-size="14" font-weight="normal" line-spacing="18" letter-spacing="0.7" fill="#6B757C">
+                                    <tspan x="0" y="38">Improve knowledge Schedule flu </tspan>
+                                    <tspan x="0" y="56">vaccination Assess health beliefs</tspan>
+                                </text>
+                                <text id="Drafted-On--10:54-PM" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" letter-spacing="0.6" fill="#6B757C">
+                                    <tspan x="0" y="76">Drafted On- 10:54 PM IST, Fri Oct 26 2018</tspan>
+                                </text>
+                            </g>
+                            <g id="Labels">
+                                <g id="TOP#1659A3CB-C341-4344-B3B6-597946454505#2CB4F00C-3A5C-4ABE-8F99-70920C410D7E" transform="translate(465.000000, 0.000000)">
+                                    <rect id="ruler-start" fill="#50E3C2" x="0" y="0" width="5" height="1"></rect>
+                                    <rect id="ruler-end" fill="#50E3C2" x="0" y="23" width="5" height="1"></rect>
+                                    <rect id="ruler-line" fill="#50E3C2" x="2" y="0" width="1" height="24"></rect>
+                                    <rect id="label-arrow" fill="#50E3C2" transform="translate(8.000000, 12.000000) rotate(-45.000000) translate(-8.000000, -12.000000) " x="5" y="9" width="6" height="6"></rect>
+                                    <rect id="label-box" fill="#50E3C2" x="9" y="1" width="35" height="22" rx="2"></rect>
+                                    <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                        <tspan x="13.162" y="16">24px</tspan>
+                                    </text>
+                                </g>
+                                <g id="RIGHT#1659A3CB-C341-4344-B3B6-597946454505#2CB4F00C-3A5C-4ABE-8F99-70920C410D7E" transform="translate(902.000000, 37.000000)">
+                                    <rect id="ruler-start" fill="#50E3C2" x="0" y="26" width="1" height="5"></rect>
+                                    <rect id="ruler-end" fill="#50E3C2" x="34" y="26" width="1" height="5"></rect>
+                                    <rect id="ruler-line" fill="#50E3C2" x="0" y="28" width="35" height="1"></rect>
+                                    <rect id="label-arrow" fill="#50E3C2" transform="translate(18.000000, 21.000000) rotate(-45.000000) translate(-18.000000, -21.000000) " x="15" y="18" width="6" height="6"></rect>
+                                    <rect id="label-box" fill="#50E3C2" x="0" y="0" width="35" height="22" rx="2"></rect>
+                                    <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                        <tspan x="4.162" y="15">35px</tspan>
+                                    </text>
+                                </g>
+                                <g id="BOTTOM#1659A3CB-C341-4344-B3B6-597946454505#2CB4F00C-3A5C-4ABE-8F99-70920C410D7E" transform="translate(465.000000, 107.000000)">
+                                    <rect id="ruler-start" fill="#50E3C2" x="0" y="0" width="5" height="1"></rect>
+                                    <rect id="ruler-end" fill="#50E3C2" x="0" y="23" width="5" height="1"></rect>
+                                    <rect id="ruler-line" fill="#50E3C2" x="2" y="0" width="1" height="24"></rect>
+                                    <rect id="label-arrow" fill="#50E3C2" transform="translate(8.000000, 12.000000) rotate(-45.000000) translate(-8.000000, -12.000000) " x="5" y="9" width="6" height="6"></rect>
+                                    <rect id="label-box" fill="#50E3C2" x="9" y="1" width="35" height="22" rx="2"></rect>
+                                    <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                        <tspan x="13.162" y="16">24px</tspan>
+                                    </text>
+                                </g>
+                                <g id="LEFT#1659A3CB-C341-4344-B3B6-597946454505#2CB4F00C-3A5C-4ABE-8F99-70920C410D7E" transform="translate(0.000000, 37.000000)">
+                                    <rect id="ruler-start" fill="#50E3C2" x="2" y="26" width="1" height="5"></rect>
+                                    <rect id="ruler-end" fill="#50E3C2" x="33" y="26" width="1" height="5"></rect>
+                                    <rect id="ruler-line" fill="#50E3C2" x="2" y="28" width="32" height="1"></rect>
+                                    <rect id="label-arrow" fill="#50E3C2" transform="translate(18.000000, 21.000000) rotate(-45.000000) translate(-18.000000, -21.000000) " x="15" y="18" width="6" height="6"></rect>
+                                    <rect id="label-box" fill="#50E3C2" x="0" y="0" width="35" height="22" rx="2"></rect>
+                                    <text id="label-text" font-family="HelveticaNeue, Helvetica Neue" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                        <tspan x="4.162" y="15">32px</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Card_01" transform="translate(0.000000, 57.000000)">
+                        <g id="Rectangle-2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            <use stroke="#E8EBED" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        </g>
+                        <g id="Group-9" transform="translate(202.000000, 378.000000)">
+                            <text id="Communicate" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="12" letter-spacing="0.699999988" fill="#6B757C">
+                                <tspan x="25" y="11">Communicate</tspan>
+                            </text>
+                            <g id="Group-13" transform="translate(0.000000, 1.000000)" fill-rule="nonzero">
+                                <path d="M13.8201581,11.1111111 C14.0038281,11.1111111 14.1521739,10.9687924 14.1521739,10.7931161 L14.1521739,1.24392097 C14.1521739,1.06824464 14.0038281,0.925925926 13.8201581,0.925925926 L7.1798419,0.925925926 C6.99663831,0.925925926 6.84782609,1.06859352 6.84782609,1.24392097 L6.84782609,10.7931161 C6.84782609,10.9684435 6.99663831,11.1111111 7.1798419,11.1111111 L13.8201581,11.1111111 Z" id="Path" fill="#F3E887"></path>
+                                <path d="M2.75042326,0 L3.36875241,0.515987094 L3.11388532,0.828944191 C1.5663548,2.7291921 0.801348784,4.56875113 0.801348784,6.35180085 C0.801348784,8.13071287 1.56290447,9.89697317 3.10462468,11.6584942 L3.10462468,11.6584942 L3.37032676,11.9620771 L2.7705189,12.5 L2.50481681,12.1964171 C0.841141884,10.2955545 1.0658141e-14,8.34471153 1.0658141e-14,6.35180085 C1.0658141e-14,4.36302786 0.837691553,2.34868675 2.49555617,0.312957097 L2.49555617,0.312957097 L2.75042326,0 Z M18.2495767,-1.77635684e-15 L18.5044438,0.312957097 C20.1623084,2.34868675 21,4.36302786 21,6.35180085 C21,8.34471153 20.1588581,10.2955545 18.4951832,12.1964171 L18.2294811,12.5 L17.6296732,11.9620771 L17.8953753,11.6584942 C19.4370955,9.89697317 20.1986512,8.13071287 20.1986512,6.35180085 C20.1986512,4.56875113 19.4336452,2.7291921 17.8861147,0.828944191 L17.6312476,0.515987094 L18.2495767,-1.77635684e-15 Z M13.7878609,0.0842432849 C14.4962779,0.0842432849 15.070019,0.665044958 15.070019,1.38160078 L15.070019,11.1094024 C15.070019,11.8259582 14.4962779,12.4067599 13.7878609,12.4067599 L7.37707068,12.4067599 C6.66925269,12.4067599 6.09491263,11.8257534 6.09491263,11.1094024 L6.09491263,1.38160078 C6.09491263,0.665249777 6.66925269,0.0842432849 7.37707068,0.0842432849 L13.7878609,0.0842432849 Z M13.7878609,1.057658 L7.37707068,1.057658 C7.20019962,1.057658 7.05653117,1.20299403 7.05653117,1.38160078 L7.05653117,11.1094024 C7.05653117,11.2880091 7.20019962,11.4333451 7.37707068,11.4333451 L13.7878609,11.4333451 C13.9651823,11.4333451 14.1084005,11.2883645 14.1084005,11.1094024 L14.1084005,1.38160078 C14.1084005,1.20263862 13.9651823,1.057658 13.7878609,1.057658 Z M16.6468792,1.62235786 L16.9017463,1.93531496 C18.0253784,3.31504836 18.5959536,4.68707277 18.5959536,6.04720864 C18.5959536,7.41148221 18.021928,8.74280793 16.8924856,10.0332733 L16.6267835,10.3368562 L16.0269757,9.79893327 L16.2926778,9.49535041 C17.3001654,8.34422665 17.7946049,7.19748355 17.7946049,6.04720864 C17.7946049,4.89279604 17.2967151,3.6955537 16.2834171,2.45130205 L16.02855,2.13834496 L16.6468792,1.62235786 Z M4.35312083,1.62235786 L4.97144997,2.13834496 L4.71658288,2.45130205 C3.70328489,3.6955537 3.20539513,4.89279604 3.20539513,6.04720864 C3.20539513,7.19748355 3.69983456,8.34422665 4.70732224,9.49535041 L4.70732224,9.49535041 L4.97302433,9.79893327 L4.37321646,10.3368562 L4.10751438,10.0332733 C2.97807197,8.74280793 2.40404635,7.41148221 2.40404635,6.04720864 C2.40404635,4.68707277 2.97462164,3.31504836 4.09825374,1.93531496 L4.09825374,1.93531496 L4.35312083,1.62235786 Z M10.8228704,7.87156103 C11.398215,7.87156103 11.8646239,8.34369136 11.8646239,8.92609364 C11.8646239,9.50849592 11.398215,9.98062625 10.8228704,9.98062625 C10.2475259,9.98062625 9.78111703,9.50849592 9.78111703,8.92609364 C9.78111703,8.34369136 10.2475259,7.87156103 10.8228704,7.87156103 Z" id="comminicate" fill="#333330"></path>
+                            </g>
+                        </g>
+                        <text id="Flu-Shot-Barriers" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" letter-spacing="0.6222221" fill="#333333">
+                            <tspan x="24" y="33">Flu Shot Barriers</tspan>
+                        </text>
+                        <text id="Improve-knowledge-Sc" font-family="ArialMT, Arial" font-size="14" font-weight="normal" line-spacing="18" letter-spacing="0.7" fill="#6B757C">
+                            <tspan x="24" y="54">Improve knowledge Schedule flu </tspan>
+                            <tspan x="24" y="72">vaccination Assess health beliefs</tspan>
+                        </text>
+                        <text id="Drafted-On--10:54-PM" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" letter-spacing="0.6" fill="#6B757C">
+                            <tspan x="24" y="92">Drafted On- 10:54 PM IST, Fri Oct 26 2018</tspan>
+                        </text>
+                        <path d="M65,107.5 L37,107.5 C33.5482203,107.5 30.4232203,108.89911 28.1611652,111.161165 C25.8991102,113.42322 24.5,116.54822 24.5,120 C24.5,123.45178 25.8991102,126.57678 28.1611652,128.838835 C30.4232203,131.10089 33.5482203,132.5 37,132.5 L65,132.5 C68.4517797,132.5 71.5767797,131.10089 73.8388348,128.838835 C76.1008898,126.57678 77.5,123.45178 77.5,120 C77.5,116.54822 76.1008898,113.42322 73.8388348,111.161165 C71.5767797,108.89911 68.4517797,107.5 65,107.5 Z" id="Rectangle-6" stroke="#D5E0E1"></path>
+                        <text id="FluShot" font-family="ArialMT, Arial" font-size="10" font-weight="normal" letter-spacing="0.4166667" fill="#333C44">
+                            <tspan x="32" y="123">FluShot</tspan>
+                        </text>
+                        <path d="M132,107.5 L95,107.5 C91.5482203,107.5 88.4232203,108.89911 86.1611652,111.161165 C83.8991102,113.42322 82.5,116.54822 82.5,120 C82.5,123.45178 83.8991102,126.57678 86.1611652,128.838835 C88.4232203,131.10089 91.5482203,132.5 95,132.5 L132,132.5 C135.45178,132.5 138.57678,131.10089 140.838835,128.838835 C143.10089,126.57678 144.5,123.45178 144.5,120 C144.5,116.54822 143.10089,113.42322 140.838835,111.161165 C138.57678,108.89911 135.45178,107.5 132,107.5 Z" id="Rectangle-6" stroke="#D5E0E1"></path>
+                        <text id="Reminder" font-family="ArialMT, Arial" font-size="10" font-weight="normal" letter-spacing="0.4166667" fill="#333C44">
+                            <tspan x="90" y="123">Reminder</tspan>
+                        </text>
+                        <text id="members-targeted-in" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" letter-spacing="0.6" fill="#6D757D">
+                            <tspan x="73" y="337">members targeted in</tspan>
+                        </text>
+                        <text id="Appmail-shared-list" font-family="ProximaNova-Semibold, Proxima Nova" font-size="12" font-weight="500" letter-spacing="0.3" fill="#3FA8D7">
+                            <tspan x="199.44" y="339">Appmail shared list</tspan>
+                        </text>
+                        <text id="opted-out" opacity="0.600000024" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" letter-spacing="0.6" fill="#6F757E">
+                            <tspan x="107" y="357">opted out</tspan>
+                        </text>
+                        <text id="2000" font-family="Roboto-Bold, Roboto" font-size="12" font-weight="bold" letter-spacing="0.4666666" fill="#333C44">
+                            <tspan x="39" y="340">2000</tspan>
+                        </text>
+                        <text id="200-(10%)" font-family="Roboto-Bold, Roboto" font-size="12" font-weight="bold" letter-spacing="0.4666666" fill="#333C44">
+                            <tspan x="39" y="359">200 (10%)</tspan>
+                        </text>
+                        <path d="M33.994821,340.271492 C33.994821,340.606232 33.7043237,340.879264 33.3436856,340.879264 C32.9830474,340.879264 32.6925502,340.606232 32.6925502,340.271492 L32.6925502,339.250252 C32.6925502,338.456961 32.0101006,337.815543 31.170548,337.815543 L26.824273,337.815543 C25.9847204,337.815543 25.3022708,338.456961 25.3022708,339.250252 L25.3022708,340.271492 C25.3022708,340.606232 25.0117736,340.879264 24.6511354,340.879264 C24.2904973,340.879264 24,340.606232 24,340.271492 L24,339.250252 C24,337.787481 25.2634441,336.6 26.824273,336.6 L31.170548,336.6 C32.7313769,336.6 33.994821,337.787481 33.994821,339.250252 L33.994821,340.271492 Z M24.6,339.8 L33.4,339.8 C33.7313708,339.8 34,340.068629 34,340.4 C34,340.731371 33.7313708,341 33.4,341 L24.6,341 C24.2686292,341 24,340.731371 24,340.4 C24,340.068629 24.2686292,339.8 24.6,339.8 Z M28.9974105,336.300504 C27.4365816,336.300504 26.1731375,335.113023 26.1731375,333.650252 C26.1731375,332.187481 27.4365816,331 28.9974105,331 C30.5582394,331 31.8216835,332.187481 31.8216835,333.650252 C31.8216835,335.113023 30.5582394,336.300504 28.9974105,336.300504 Z M28.9974105,335.084961 C29.8369631,335.084961 30.5194126,334.443543 30.5194126,333.650252 C30.5194126,332.856961 29.8369631,332.215543 28.9974105,332.215543 C28.1578579,332.215543 27.4754084,332.856961 27.4754084,333.650252 C27.4754084,334.443543 28.1578579,335.084961 28.9974105,335.084961 Z" id="user-icon-program-list" fill="#333333" fill-rule="nonzero"></path>
+                        <path d="M33.994821,358.271492 C33.994821,358.606232 33.7043237,358.879264 33.3436856,358.879264 C32.9830474,358.879264 32.6925502,358.606232 32.6925502,358.271492 L32.6925502,357.250252 C32.6925502,356.456961 32.0101006,355.815543 31.170548,355.815543 L26.824273,355.815543 C25.9847204,355.815543 25.3022708,356.456961 25.3022708,357.250252 L25.3022708,358.271492 C25.3022708,358.606232 25.0117736,358.879264 24.6511354,358.879264 C24.2904973,358.879264 24,358.606232 24,358.271492 L24,357.250252 C24,355.787481 25.2634441,354.6 26.824273,354.6 L31.170548,354.6 C32.7313769,354.6 33.994821,355.787481 33.994821,357.250252 L33.994821,358.271492 Z M24.6,357.8 L33.4,357.8 C33.7313708,357.8 34,358.068629 34,358.4 C34,358.731371 33.7313708,359 33.4,359 L24.6,359 C24.2686292,359 24,358.731371 24,358.4 C24,358.068629 24.2686292,357.8 24.6,357.8 Z M28.9974105,354.300504 C27.4365816,354.300504 26.1731375,353.113023 26.1731375,351.650252 C26.1731375,350.187481 27.4365816,349 28.9974105,349 C30.5582394,349 31.8216835,350.187481 31.8216835,351.650252 C31.8216835,353.113023 30.5582394,354.300504 28.9974105,354.300504 Z M28.9974105,353.084961 C29.8369631,353.084961 30.5194126,352.443543 30.5194126,351.650252 C30.5194126,350.856961 29.8369631,350.215543 28.9974105,350.215543 C28.1578579,350.215543 27.4754084,350.856961 27.4754084,351.650252 C27.4754084,352.443543 28.1578579,353.084961 28.9974105,353.084961 Z" id="user-icon-program-list" fill="#333333" fill-rule="nonzero"></path>
+                        <g id="Group-7" transform="translate(22.000000, 157.000000)">
+                            <g id="Group-13" transform="translate(19.500017, 0.000000)">
+                                <mask id="mask-10" fill="white">
+                                    <use xlink:href="#path-9"></use>
+                                </mask>
+                                <use id="Rectangle-2" fill="#F5F6F7" xlink:href="#path-9"></use>
+                                <path d="M26.1110285,74.2895903 L79.9397403,122.44028 C81.1796175,123.549371 82.9765112,123.775297 84.4523519,123.007656 L211.340488,57.0083155 C213.300363,55.9889103 215.715546,56.7513114 216.734952,58.7111859 C216.786818,58.8109022 216.834458,58.9127604 216.877745,59.0164891 L247,131.197994 L247,131.197994 L-1,135.999998 L19.6619776,75.9690778 C20.3809439,73.8802067 22.6571458,72.7696794 24.7460169,73.4886457 C25.2498239,73.6620505 25.7139101,73.9343613 26.1110285,74.2895903 Z" id="Path-2" fill="#CAEAD9" mask="url(#mask-10)"></path>
+                            </g>
+                            <line x1="20.5000166" y1="55.4999981" x2="286.500017" y2="55.4999981" id="Line-3" stroke="#AFD1E0" stroke-linecap="square" stroke-dasharray="3,4"></line>
+                            <text id="214K" font-family="Roboto-Bold, Roboto" font-size="12" font-weight="bold" letter-spacing="0.4666666" fill="#333C44">
+                                <tspan x="181.500017" y="20.9999981">214K</tspan>
+                            </text>
+                            <path d="M167.012578,23.3179869 L167.012578,21.4845727 L166.589897,21.4845727 C165.437031,21.4845727 164.500017,20.5394099 164.500017,19.3787359 L164.500017,14.1058349 C164.500017,12.9451609 165.437031,11.9999981 166.589897,11.9999981 L175.153308,11.9999981 C176.306173,11.9999981 177.243188,12.9451609 177.243188,14.1058349 L177.243188,19.3787359 C177.243188,20.5394099 176.306173,21.4845727 175.153308,21.4845727 L170.579268,21.4845727 L168.167513,23.8113173 C168.040549,23.9318516 167.869665,23.9999981 167.695612,23.9999981 C167.600929,23.9999981 167.506772,23.9827581 167.422967,23.9449328 C167.175179,23.8374735 167.012578,23.5893 167.012578,23.3179869 Z M169.830376,20.3044851 C169.95734,20.1839508 170.128224,20.1158044 170.302277,20.1158044 L175.153308,20.1158044 C175.553149,20.1158044 175.881825,19.7842702 175.881825,19.3787359 L175.881825,14.1058349 C175.881825,13.7003006 175.553149,13.3687664 175.153308,13.3687664 L166.589897,13.3687664 C166.190056,13.3687664 165.861379,13.7003006 165.861379,14.1058349 L165.861379,19.3787359 C165.861379,19.7842702 166.190056,20.1158044 166.589897,20.1158044 L167.690907,20.1158044 C168.067419,20.1158044 168.373941,20.4249917 168.373941,20.8025616 L168.373941,21.7112937 L169.830376,20.3044851 Z M170.871602,17.5975286 C170.68646,17.5975286 170.511609,17.5245475 170.389477,17.3939547 C170.26181,17.2651777 170.188568,17.0914623 170.188568,16.9107714 C170.188568,16.7300805 170.26181,16.5563651 170.394997,16.4221871 C170.523502,16.300189 170.694633,16.2287603 170.871602,16.2287603 C171.053142,16.2287603 171.226258,16.2990104 171.353727,16.4275881 C171.481394,16.5563651 171.554636,16.7300805 171.554636,16.9107714 C171.554636,17.0914623 171.481394,17.2651777 171.353727,17.3939547 C171.225641,17.5231552 171.05227,17.5975286 170.871602,17.5975286 Z M172.46195,17.5975286 C172.276306,17.5975286 172.097138,17.524426 171.97512,17.3939547 C171.847453,17.2651777 171.774211,17.0914623 171.774211,16.9107714 C171.774211,16.7300805 171.847453,16.5563651 171.980639,16.4221871 C172.109145,16.300189 172.280276,16.2287603 172.457245,16.2287603 C172.638784,16.2287603 172.811901,16.2990104 172.93937,16.4275881 C173.067037,16.5563651 173.140279,16.7300805 173.140279,16.9107714 C173.140279,17.0923979 173.071118,17.2658072 172.944075,17.3939547 C172.815989,17.5231552 172.642618,17.5975286 172.46195,17.5975286 Z M169.28596,17.5975286 C169.100817,17.5975286 168.925967,17.5245475 168.803835,17.3939547 C168.676168,17.2651777 168.602926,17.0914623 168.602926,16.9107714 C168.602926,16.7300805 168.676168,16.5563651 168.809354,16.4221871 C168.937859,16.300189 169.108991,16.2287603 169.28596,16.2287603 C169.467499,16.2287603 169.640616,16.2990104 169.768085,16.4275881 C169.895752,16.5563651 169.968994,16.7300805 169.968994,16.9107714 C169.968994,17.0914623 169.895752,17.2651777 169.768085,17.3939547 C169.639998,17.5231552 169.466628,17.5975286 169.28596,17.5975286 Z" id="sms-icon-program-list" fill="#333333" fill-rule="nonzero"></path>
+                            <text id="1,200" font-family="Roboto-Bold, Roboto" font-size="12" font-weight="bold" letter-spacing="0.4666666" fill="#333C44">
+                                <tspan x="247.500017" y="20.9999981">1,200</tspan>
+                            </text>
+                            <path d="M238.459694,10.2499981 C239.090062,10.2499981 239.634371,10.6187089 239.888125,11.1524875 L240.266146,11.1526351 C241.637336,11.1526351 242.750017,12.2645899 242.750017,13.6353284 C242.750017,15.006067 241.637336,16.1180218 240.266146,16.1180218 L239.986918,16.1191371 C239.696577,17.9441949 238.253975,19.385607 236.427876,19.6753418 L236.427436,21.6616984 C236.427436,21.7406811 236.413919,21.8165067 236.389072,21.8869881 L238.459694,21.8869161 C238.833822,21.8869161 239.137113,22.1902071 239.137113,22.5643354 C239.137113,22.9384638 238.833822,23.2417548 238.459694,23.2417548 L233.040339,23.2417548 C232.666211,23.2417548 232.36292,22.9384638 232.36292,22.5643354 C232.36292,22.1902071 232.666211,21.8869161 233.040339,21.8869161 L235.110961,21.8869881 C235.086114,21.8165067 235.072597,21.7406811 235.072597,21.6616984 L235.072157,19.6753418 C233.246058,19.385607 231.803457,17.9441949 231.513115,16.1191371 L231.233888,16.1180218 C229.862697,16.1180218 228.750017,15.006067 228.750017,13.6353284 C228.750017,12.2645899 229.862697,11.1526351 231.233888,11.1526351 L231.611908,11.1524875 C231.865662,10.6187089 232.409971,10.2499981 233.040339,10.2499981 L238.459694,10.2499981 Z M238.459694,11.6048368 L233.040339,11.6048368 C232.915371,11.6048368 232.814533,11.70554 232.814533,11.8300544 L232.814533,15.4406024 C232.814533,17.0603003 234.12882,18.3737311 235.750017,18.3737311 C237.371213,18.3737311 238.6855,17.0603003 238.6855,15.4406024 L238.6855,11.8300544 C238.6855,11.70554 238.584662,11.6048368 238.459694,11.6048368 Z M240.040017,14.7629981 L240.266146,14.7631831 C240.889277,14.7631831 241.395178,14.2576124 241.395178,13.6353284 C241.395178,13.0130445 240.889277,12.5074738 240.266146,12.5074738 L240.040017,12.5069981 L240.040017,14.7629981 Z M231.459017,12.5069981 L231.233888,12.5074738 C230.610756,12.5074738 230.104855,13.0130445 230.104855,13.6353284 C230.104855,14.2576124 230.610756,14.7631831 231.233888,14.7631831 L231.459017,14.7629981 L231.459017,12.5069981 Z" id="Combined-Shape" fill="#333333" fill-rule="nonzero"></path>
+                            <text id="1/1/2019" opacity="0.600000024" font-family="ArialMT, Arial" font-size="10" font-weight="normal" letter-spacing="0.4166667" fill="#333C44">
+                                <tspan x="18.5000166" y="142.999998">1/1/2019</tspan>
+                            </text>
+                            <text id="3/1/2019" opacity="0.600000024" font-family="ArialMT, Arial" font-size="10" font-weight="normal" letter-spacing="0.4166667" fill="#333C44">
+                                <tspan x="244" y="143">3/1/2019</tspan>
+                            </text>
+                            <text id="Messages" transform="translate(8.500017, 70.999998) rotate(-90.000000) translate(-8.500017, -70.999998) " font-family="ArialMT, Arial" font-size="10" font-weight="normal" letter-spacing="0.4166667" fill="#333C44">
+                                <tspan x="-15.9999834" y="74.4999981">Messages</tspan>
+                            </text>
+                            <text id="0" opacity="0.600000024" font-family="ArialMT, Arial" font-size="10" font-weight="normal" letter-spacing="0.4166667" fill="#333C44">
+                                <tspan x="11.0000166" y="131.499998">0</tspan>
+                            </text>
+                            <text id="10k" opacity="0.600000024" font-family="ArialMT, Arial" font-size="10" font-weight="normal" letter-spacing="0.4166667" fill="#333C44">
+                                <tspan x="1.66047612e-05" y="11.4999981">10k</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-6" transform="translate(24.000000, 372.000000)">
+                            <path d="M4,0 L56,0 C58.209139,-4.05812251e-16 60,1.790861 60,4 L60,22 C60,24.209139 58.209139,26 56,26 L4,26 C1.790861,26 2.705415e-16,24.209139 0,22 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="Rectangle-4" fill="#F88800"></path>
+                            <text id="View" font-family="Arial-BoldMT, Arial" font-size="10" font-weight="bold" line-spacing="7" letter-spacing="0.5" fill="#FFFFFF">
+                                <tspan x="16" y="19">VIEW</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <text font-family="Circular-Bold, Circular" font-size="20" font-weight="bold" line-spacing="28" letter-spacing="-0.2" fill="#000000">
+                        <tspan x="178" y="20">UI Components</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

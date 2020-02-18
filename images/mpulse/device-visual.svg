@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1162px" height="655px" viewBox="0 0 1162 655" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63 (101010) - https://sketch.com -->
+    <title>C6C7DCEC-434C-4952-84B3-AD97DA4CFE0D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="977.075021" height="635.51871" rx="36.5750008"></rect>
+        <path d="M2.89673925,0.190039412 L303.433497,0.00181421837 C305.033321,-0.00100139702 306.331047,1.29510069 306.332049,2.8949256 C306.33205,2.89553034 306.33205,2.89613508 306.330236,2.89673982 L306.330236,186.652477 C306.328421,188.251593 305.032612,189.548214 303.433497,189.551031 L2.89673925,189.739256 C1.29691548,189.742072 -0.000811117348,188.445969 -0.00181308249,186.846145 C-0.00181346123,186.84554 -0.00181365061,186.844935 0,186.84433 L0,3.08859345 C0.00181478685,1.48947667 1.29762393,0.19285572 2.89673925,0.190039412 Z" id="path-3"></path>
+        <filter x="-2.3%" y="-2.6%" width="104.6%" height="107.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0549139493 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M2.89673925,0.190039412 L303.433497,0.00181421837 C305.033321,-0.00100139702 306.331047,1.29510069 306.332049,2.8949256 C306.33205,2.89553034 306.33205,2.89613508 306.330236,2.89673982 L306.330236,186.652477 C306.328421,188.251593 305.032612,189.548214 303.433497,189.551031 L2.89673925,189.739256 C1.29691548,189.742072 -0.000811117348,188.445969 -0.00181308249,186.846145 C-0.00181346123,186.84554 -0.00181365061,186.844935 0,186.84433 L0,3.08859345 C0.00181478685,1.48947667 1.29762393,0.19285572 2.89673925,0.190039412 Z" id="path-5"></path>
+        <filter x="-2.3%" y="-2.6%" width="104.6%" height="107.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0549139493 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-7" points="0 0 942.888812 0 942.888812 73.8668654 0 73.8668654"></polygon>
+        <filter x="-0.8%" y="-7.7%" width="101.6%" height="120.9%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="0.724184955" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-9" points="0 0 942.888812 0 942.888812 73.8668654 0 73.8668654"></polygon>
+        <filter x="-0.8%" y="-7.7%" width="101.6%" height="120.9%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="0.724184955" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="0" y="0" width="989.236649" height="33.3125079"></rect>
+        <filter x="-1.1%" y="-30.0%" width="102.2%" height="166.0%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.048658288 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-5.4%" y="-6.8%" width="110.7%" height="114.3%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.151169143 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M3.51999939,0.230928142 L368.720009,0.00220456416 C370.664049,-0.00121685681 372.240994,1.57375353 372.242211,3.51779551 C372.242212,3.51853037 372.242212,3.51926522 372.240008,3.52000008 L372.240008,226.812476 C372.237803,228.755658 370.663189,230.331259 368.720009,230.334681 L3.51999939,230.563405 C1.57595879,230.566826 -0.000985636717,228.991856 -0.00220318388,227.047814 C-0.00220364412,227.047079 -0.00220387424,227.046344 0,227.045609 L0,3.75313278 C0.00220525495,1.8099513 1.57681967,0.234350404 3.51999939,0.230928142 Z" id="path-14"></path>
+        <filter x="-3.6%" y="-4.1%" width="107.2%" height="111.6%" filterUnits="objectBoundingBox" id="filter-15">
+            <feMorphology radius="0.880000019" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.113008086 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="01.-mPulse---Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Case-Study---mPulse---Desktop" transform="translate(-354.000000, -387.000000)">
+            <g id="::-Hero-Banner-::">
+                <g id="deviceVisual" transform="translate(354.000000, 397.000000)">
+                    <g id="iPad-UI" transform="translate(117.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <rect stroke="#000000" stroke-width="9.4050002" x="-4.7025001" y="-4.7025001" width="986.480021" height="644.92371" rx="36.5750008"></rect>
+                        <g id="UI-design" mask="url(#mask-2)">
+                            <g transform="translate(-12.540000, -10.000000)">
+                                <g id="Group-13" transform="translate(36.575001, 333.635007)">
+                                    <text id="Active-Programs" font-family="Roboto-Bold, Roboto" font-size="15.932069" font-weight="bold" line-spacing="15.932069" letter-spacing="0.367663103" fill="#333333">
+                                        <tspan x="0" y="17">Active Programs</tspan>
+                                    </text>
+                                    <text id="(4-Programs)" font-family="ArialMT, Arial" font-size="10.1385894" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.50692943" fill="#6B757C">
+                                        <tspan x="128.535003" y="13.1800001">(4 Programs)</tspan>
+                                    </text>
+                                </g>
+                                <g id="Group-11" transform="translate(341.091114, 360.987854)">
+                                    <g id="Rectangle-2">
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                    </g>
+                                    <g id="Group-5" transform="translate(0.000000, 127.456552)">
+                                        <path d="M305.968144,0.362092478 L0.362092478,0.362092478 L0.362092478,61.9178137 L305.968144,61.9178137 L305.968144,0.362092478 Z" id="Rectangle" stroke="#E9F3F9" stroke-width="0.724184955" fill="#F7FCFF"></path>
+                                        <text id="Messages-Sent" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="20.2771787" y="42.7608779">Messages Sent</tspan>
+                                        </text>
+                                        <text id="Delivery-Rate" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="103.558449" y="42.7608779">Delivery Rate</tspan>
+                                        </text>
+                                        <text id="Opt-outs" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="178.873684" y="42.7608779">Opt-outs</tspan>
+                                        </text>
+                                        <text id="Responses" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="233.187556" y="42.7608779">Responses</tspan>
+                                        </text>
+                                        <text id="35,211" font-family="Helvetica" font-size="11.5869593" font-weight="normal" letter-spacing="0.45060391" fill="#333333">
+                                            <tspan x="21.1856162" y="28.3804389">35,211</tspan>
+                                        </text>
+                                        <text id="99.23%" font-family="Helvetica" font-size="11.5869593" font-weight="normal" letter-spacing="0.45060391" fill="#333333">
+                                            <tspan x="102.834641" y="28.3804389">99.23%</tspan>
+                                        </text>
+                                        <text id="320" font-family="Helvetica" font-size="11.5869593" font-weight="normal" letter-spacing="0.45060391" fill="#333333">
+                                            <tspan x="180.118566" y="28.3804389">320</tspan>
+                                        </text>
+                                        <text id="7,320" font-family="Helvetica" font-size="11.5869593" font-weight="normal" letter-spacing="0.45060391" fill="#333333">
+                                            <tspan x="233.857364" y="28.3804389">7,320</tspan>
+                                        </text>
+                                    </g>
+                                    <text id="APT-Reminder" font-family="Roboto-Bold, Roboto" font-size="11.5869593" font-weight="bold" letter-spacing="0.45060391" fill="#333333">
+                                        <tspan x="17.3804389" y="29.3804389">APT Reminder</tspan>
+                                    </text>
+                                    <text id="Improve-knowledge-Sc" font-family="ArialMT, Arial" font-size="10.1385894" font-weight="normal" line-spacing="13.0353292" letter-spacing="0.50692943" fill="#6B757C">
+                                        <tspan x="17.3804389" y="44.4850628">Improve knowledge Schedule flu vaccination </tspan>
+                                        <tspan x="17.3804389" y="57.520392">Assess health beliefs</tspan>
+                                    </text>
+                                    <text id="Drafted-On--10:54-PM" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="13.0353292" letter-spacing="0.434510997" fill="#6B757C">
+                                        <tspan x="17.3804389" y="72.452461">Drafted On- 10:54 PM IST, Fri Oct 26 2018</tspan>
+                                    </text>
+                                    <g id="Group-9" transform="translate(17.380439, 102.834264)">
+                                        <text id="members-targeted-in" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="13.0353292" letter-spacing="0.434510997">
+                                            <tspan x="43.4510973" y="8" fill="#6D757D">members targeted in </tspan>
+                                            <tspan x="134.252859" y="8" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#333333">APT Reminder list</tspan>
+                                        </text>
+                                        <text id="36,200" font-family="Roboto-Bold, Roboto" font-size="8.69021946" font-weight="bold" letter-spacing="0.337952925" fill="#333C44">
+                                            <tspan x="10.8627743" y="9.72418496">36,200</tspan>
+                                        </text>
+                                        <path d="M7.238099,10.3352 C7.238099,10.5776138 7.02772526,10.7753391 6.76655653,10.7753391 C6.5053878,10.7753391 6.29501405,10.5776138 6.29501405,10.3352 L6.29501405,9.59563323 C6.29501405,9.02114405 5.80079435,8.55663867 5.19280302,8.55663867 L2.04529599,8.55663867 C1.43730465,8.55663867 0.943084952,9.02114405 0.943084952,9.59563323 L0.943084952,10.3352 C0.943084952,10.5776138 0.732711203,10.7753391 0.471542476,10.7753391 C0.210373749,10.7753391 -2.77521339e-15,10.5776138 -2.77521339e-15,10.3352 L-2.77521339e-15,9.59563323 C-2.77521339e-15,8.53631651 0.914967197,7.67636053 2.04529599,7.67636053 L5.19280302,7.67636053 C6.32313181,7.67636053 7.238099,8.53631651 7.238099,9.59563323 L7.238099,10.3352 Z M0.434510973,9.99375238 L6.80733858,9.99375238 C7.04731236,9.99375238 7.24184955,10.1882896 7.24184955,10.4282634 C7.24184955,10.6682371 7.04731236,10.8627743 6.80733858,10.8627743 L0.434510973,10.8627743 C0.194537189,10.8627743 -3.18991429e-15,10.6682371 -3.2193026e-15,10.4282634 C-3.24869091e-15,10.1882896 0.194537189,9.99375238 0.434510973,9.99375238 Z M3.6190495,7.45947018 C2.48872071,7.45947018 1.57375351,6.5995142 1.57375351,5.54019748 C1.57375351,4.48088076 2.48872071,3.62092478 3.6190495,3.62092478 C4.74937829,3.62092478 5.66434549,4.48088076 5.66434549,5.54019748 C5.66434549,6.5995142 4.74937829,7.45947018 3.6190495,7.45947018 Z M3.6190495,6.57919203 C4.22704084,6.57919203 4.72126054,6.11468665 4.72126054,5.54019748 C4.72126054,4.9657083 4.22704084,4.50120292 3.6190495,4.50120292 C3.01105816,4.50120292 2.51683846,4.9657083 2.51683846,5.54019748 C2.51683846,6.11468665 3.01105816,6.57919203 3.6190495,6.57919203 Z" id="user-icon-program-list" fill="#333333" fill-rule="nonzero"></path>
+                                    </g>
+                                    <line x1="-4.29443065e-08" y1="92.6956638" x2="305.606051" y2="93.0577668" id="Path-3" stroke="#979797" stroke-width="0.724184955" opacity="0.200000003"></line>
+                                </g>
+                                <g id="Group-11" transform="translate(659.008309, 360.987854)">
+                                    <g id="Rectangle-2">
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                    </g>
+                                    <g id="Group-5" transform="translate(0.000000, 127.456552)">
+                                        <path d="M305.968144,0.362092478 L0.362092478,0.362092478 L0.362092478,61.9178137 L305.968144,61.9178137 L305.968144,0.362092478 Z" id="Rectangle" stroke="#E9F3F9" stroke-width="0.724184955" fill="#F7FCFF"></path>
+                                        <text id="Messages-Sent" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="20.2771787" y="42.7608779">Messages Sent</tspan>
+                                        </text>
+                                        <text id="Delivery-Rate" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="103.558449" y="42.7608779">Delivery Rate</tspan>
+                                        </text>
+                                        <text id="Opt-outs" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="178.873684" y="42.7608779">Opt-outs</tspan>
+                                        </text>
+                                        <text id="Responses" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="233.187556" y="42.7608779">Responses</tspan>
+                                        </text>
+                                        <text id="35,211" font-family="Helvetica" font-size="11.5869593" font-weight="normal" letter-spacing="0.45060391" fill="#333333">
+                                            <tspan x="21.1856162" y="28.3804389">35,211</tspan>
+                                        </text>
+                                        <text id="99.23%" font-family="Helvetica" font-size="11.5869593" font-weight="normal" letter-spacing="0.45060391" fill="#333333">
+                                            <tspan x="102.834641" y="28.3804389">99.23%</tspan>
+                                        </text>
+                                        <text id="320" font-family="Helvetica" font-size="11.5869593" font-weight="normal" letter-spacing="0.45060391" fill="#333333">
+                                            <tspan x="180.118566" y="28.3804389">320</tspan>
+                                        </text>
+                                        <text id="7,320" font-family="Helvetica" font-size="11.5869593" font-weight="normal" letter-spacing="0.45060391" fill="#333333">
+                                            <tspan x="233.857364" y="28.3804389">7,320</tspan>
+                                        </text>
+                                    </g>
+                                    <text id="Healthy-Tips-–-Stres" font-family="Roboto-Bold, Roboto" font-size="11.5869593" font-weight="bold" letter-spacing="0.45060391" fill="#333333">
+                                        <tspan x="17.3804389" y="29.3804389">Healthy Tips – Stress</tspan>
+                                    </text>
+                                    <text id="Improve-knowledge-Sc" font-family="ArialMT, Arial" font-size="10.1385894" font-weight="normal" line-spacing="13.0353292" letter-spacing="0.50692943" fill="#6B757C">
+                                        <tspan x="17.3804389" y="44.4850628">Improve knowledge Schedule flu vaccination </tspan>
+                                        <tspan x="17.3804389" y="57.520392">Assess health beliefs</tspan>
+                                    </text>
+                                    <text id="Drafted-On--10:54-PM" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="13.0353292" letter-spacing="0.434510997" fill="#6B757C">
+                                        <tspan x="17.3804389" y="72.452461">Drafted On- 10:54 PM IST, Fri Oct 26 2018</tspan>
+                                    </text>
+                                    <g id="Group-9" transform="translate(17.380439, 102.834264)">
+                                        <text id="members-targeted-in" opacity="0.600000024" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="13.0353292" letter-spacing="0.434510997">
+                                            <tspan x="43.4510973" y="8" fill="#6D757D">members targeted in </tspan>
+                                            <tspan x="134.252859" y="8" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#333333">Healthy Tips Stress list</tspan>
+                                        </text>
+                                        <text id="36,200" font-family="Roboto-Bold, Roboto" font-size="8.69021946" font-weight="bold" letter-spacing="0.337952925" fill="#333C44">
+                                            <tspan x="10.8627743" y="9.72418496">36,200</tspan>
+                                        </text>
+                                        <path d="M7.238099,10.3352 C7.238099,10.5776138 7.02772526,10.7753391 6.76655653,10.7753391 C6.5053878,10.7753391 6.29501405,10.5776138 6.29501405,10.3352 L6.29501405,9.59563323 C6.29501405,9.02114405 5.80079435,8.55663867 5.19280302,8.55663867 L2.04529599,8.55663867 C1.43730465,8.55663867 0.943084952,9.02114405 0.943084952,9.59563323 L0.943084952,10.3352 C0.943084952,10.5776138 0.732711203,10.7753391 0.471542476,10.7753391 C0.210373749,10.7753391 -2.77521339e-15,10.5776138 -2.77521339e-15,10.3352 L-2.77521339e-15,9.59563323 C-2.77521339e-15,8.53631651 0.914967197,7.67636053 2.04529599,7.67636053 L5.19280302,7.67636053 C6.32313181,7.67636053 7.238099,8.53631651 7.238099,9.59563323 L7.238099,10.3352 Z M0.434510973,9.99375238 L6.80733858,9.99375238 C7.04731236,9.99375238 7.24184955,10.1882896 7.24184955,10.4282634 C7.24184955,10.6682371 7.04731236,10.8627743 6.80733858,10.8627743 L0.434510973,10.8627743 C0.194537189,10.8627743 -3.18991429e-15,10.6682371 -3.2193026e-15,10.4282634 C-3.24869091e-15,10.1882896 0.194537189,9.99375238 0.434510973,9.99375238 Z M3.6190495,7.45947018 C2.48872071,7.45947018 1.57375351,6.5995142 1.57375351,5.54019748 C1.57375351,4.48088076 2.48872071,3.62092478 3.6190495,3.62092478 C4.74937829,3.62092478 5.66434549,4.48088076 5.66434549,5.54019748 C5.66434549,6.5995142 4.74937829,7.45947018 3.6190495,7.45947018 Z M3.6190495,6.57919203 C4.22704084,6.57919203 4.72126054,6.11468665 4.72126054,5.54019748 C4.72126054,4.9657083 4.22704084,4.50120292 3.6190495,4.50120292 C3.01105816,4.50120292 2.51683846,4.9657083 2.51683846,5.54019748 C2.51683846,6.11468665 3.01105816,6.57919203 3.6190495,6.57919203 Z" id="user-icon-program-list" fill="#333333" fill-rule="nonzero"></path>
+                                    </g>
+                                    <line x1="-4.29443065e-08" y1="92.6956638" x2="305.606051" y2="93.0577668" id="Path-3" stroke="#979797" stroke-width="0.724184955" opacity="0.200000003"></line>
+                                </g>
+                                <g id="Group-3" transform="translate(0.000000, 93.763605)">
+                                    <polygon id="Rectangle" stroke="#E8EBED" stroke-width="0.724184955" fill="#FFFFFF" points="0 0 989.236649 0 989.236649 222.324781 0 222.324781"></polygon>
+                                    <g id="Group-28" transform="translate(23.173919, 13.035329)">
+                                        <g id="Group-12">
+                                            <text id="Waiting-for-Approval" font-family="Roboto-Bold, Roboto" font-size="11.5869593" font-weight="bold" letter-spacing="0.45060391" fill="#333333">
+                                                <tspan x="0" y="12">Waiting for Approval</tspan>
+                                            </text>
+                                            <circle id="Oval" fill="#E61515" cx="128.180737" cy="8.69021946" r="6.5176646"></circle>
+                                            <text id="2" font-family="Arial-BoldMT, Arial" font-size="8.69021946" font-weight="bold" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#FFFFFF">
+                                                <tspan x="125.909031" y="10.8967398">2</tspan>
+                                            </text>
+                                            <g id="Group-10" transform="translate(0.000000, 26.794843)">
+                                                <g id="Rectangle">
+                                                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                                    <path stroke="#E7AFAF" stroke-width="0.724184955" d="M943.250904,-0.362092478 L-0.362092478,-0.362092478 L-0.362092478,74.2289579 L943.250904,74.2289579 L943.250904,-0.362092478 Z" fill="#FFF3F3" fill-rule="evenodd"></path>
+                                                </g>
+                                                <polygon id="Rectangle" fill="#FFFFFF" points="262.154954 0 942.888812 0 942.888812 73.8668654 262.154954 73.8668654"></polygon>
+                                                <text id="View" font-family="Roboto-Medium, Roboto" font-size="8.69021946" font-weight="400" letter-spacing="0.217255498" fill="#3FA8D7">
+                                                    <tspan x="23.1739186" y="56.0720221">VIEW </tspan>
+                                                </text>
+                                                <text id="Flu-Shot-Barriers" font-family="Roboto-Bold, Roboto" font-size="11.5869593" font-weight="bold" letter-spacing="0.45060391" fill="#333333">
+                                                    <tspan x="23.1739186" y="23.5869593">Flu Shot Barriers</tspan>
+                                                </text>
+                                                <text id="Approve-only-launch" font-family="ArialMT, Arial" font-size="10.1385894" font-weight="normal" line-spacing="13.0353292" letter-spacing="0.50692943" fill="#6B757C">
+                                                    <tspan x="23.1739186" y="37.2432133">Approve-only launch mode</tspan>
+                                                </text>
+                                                <g id="Group-2" transform="translate(315.020456, 13.759514)">
+                                                    <text id="Launch-3-01-2019,-2:" font-family="Arial-BoldMT, Arial" font-size="8.69021946" font-weight="bold" line-spacing="11.5869593" letter-spacing="0.434510997">
+                                                        <tspan x="24.8873514" y="31.8981035" fill="#333333">Launch</tspan>
+                                                        <tspan x="58.3939184" y="31.8981035" font-family="ArialMT, Arial" font-weight="normal" fill="#333333"></tspan>
+                                                        <tspan x="0.748654284" y="43.4850628" font-family="ArialMT, Arial" font-weight="normal" fill="#6B757C">3-01-2019, 2:30PM</tspan>
+                                                    </text>
+                                                    <circle id="Oval-2" fill="#29BE56" cx="42.0027274" cy="13.0353292" r="5.79347964"></circle>
+                                                    <line x1="37.6576177" y1="13.0353292" x2="504.032729" y2="13.0353292" id="Path-2" stroke="#979797" stroke-width="0.724184955" opacity="0.200000003"></line>
+                                                    <path d="M310.675346,0 L376.576177,0 C378.176002,-2.93883127e-16 379.472917,1.29691459 379.472917,2.89673982 L379.472917,23.8981035 C379.472917,25.4979288 378.176002,26.7948433 376.576177,26.7948433 L310.675346,26.7948433 C309.075521,26.7948433 307.778606,25.4979288 307.778606,23.8981035 L307.778606,2.89673982 C307.778606,1.29691459 309.075521,2.93883127e-16 310.675346,0 Z" id="Rectangle-3" fill="#F88800"></path>
+                                                    <text id="Approve" font-family="Roboto-Bold, Roboto" font-size="10.1385894" font-weight="bold" line-spacing="11.5869593" letter-spacing="0.394278474" fill="#FFFFFF">
+                                                        <tspan x="319.365565" y="18.2418496">APPROVE</tspan>
+                                                    </text>
+                                                    <circle id="Oval-2" fill="#29BE56" cx="195.710984" cy="13.0353292" r="5.79347964"></circle>
+                                                    <text id="Sent-to-Testers-(25" font-family="Arial-BoldMT, Arial" font-size="8.69021946" font-weight="bold" line-spacing="11.5869593" letter-spacing="0.434510997">
+                                                        <tspan x="161.747134" y="31.8981035" fill="#333333">Sent to Testers</tspan>
+                                                        <tspan x="166.423643" y="43.4850628" font-family="ArialMT, Arial" font-weight="normal" fill="#6B757C">(25 members)</tspan>
+                                                    </text>
+                                                    <text id="Ready-for-production" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="11.5869593" letter-spacing="0.434510997" fill="#6B757C">
+                                                        <tspan x="298.944115" y="43.4850628">Ready for production</tspan>
+                                                    </text>
+                                                    <circle id="Oval-2" stroke="#979797" stroke-width="0.724184955" fill="#FFFFFF" cx="500.954943" cy="13.0353292" r="5.43138717"></circle>
+                                                    <text id="Send-to-target-audie" font-family="Arial-BoldMT, Arial" font-size="8.69021946" font-weight="bold" line-spacing="11.5869593" letter-spacing="0.434510997">
+                                                        <tspan x="447.247434" y="31.8981035" fill="#333333">Send to target audience</tspan>
+                                                        <tspan x="555.748729" y="31.8981035" font-family="ArialMT, Arial" font-weight="normal" fill="#333333"></tspan>
+                                                        <tspan x="423.180449" y="43.4850628" font-family="ArialMT, Arial" font-weight="normal" fill="#6B757C">(Current target of 34,503 subscriber)</tspan>
+                                                    </text>
+                                                </g>
+                                            </g>
+                                        </g>
+                                        <g id="Group-29-Copy" transform="translate(921.887448, 1.448370)" fill="#3FA8D7" font-family="Roboto-Medium, Roboto" font-size="8.69021946" font-weight="400" letter-spacing="0.217255498">
+                                            <text id="Hide">
+                                                <tspan x="0" y="9">HIDE</tspan>
+                                            </text>
+                                        </g>
+                                        <g id="Group-27" transform="translate(0.000000, 112.248668)">
+                                            <g id="Rectangle">
+                                                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                                                <path stroke="#E7AFAF" stroke-width="0.724184955" d="M943.250904,-0.362092478 L-0.362092478,-0.362092478 L-0.362092478,74.2289579 L943.250904,74.2289579 L943.250904,-0.362092478 Z" fill="#FFF3F3" fill-rule="evenodd"></path>
+                                            </g>
+                                            <polygon id="Rectangle" fill="#FFFFFF" points="261.430769 0 942.888812 0 942.888812 73.8668654 261.430769 73.8668654"></polygon>
+                                            <g id="Group-4" transform="translate(315.020456, 13.035329)">
+                                                <text id="Launch-3-01-2019,-2:" font-family="Arial-BoldMT, Arial" font-size="8.69021946" font-weight="bold" line-spacing="11.5869593" letter-spacing="0.434510997">
+                                                    <tspan x="24.8873514" y="31.8981035" fill="#333333">Launch</tspan>
+                                                    <tspan x="58.3939184" y="31.8981035" font-family="ArialMT, Arial" font-weight="normal" fill="#333333"></tspan>
+                                                    <tspan x="0.748654284" y="43.4850628" font-family="ArialMT, Arial" font-weight="normal" fill="#6B757C">3-01-2019, 2:30PM</tspan>
+                                                </text>
+                                                <circle id="Oval-2" fill="#29BE56" cx="42.0027274" cy="13.0353292" r="5.79347964"></circle>
+                                                <line x1="37.6576177" y1="13.0353292" x2="504.032729" y2="13.0353292" id="Path-2" stroke="#979797" stroke-width="0.724184955" opacity="0.200000003"></line>
+                                                <path d="M310.675346,0 L376.576177,0 C378.176002,-2.93883127e-16 379.472917,1.29691459 379.472917,2.89673982 L379.472917,23.8981035 C379.472917,25.4979288 378.176002,26.7948433 376.576177,26.7948433 L310.675346,26.7948433 C309.075521,26.7948433 307.778606,25.4979288 307.778606,23.8981035 L307.778606,2.89673982 C307.778606,1.29691459 309.075521,2.93883127e-16 310.675346,0 Z" id="Rectangle-3" fill="#F88800"></path>
+                                                <text id="Ready-for-production" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="11.5869593" letter-spacing="0.434510997" fill="#6B757C">
+                                                    <tspan x="298.944115" y="42.0366929">Ready for production</tspan>
+                                                </text>
+                                                <text id="Approve" font-family="Roboto-Bold, Roboto" font-size="10.1385894" font-weight="bold" line-spacing="11.5869593" letter-spacing="0.394278474" fill="#FFFFFF">
+                                                    <tspan x="319.365565" y="18.2418496">APPROVE</tspan>
+                                                </text>
+                                                <circle id="Oval-2" fill="#29BE56" cx="195.710984" cy="13.0353292" r="5.79347964"></circle>
+                                                <text id="Sent-to-Testers-(25" font-family="Arial-BoldMT, Arial" font-size="8.69021946" font-weight="bold" line-spacing="11.5869593" letter-spacing="0.434510997">
+                                                    <tspan x="161.747134" y="31.8981035" fill="#333333">Sent to Testers</tspan>
+                                                    <tspan x="166.423643" y="43.4850628" font-family="ArialMT, Arial" font-weight="normal" fill="#6B757C">(25 members)</tspan>
+                                                </text>
+                                                <circle id="Oval-2" stroke="#979797" stroke-width="0.724184955" fill="#FFFFFF" cx="500.954943" cy="13.0353292" r="5.43138717"></circle>
+                                                <text id="Send-to-target-audie" font-family="Arial-BoldMT, Arial" font-size="8.69021946" font-weight="bold" line-spacing="11.5869593" letter-spacing="0.434510997">
+                                                    <tspan x="447.066388" y="31.8981035" fill="#333333">Send to target audience</tspan>
+                                                    <tspan x="555.567683" y="31.8981035" font-family="ArialMT, Arial" font-weight="normal" fill="#333333"></tspan>
+                                                    <tspan x="422.999402" y="43.4850628" font-family="ArialMT, Arial" font-weight="normal" fill="#6B757C">(Current target of 34,503 subscriber)</tspan>
+                                                </text>
+                                            </g>
+                                            <text id="Dental-Checkup" font-family="Roboto-Bold, Roboto" font-size="11.5869593" font-weight="bold" letter-spacing="0.45060391" fill="#333333">
+                                                <tspan x="23.1739186" y="23.5869593">Dental Checkup</tspan>
+                                            </text>
+                                            <text id="Approve-only-launch" font-family="ArialMT, Arial" font-size="10.1385894" font-weight="normal" line-spacing="13.0353292" letter-spacing="0.50692943" fill="#6B757C">
+                                                <tspan x="23.1739186" y="37.2432133">Approve-only launch mode</tspan>
+                                            </text>
+                                            <text id="View" font-family="Roboto-Medium, Roboto" font-size="8.69021946" font-weight="400" letter-spacing="0.217255498" fill="#3FA8D7">
+                                                <tspan x="23.1739186" y="56.0720221">VIEW </tspan>
+                                            </text>
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="Group-8" transform="translate(0.000000, 60.451097)">
+                                    <g id="Group-6">
+                                        <g id="Rectangle">
+                                            <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                                            <use fill-opacity="0.42701049" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                                        </g>
+                                        <text id="Active" font-family="Arial-BoldMT, Arial" font-size="8.69021946" font-weight="bold" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#F88800">
+                                            <tspan x="23.1739186" y="19.5869593">Active</tspan>
+                                        </text>
+                                        <text id="Drafts" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="75.3152354" y="19.5869593">Drafts</tspan>
+                                        </text>
+                                        <text id="Completed" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="124.559812" y="19.5869593">Completed</tspan>
+                                        </text>
+                                        <text id="Template-Library" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="194.081568" y="19.5869593">Template Library </tspan>
+                                        </text>
+                                        <text id="Events" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                            <tspan x="291.846537" y="19.5869593">Events</tspan>
+                                        </text>
+                                        <line x1="23.1739186" y1="32.9504155" x2="52.1413168" y2="32.9504155" id="Line" stroke="#F88800" stroke-width="0.724184955" stroke-linecap="square"></line>
+                                    </g>
+                                </g>
+                                <g id="Group-7" transform="translate(831.364329, 335.641380)">
+                                    <text id="Launch-New-Program" font-family="Roboto-Bold, Roboto" font-size="10.1385894" font-weight="bold" line-spacing="11.5869593" letter-spacing="0.394278474" fill="#F88800">
+                                        <tspan x="8.33273431" y="11">LAUNCH NEW PROGRAM</tspan>
+                                    </text>
+                                    <path d="M6.54495555,5.09658564 C7.47414755,5.09658564 7.47414755,6.49037364 6.54495555,6.49037364 L4.31781878,6.49037364 L4.31781878,8.71751042 C4.31781878,9.64670242 2.92403078,9.64670242 2.92403078,8.71751042 L2.92403078,6.49037364 L0.696894001,6.49037364 C-0.232298,6.49037364 -0.232298,5.09658564 0.696894001,5.09658564 L2.92403078,5.09658564 L2.92403078,2.86944887 C2.92403078,1.94025687 4.31781878,1.94025687 4.31781878,2.86944887 L4.31781878,5.09658564 L6.54495555,5.09658564 Z" id="Path" fill="#F88800" fill-rule="nonzero"></path>
+                                </g>
+                                <g id="Pagination-1" transform="translate(32.673919, 609.376539)">
+                                    <path d="M43.4510973,2.8896273 C43.4510973,1.29373021 44.7439453,0 46.3407246,0 L69.5217557,0 L69.5217557,26.0706584 L46.3407246,26.0706584 C44.7448275,26.0706584 43.4510973,24.7778104 43.4510973,23.1810311 L43.4510973,2.8896273 Z" id="pgntn_bg_left_end" stroke="#E8EBED" stroke-width="0.724184955" fill="#FFFFFF"></path>
+                                    <path d="M94.1440442,0 L117.325075,0 C118.920972,0 120.214703,1.292848 120.214703,2.8896273 L120.214703,23.1810311 C120.214703,24.7769282 118.921855,26.0706584 117.325075,26.0706584 L94.1440442,26.0706584 L94.1440442,0 Z" id="pgntn_bg_right_end" stroke="#E8EBED" stroke-width="0.724184955" fill="#FFFFFF"></path>
+                                    <rect id="pgntn_bg_active" stroke="#E8EBED" stroke-width="0.724184955" fill="#F5F6F7" x="69.1596632" y="0.362092478" width="25.3464734" height="25.3464734"></rect>
+                                    <text id="1" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="10.1385894" font-weight="bold" fill="#9B9B9B">
+                                        <tspan x="79.0143721" y="16.5176646">1</tspan>
+                                    </text>
+                                    <rect id="pgntn_bg-copy" stroke="#E8EBED" stroke-width="0.724184955" fill="#FFFFFF" x="123.111442" y="0" width="39.8301725" height="26.0706584" rx="2.89673982"></rect>
+                                    <rect id="pgntn_bg-copy-2" stroke="#E8EBED" stroke-width="0.724184955" fill="#FFFFFF" x="0" y="0" width="39.8301725" height="26.0706584" rx="2.89673982"></rect>
+                                    <text id="Last" opacity="0.400000006" font-family="Roboto-Medium, Roboto" font-size="8.69021946" font-weight="400" letter-spacing="0.217255498" fill="#3FA8D7">
+                                        <tspan x="129.5436" y="16.2418496">LAST</tspan>
+                                    </text>
+                                    <text id="First" opacity="0.400000006" font-family="Roboto-Medium, Roboto" font-size="8.69021946" font-weight="400" letter-spacing="0.217255498" fill="#3FA8D7">
+                                        <tspan x="5.78033619" y="16.2418496">FIRST</tspan>
+                                    </text>
+                                    <path d="M110.148532,13.3410961 C110.148532,13.2107177 110.094846,13.0880086 110.002815,12.9959767 L106.566959,9.56012149 C106.474927,9.46808966 106.352218,9.41440442 106.22184,9.41440442 C105.953414,9.41440442 105.731003,9.63681469 105.731003,9.90524088 L105.731003,16.7769514 C105.731003,17.0453775 105.953414,17.2677878 106.22184,17.2677878 C106.352218,17.2677878 106.474927,17.2141026 106.566959,17.1220707 L110.002815,13.6862155 C110.094846,13.5941837 110.148532,13.4714746 110.148532,13.3410961 L110.148532,13.3410961 Z" id="&gt;" fill="#0075AC" opacity="0.400000006"></path>
+                                    <path d="M58.7313998,12.6169112 C58.7313998,12.4865327 58.6777146,12.3638236 58.5856827,12.2717918 L55.1498275,8.83593654 C55.0577957,8.7439047 54.9350865,8.69021946 54.8047081,8.69021946 C54.5362819,8.69021946 54.3138717,8.91262974 54.3138717,9.18105593 L54.3138717,16.0527664 C54.3138717,16.3211926 54.5362819,16.5436029 54.8047081,16.5436029 C54.9350865,16.5436029 55.0577957,16.4899176 55.1498275,16.3978858 L58.5856827,12.9620305 C58.6777146,12.8699987 58.7313998,12.7472896 58.7313998,12.6169112 L58.7313998,12.6169112 Z" id="&lt;" fill="#0075AC" opacity="0.400000006" transform="translate(56.768051, 13.107748) rotate(-180.000000) translate(-56.768051, -13.107748) "></path>
+                                </g>
+                                <g id="Group" transform="translate(0.000000, 0.000000)">
+                                    <path d="M988.874557,0.813189798 L0.362092478,0.813189798 L0.362092478,60.0890048 L988.874557,60.0890048 L988.874557,0.813189798 Z" id="Rectangle" stroke="#EFF1F3" stroke-width="0.724184955" fill="#FFFFFF"></path>
+                                    <image id="mpulse-mobile-01" x="23.1739186" y="31.4836991" width="22.4497336" height="14.4836991" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAACWCAYAAADHVoQ9AAAABGdBTUEAALGOfPtRkwAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAA4KADAAQAAAABAAAAlgAAAADUyzFbAAAWyklEQVR4Ae0dbXLUuFKSZ/4spIq9wewJCCcgnIBQxULxC3ICQpb3m83vR0I4QeAXFXarCCcgewLCCTbvBC+v2PAnGeup26OJx+NPWbJbHrkqsce2pO6W2t3qD4mzcAQK9EWB7cNbLPppg3G2zuLoNuPyFoDCBd+QMTtnTJ4iaDJWZ/6NxdMTdvDkDO8N5B8fCB4BDV8osP1xnQn5lCkm41ysNwVbAjPG/D2L/3nHDrYUk/p9BAb0u//8gB4knbj5TEm05zwSExtAo4Tk07fs9ePfbdTXVx2BAfui/Cq0u/1hwsT4FY/YM1foyml8xsR0i71+cuKqDZf1BgZ0Sd1VrbsDxsuSVsrpro/SMDBgtifDb3MKoKq59salxCsDTk7ZO7b/cKvsHWrPAgNS6xFf4dn5Y5tx/ooLdqtPFHxjwsCAfY6WIbT98sMGY9EbE4umK/R9YsLAgK5GwdDrRXXzJ2VgibYpourLnDAwIMXRQx0mkHpxdGjLpeAKXXl5+Qt1x71whXyod6AUeHn0O+fjL9SZD6mvXCDUe2FEHcAAHxEKQATLiB1SmutVUQassZKxrar3+nweJGCf1Pel7Z2Pz1gkvvjEfHPSopFo/ovcRZCA5LqEEEA9+/WsUCIeQbzpiZW6HFQSGNABUQdR5VzlVJkKPh8i7tUvWUW6wIBVFFrF578dbTIm1HyvX6f6KpA+zAFXoZeb4Lhz9IaL6FPfES1NQPb53SABfe49m7DDfC+6qRiPb9isNtRVToHAgOX0WY2nmCTLgPkmq4EwHSyDCkqnL/qBRLsYLCXK9oNEWavxSdnTvp8FCdh3D/TZPsz3IrHdJwjO275iZ87baNFAiAVtQTxvi67IfA+Xrdh7+DPlfgoqKOXecQEb+vdufFkNY8tsVTUXdLRUZ1BBLRHSi2qA+TCkbEX8ezz+i3q/BAlIvYdswaeNLT1nrNtCp149tA0wgEOYA9brSb/fUsynjC2HfiPRDHof5n+AUZCAzfrVv7fVWi2rxnzYSZId+9BZYQ7oQy+Zwrjzp8pad7cmpylYnZTj08+dtNOykaCCtiQg2eIrzHy+qJ8wdoIKSpaDWgC2wsyHVPNE/QRYAwO2GOcki6468+GovnxPsm9ygAoqaA5RvL0VmI/hXhH7j37xpQ+DBPSlp6rgDMyXUEhIb6QfABwYsGpg+/A8MN91L139OLj+Qf8qMCD9PiqHMDDfnD64JL1nm3YGBpx3n4cXgfkWO034Y3zRgAcjjKaEb+fAfAs9JmN5wvZ+vbdw04MfQQJ60ElLIAbmWyIJk34ZXzQCQQJqSvhyDsy31FO+uR7SCAQJmKYG9evAfEU9tFv0gPr9IAGp95CGD3clisjv9qPB7erss/QDGoVsiK5GSpt2IJ+Pi8B8+TT0VvoBOkEC5ncqnbsrmExbl/i+Sz/AM8wB6/Z2H+8F5quiutfSD5ALErCqi/t6HpivlPJDkH6AYJCApd3c00NYvYyLNz217kuz3ks/IHRgQGrDTS8dSGz1MoizlPLynvz3Q45/cC3j0z7IN5N+7/po23abQQW1TdE29RFkPsV4xyy+fMEOnpwtoYY76N74qhZ9miw9c3gDPgTs9ZMTh010VnVgwM5IXdEQMebDdVVk/ILtP3pXCnnHc1VfYz6LaBhU0CLKdHkfJMmIHVLZFBNVvGl8r5L5gEaKQZFZu6IXvxrE3E+TKzCgpkRfZ2Q+tVcDF+t9gZBuF+d18cUddvCo/vxOspN0Ha6uMd9vIKqnplFgQE2JPs4Ume/q4h5rmtQqpt86IV98OSjpBzQLDNjJyCloRKwdkpJ8JswHqMX8rABDa7elnO7mGoKstdBPRYEB+6E7Y0lmw2ZfzafbRbXTlPmgIjE9S9dn+xrnmJ6t9VKXBoEB61LK5nuE0opaM59NuhTVBdbYpmpxUV3E7odsiK47BNOKaOzXgJJlajDn65Bm+IGocoV0CI/tpgID2qZoWX3gMyOSVpQwn3I1WJEsYqMM7XbPpi/aladdOjBgV/3TscO6Gq3pFjt4XN/VUF2h9TfQ7bA/jIiXIuKEOWARZWze/+1ok9IefXIqX7C9x8fWUIyj29bqmlWEEjr+PmjpB6gGBrQ9crL1QYgZiw6zt/v6nUiVXw/sth8rHC0fUiq3w9a55VrJVRdiQV12CbX4TsheeP3ojlWUVTABH6/912adaHixDadNAC3WFeaAFom5UNX2hwmLxBcy8Z0xO2dg8bR9iBubtqtkbNiGlzS9AgOmqWHrGkPMok+cs1u2qmxdD7984EalE3dbw5aqYBUMLyl0w6poaWJYuSYW3wk4odHFhTUR1E+Le9CTM7wkWoxanYCtMzA0cZl8UDERWfyHwXL4TYLWcwZYkIA5RGl1a0QnswHwUBLlmO3bNrrMKCRuPptd2TlRiHiBDyjgJeTThTjdCFDUJpNoAxGOOJMvP56ymL2tlbqFhRb/6RoX74ZfZhQgFGIGCGBeH6YWObIm7nz821Y2fO+JtiDtxPiVqURH+KdXyreas3JAyWgKbogS4jR6RIz5EPaYOZr3qdqTwIJJIxqVvQyDt48DGA/6bjxWHxPzEEEu+AaLxl+Z8vk2QSMwYBNqFb27c/SmTecVVdvmPs77Ws5PKtp/VfG89uPeUo1UXC4wja2+A4s3F9En+DjVRT6ooHUpVfQeuRAzPe97+KAI5Nb3LeLcy/qe4J+FJUAcrkIg4+mDOtFGQQK2GY0WB2IbMNJlk3nfd3fqHBgpGLMm/VQuoTtY04TR15CNMhZfXTJf0pSKfgL1tuIIVtAKAhU+Jsh8CKvLeR80MPppWw3eCbbV8p+cTg+YC/dIHlzw4YhuKt+smqt1cIA6KuUYPlSlH5ggAU06A1QYgitXJ3OpBospNcUdBrGMnjctlvd+4vP7sZv3zPq9lx+UgWTtbzSUWK+8uEKcW1ZIwcCAxfTLf0IsvlMDiWbw149/17+dnEH6WVuxG9KhHLlH0sjv/KEk9ri/kEAxKrWKBhU03VlV12SZD+I8HZvxtfTjVUSqfp4EB1hMh8prEuAVa/1bpzm7r8A7yAMR7gUGLKJM9j50KFrOCMV3zmEEadLMATwvWvcCBrMF6TcLNyudF9UFqfA97CuISFIhZH0fUk7KQAgMWEYd/WzeoTQWz9VgwTkJXnYtTT5MbPnKmOtwM62lEAmEh0ghme6wzHWYA2YIsvSTNPPFZ6yLrHEVorVEF4MbOE91ucASRKEQSgGrQ6IgAauolJiu+1dl8uB07XKANpUFUalyz/Kab3IPVU+X81RwCwlx2AQmCu8GCVjWCxAjCDF+BA/nLgeNsxxZkX4Ml5hwNE8F53rkH/MBiYME1AMte6YYXD2DMVmywbHLAdpC6df+A5Sono5SoqCfLEjobPfb+o24l1QWGDCPOJSZD5eWUHGGnRzRm7bNOFU9CffTnG6Sn8+vcy4CA2aJAo7bFmkp2eqs/3apyqWBhTmVjWBlF/CCYQzm5oJtpEEmeV2xc1RgwHSvYXwnb/3VT1dp89ppdvsyoK3nfk5Uz7lVmtM0jGXpKNlp9lb6dzDCaGpQDa6ewdeJA3uRFhP90+TsRPWcMx89f2whjaZqKciSIzAgEIc48yX911HsZNJYa+ln3eoJQc3E1ttJSFX8H1PDKiKUggoKy8YT9x91Eu2ixxHu3iQm+qfJ2brqSSy6pT5NRKn0g3pWmwGhYxlt/9FsYaVu9kgAFQ/SjdoGXNt0uGvmsxCHWp9xbL0p/6qqaXVVUF86FjLGu0jbgZFiId3I6vouvvRREZfBuqEVR9tvXUX1RB970rFJxvjj7qQfJq2aZ3tY3dPBkz4qGuFohNp7+HPRc31/9SSgJx2b7AzbEfPBaLAg/dhV+fILetBVnsEoBuu2eKl2zrCT7KQST/XCajGgJ8yHHWdrMNcZBXruV+fdgnesxaZ6YZEuIMLC7er5H7y+OkYYj5ivgzU9F4ZKstBSW9XTQmzqYJhPkbfG/A86YTUkIHzhBYPQpVuLI4/eL+sm/CoULUg/K6onhgDStkhXkVI/x/lfzUWRhy8BYYAlDtyJJhDVs5PokSpkcZlB8w9Tonq23Gveh6DqKjqmn9ec/0GRYUvAa+ZT/j4PDlyuwVHOXB76LaWflbSooTEf0rne/A9eHa4E9Iz5kkDrR++w/7r611L6tVI9oX/E2qHKPNnsCt3O2qk5/wN4hsmAvjEf5PjFDpeTLxp5MX/KoqKH5ffRR3lgqHrO+4fAqmXlaJo9rTn/g8qHp4LOO9ejiHln20eXjJ/E4jgpeaPwURIeZ7iqNVijPQuqLiREzoOqDPhskWFJQA+Zr9P9ERZ73zzjgcsXRuFx2hVEZMnARXJY+sXjyvjPdEvDkYA+Mh/sNb7fYbSL7vlW0k9teb1nsA6patO3JQM1uRqdKxJws3UNgwF9zBWDeV+X0S7pnudq7md6xJfNY1NnPj6bflhI0YI9+OTl95/xDPSkcFQk4GZB9F8F9VWtwbVSHO5klO1p/bvFSmeYl1iRYKqbmZ8tuxkQhvhyN7MU/zHbObrLWLQ9b7eHi8QB38yN5DcDaubzIMIlPR4Sl4OjZfrSDeVdx+PnppZPBgO/7jGfEtixdKLhB1KzivYTFPHnvhlQbRRwWpc8+j1/VVBfma8vlwP0uFLVTf1uaN2rK/2gb8QNa7vQoqEqvrjDXj850QOX5LmhAQZw8FMCesp8OGj6cDno0dpmjwfJlISpcYCxRW1eamO+hyod0KtI6qXBiUfrxpI9XU+b64YGGGjKPwnosTUN4yb7+oqDSshbRJ3EV8eVY3PnSO3HJ9Ry/uaxpboNlLjT77/UlnoivqXL9nae8rOmbfslARPz+WFTJCm8jwNqz0LKjiky4qbavMSMMTDms0z9BObGhXLbL2MP6BmtBCDF3dZr2ZjSVpdrEAGji/jDgGjKprtoriZo3rmXLIclQKTa2910BRJZrH7C/utybCXVC+nEwNBi4GdkfH0J5Q5voJHIoD0/VFA0ZfvJfEmfwMJKzczTBn1ZXASWXlQbRRa/UPHkiuern7iEoZ3911HKTuN7Rk5+ZRMwle4VmNd/zJurn1A5bQlo2ZRdn5r23pypU/kD2F4z5TXJyNzxDjVnVSsMfIg+Wdk7QlWPbpn4wnz1NwpbyEFUk8FBlwG1auNx3CDO+/oINUsPhBauB6gGcdD14Qfxp23Oo1f6VtszLr+x39Ynyu+2haN1ecH+Z1IHTQZE1UZ1sumUxYQSlssk875/Hliutnl1I/GseaHrErBBqQTLM5O3GY/UjklmhpzrGpOrRi6GbOHsb842src6/23gggAYaTEg+PdGTG246FEqUVFP9+nvS8PUIudPV2N799lkvndxzyijQgOlzxTmfwALj881SE3ONBhwrtoIa6pNEyLYfjdRq56c2K63cX3JvheTxuUcFsBYzv1HW9aaGMlNa3W1qeiKnZkUF0yZ900KWisD6g2GLdmbV1iDzaCiZIC1ndMYNJxXpK3xJa9Ow3ugcipTvXIxPLTHfAAL+P8oHIZW7hET8in77Y/7DDbUMKzECH80soxewRzDqDzBQqhaxRcvSICmtArTuE/b8CcZ9OzBkjXVQkO+j58Ri/l7HvE3ko2/spdHb9nVjwMrunkRcVHisec4z+NFL/l3PzG6qL3bu9pIpYpEKvKl6pUunqMVNb5wQxf4iBM4sO8N4VAMqGL8ovEseDZ6JaO15yq36h2L47fWJCIYV0DSghXNMBzKEL/uiqHRpUdnexZToHfPZmSjkLIsHmW/KQRgI3zN05A0WiNgMvny46m2PCYMEm2zKNqG+0rJVmFI8UntoFioGRy1kbJkyui+KrvRKgpDQ0r4nMxtCBhdNI3AMtijJRklAqxxuv/4nQbJzZnfdlNvd7UmVlClhqpUjvVss7NOVPeVgeRff6pdh5W3X/Jz5Z09VXkUi47HOFJ+InlLfXUzYUF+RLtlca/7e2bVe1f3/U7eQ+nXSUtLjbic7y01xuWkbym/BFPDGzMGTNTQqrLX87ZoY+ldXF9yQJO6JQSXb2AIlW2r3nIzBnf4pkGh1kWczvdyoPPdAAMoJeIJ1FDDWLYcuqzErcTi2cNiulXUBfWzTeB1Vf0Fz1ET2PvVjnO9oI0h3r7WD2P2dogIusAJ1awrS5EctgHsQf1M5sCW/Xu26eK0PvNUqBQDXhy3Mac6xY9Q5UijGHxaW+eEwEqB0p36CbSQl/Edtt/xnhaALREXBIDSxrJ/zYAwoKRadDUchRRA5oOctWx6TmGJjh9g5kOLvL8G4KIKPr28Q5YWDXCx8ipY/g2OawaEwk2WnTNozOci5JkPiCtGnRhf0NiCKjghv2ffgwvcbgbHIgOCMabB1koG7flbBPfu62Eh3UYUc58XF4wtBR0imVFM6iIDQt38aregiZW9nRgZepjnNKS469hPUsYWw+yDhiRt8LrZ3HuZAdWyeUEKXtPdF+ZzbZQgR4cuEweuh0PhFbp+MHG58JXcB8sMCK8FKaiCfXT6DH3Jhz0LcZEOjl4tnQ7wcVqlWpCYQW5rgyOfAVdcCs4NLn2Y1xt03uKr9uMi53QgavWlFjyC7gi1+SiD5IOyA1wo8KeYtTgjHqXgeKOsniE+oz7oCmkuYtXp+d/TwjIlDxI3A1M5ooQNT7E4y4thLkHL+SMM1xyzr3Lnz2Mmpt+Ua+9UJaUkDKmSh9Phc1KMj4sZEKSgqsT1xN45RRo0kAw6yOnzz7xuM/sB6UA10mehP+Vfar60uXCLyI+Eb6LNhYywnFDp8k+m2owRJQIRpFyC4bVvy9AJnEdPf5hPQe+9yyz+XM6AIAlgI8mBH977tkZsYqOLvGI+QFipx74KCIQ7vjguZ0BAUi2aih0D1wM8SPm2eqSvd8ynaeVr+CQGdmydVzMgIHql9uKGjSUHdCjGO+stkJgYHbFvvZjz5RAOlk7x7MDpzszCXo8BURVVSwwM5MBEWthxlbKFryNaI/NhgDnV7I4KQqAaKk8q3iLzOKG3WoFwdtRjQHhZcSwusqNLengG5JNFcx8STifqjrDXzEfY1VCHHD4FjmQW76rPgEAItdEISo86RCH2Ds5xIH2m9UYgxBADcAziIhN6EE6takJmTwJH0N6gYE2j1owBoWT8fcsno8xc6r1+pFRO//x76c4qvFZ4wZy28HnmwbXBxXPJl8ZLLSyNEj19j9B1YuxbDmtszoCQuKsm7D4wIU52hyr1soNLyPfZW3m/cRqBHyNP53x5SME9wnaKIuYDsDn8Mzog6FSsHVKMlEFpwOULo91WjYhBoBD0R7T2d9HyCEgToXbqzahABCC3C8LO0Ruu1rS1W6l5bWXMB7WaM6CGiRDCqIJA4MAQ53ma3mVnCAJW2wwsxBtOYZmR+HMv67aUweryGW5pzp65bKKq7kQdVh+8vfL97tszIECitsFSi/ceFn19q4Bt+xyR5VP3+1q0BTSU744CPQqGZI5dL5DdDgMCWROVVIn/7r48qFYxtstUSA/dVcq6G3OhpQwFehAMOMeOf+zWHY/2GFDjDnlO0u22Yxi7KS7fD34+o2kazuYU6EgwmM6x7TOgJhXMR4R4rmaZm21V02Rux05wLhOknaZwODehAAiGePzcttFwroUZJm+7Y8A0cQB5JpRkhN1Ms5u3pF9MrlGHjsUpY/IbE1enQdIt0yjcMaQApG6NxDM1Du+3yaFMxqhaTd6Q8TT03TCgbi19RkKwyfzWVXQeYjPn1AgXXVAAxqCINtTelRMUDmp3ryKmRJ+y5GcoFGBPTUtBHf8HpM8Hj4e6vLkAAAAASUVORK5CYII="></image>
+                                    <text id="Dashboard" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                        <tspan x="211.462007" y="41.656254">Dashboard</tspan>
+                                    </text>
+                                    <text id="Programs" font-family="Arial-BoldMT, Arial" font-size="8.69021946" font-weight="bold" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#F88800">
+                                        <tspan x="281.707948" y="41.656254">Programs</tspan>
+                                    </text>
+                                    <text id="Audience" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                        <tspan x="349.057148" y="41.656254">Audience</tspan>
+                                    </text>
+                                    <text id="Insights" font-family="ArialMT, Arial" font-size="8.69021946" font-weight="normal" line-spacing="10.1385894" letter-spacing="0.434510997" fill="#333333">
+                                        <tspan x="412.06124" y="41.656254">Insights</tspan>
+                                    </text>
+                                    <text id="Program-Manager" font-family="ProximaNovaCond-Semibold, Proxima Nova Condensed" font-size="13.0353292" font-style="condensed" font-weight="500" line-spacing="10.1385894" fill="#000000">
+                                        <tspan x="53.5896867" y="47.3804389">Program Manager</tspan>
+                                    </text>
+                                    <text id="Herman-Bowen" font-family="ArialMT, Arial" font-size="10.1385894" font-weight="normal" letter-spacing="0.0921689719" fill="#443D3D">
+                                        <tspan x="869.319048" y="36.1385894">Herman Bowen</tspan>
+                                    </text>
+                                    <text id="Plan-Health-(1015)" font-family="Arial-BoldMT, Arial" font-size="10.1385894" font-weight="bold" letter-spacing="0.0921689719" fill="#443D3D">
+                                        <tspan x="869.319048" y="47.7255487">Plan Health (1015)</tspan>
+                                    </text>
+                                    <path d="M963.955318,45.9353637 L963.948365,45.9283685 L962.320515,44.196048 C962.279043,44.1519145 962.256117,44.0947948 962.256117,44.0356004 C962.256117,43.9026339 962.369436,43.7948433 962.509221,43.7948433 L965.809624,43.7948433 C965.871583,43.7948433 965.931389,43.8164612 965.977711,43.8556009 C966.08222,43.9439045 966.091686,44.0960772 965.998854,44.1954882 L965.189942,45.0617284 C964.785485,45.4948485 964.785485,45.4948485 964.373701,45.9353637 C964.318114,45.9882394 964.250825,46.0166868 964.169933,46.0166868 C964.090605,46.0166868 964.012359,45.9896216 963.955318,45.9353637 Z" id="Path" fill="#000000" fill-rule="nonzero" opacity="0.600000024"></path>
+                                    <path d="M840.3759,32.2078841 C840.634958,32.2078841 840.857957,32.3908405 840.90857,32.6449053 L840.986699,33.0371392 L841.225867,34.2023218 C841.545248,34.3466184 841.852073,34.5243419 842.146644,34.7331933 L843.34446,34.3328067 L843.735518,34.2115852 C843.976967,34.13674 844.238131,34.238362 844.365493,34.4567159 L844.566241,34.8009469 L845.570352,36.4812957 L845.774028,36.830486 C845.905341,37.0556145 845.858231,37.3422812 845.661776,37.5135453 L845.358985,37.777458 L844.467789,38.535626 C844.503869,38.7621759 844.517319,38.902978 844.517319,39.0834868 C844.517319,39.2639981 844.503868,39.4048016 844.467787,39.6313571 L845.363956,40.3937971 L845.661776,40.6534282 C845.858231,40.8246923 845.905341,41.1113591 845.774028,41.3364876 L845.567424,41.6906371 L844.569477,43.3605392 L844.365801,43.7106341 C844.238354,43.9296993 843.976342,44.0315028 843.734424,43.9559527 L843.333043,43.8304894 L842.146619,43.4337977 C841.852055,43.642642 841.545238,43.8203599 841.225865,43.9646527 L840.987325,45.1267414 L840.90857,45.5220682 C840.857957,45.7761331 840.634958,45.9590895 840.3759,45.9590895 L837.559736,45.9590895 C837.300228,45.9590895 837.076974,45.7755116 837.026833,45.5208943 L836.949907,45.1301538 L836.709963,43.9647395 C836.390514,43.8204278 836.083626,43.6426757 835.788997,43.4337835 L834.59227,43.8338266 L834.201212,43.9559527 C833.958918,44.03162 833.696528,43.929377 833.569308,43.7097257 L833.370411,43.3662122 L832.364755,41.6847688 L832.161984,41.3355785 C832.031461,41.1108052 832.078481,40.8250636 832.274148,40.653967 L832.576652,40.3895156 L833.468192,39.631054 C833.43186,39.4028832 833.418317,39.263141 833.418317,39.0834868 C833.418317,38.9038294 833.431861,38.7640855 833.468194,38.5359076 L832.571063,37.7726377 L832.274148,37.5130066 C832.078481,37.34191 832.031461,37.0561684 832.161984,36.831395 L832.368323,36.4761509 L833.366843,34.8068152 L833.569614,34.457625 C833.69675,34.2386846 833.958293,34.1366236 834.200118,34.2115852 L834.602593,34.3364842 L835.789017,34.7331758 C836.083641,34.5242888 836.390524,34.3465408 836.709967,34.2022321 L836.948984,33.0414061 L837.026833,32.6460793 C837.076974,32.3914619 837.300228,32.2078841 837.559736,32.2078841 L840.3759,32.2078841 Z M839.930543,33.2941578 L838.005983,33.2941578 L837.716045,34.7023918 C837.67864,34.8840657 837.551111,35.0340898 837.377831,35.1002618 C836.973166,35.2547953 836.587937,35.4782074 836.221001,35.7657796 C836.077369,35.8783459 835.886807,35.9112588 835.713739,35.8533917 L834.291146,35.3775973 L833.32694,36.9895673 L834.40663,37.9080936 C834.55145,38.0312962 834.6213,38.2212582 834.590792,38.4089304 C834.580951,38.4685729 834.580951,38.4685729 834.571136,38.5260516 L834.566856,38.5510332 C834.519519,38.8271736 834.504591,38.9449093 834.504591,39.0834868 C834.504591,39.2220643 834.519519,39.3398 834.566856,39.6159404 L834.571136,39.6409219 C834.580951,39.6984007 834.580951,39.6984007 834.590792,39.7580432 C834.6213,39.9457154 834.55145,40.1356774 834.40663,40.25888 L833.32694,41.177336 L834.291026,42.7892786 L835.713739,42.3135819 C835.886807,42.2557148 836.077369,42.2886276 836.221001,42.4011939 C836.587937,42.6887662 836.973166,42.9121782 837.377831,43.0667118 C837.551111,43.1328837 837.67864,43.2829079 837.716045,43.4645818 L838.005963,44.8728158 L839.930534,44.8728158 L840.219526,43.4649012 C840.256844,43.2830914 840.384417,43.1329251 840.557805,43.0667118 C840.96247,42.9121782 841.347699,42.6887662 841.714635,42.4011939 C841.858267,42.2886276 842.048829,42.2557148 842.221897,42.3135819 L843.645249,42.7896047 L844.608701,41.1774101 L843.529006,40.25888 C843.383668,40.1352362 843.313874,39.9443934 843.345154,39.756158 C843.355097,39.697062 843.355097,39.697062 843.364945,39.6400425 L843.366475,39.6311959 C843.415609,39.346984 843.431045,39.2263391 843.431045,39.0834868 C843.431045,38.9406344 843.415609,38.8199896 843.366475,38.5357777 L843.364945,38.5269311 C843.355097,38.4699115 843.355097,38.4699115 843.345154,38.4108155 C843.313874,38.2225801 843.383668,38.0317374 843.529006,37.9080936 L844.608701,36.9896158 L843.645334,35.377453 L842.221897,35.8533917 C842.048829,35.9112588 841.858267,35.8783459 841.714635,35.7657796 C841.347699,35.4782074 840.96247,35.2547953 840.557805,35.1002618 C840.384417,35.0340485 840.256844,34.8838821 840.219526,34.7020723 L839.930543,33.2941578 Z M838.967999,36.731074 C840.267258,36.731074 841.321592,37.7847209 841.321592,39.0834868 C841.321592,40.3822526 840.267258,41.4358996 838.967999,41.4358996 C837.66874,41.4358996 836.614406,40.3822526 836.614406,39.0834868 C836.614406,37.7847209 837.66874,36.731074 838.967999,36.731074 Z M838.967999,37.8173477 C838.268514,37.8173477 837.70068,38.384812 837.70068,39.0834868 C837.70068,39.7821616 838.268514,40.3496259 838.967999,40.3496259 C839.667484,40.3496259 840.235318,39.7821616 840.235318,39.0834868 C840.235318,38.384812 839.667484,37.8173477 838.967999,37.8173477 Z" id="settings" fill="#333333" fill-rule="nonzero"></path>
+                                    <path d="M801.931383,39.8635536 C802.359908,39.8635536 802.707295,40.2109414 802.707295,40.639466 L802.707295,43.7431159 C802.707295,44.1716405 802.359908,44.5190283 801.931383,44.5190283 L798.827733,44.5190283 C798.399209,44.5190283 798.051821,44.1716405 798.051821,43.7431159 L798.051821,40.639466 C798.051821,40.2109414 798.399209,39.8635536 798.827733,39.8635536 L801.931383,39.8635536 Z M808.138683,39.8635536 C808.567207,39.8635536 808.914595,40.2109414 808.914595,40.639466 L808.914595,43.7431159 C808.914595,44.1716405 808.567207,44.5190283 808.138683,44.5190283 L805.035033,44.5190283 C804.606508,44.5190283 804.25912,44.1716405 804.25912,43.7431159 L804.25912,40.639466 C804.25912,40.2109414 804.606508,39.8635536 805.035033,39.8635536 L808.138683,39.8635536 Z M801.543427,41.0274223 L799.215689,41.0274223 L799.215689,43.3551596 L801.543427,43.3551596 L801.543427,41.0274223 Z M807.750726,41.0274223 L805.422989,41.0274223 L805.422989,43.3551596 L807.750726,43.3551596 L807.750726,41.0274223 Z M801.931383,33.656254 C802.359908,33.656254 802.707295,34.0036418 802.707295,34.4321664 L802.707295,37.5358162 C802.707295,37.9643408 802.359908,38.3117287 801.931383,38.3117287 L798.827733,38.3117287 C798.399209,38.3117287 798.051821,37.9643408 798.051821,37.5358162 L798.051821,34.4321664 C798.051821,34.0036418 798.399209,33.656254 798.827733,33.656254 L801.931383,33.656254 Z M808.138683,33.656254 C808.567207,33.656254 808.914595,34.0036418 808.914595,34.4321664 L808.914595,37.5358162 C808.914595,37.9643408 808.567207,38.3117287 808.138683,38.3117287 L805.035033,38.3117287 C804.606508,38.3117287 804.25912,37.9643408 804.25912,37.5358162 L804.25912,34.4321664 C804.25912,34.0036418 804.606508,33.656254 805.035033,33.656254 L808.138683,33.656254 Z M801.543427,34.8201227 L799.215689,34.8201227 L799.215689,37.14786 L801.543427,37.14786 L801.543427,34.8201227 Z M807.750726,34.8201227 L805.422989,34.8201227 L805.422989,37.14786 L807.750726,37.14786 L807.750726,34.8201227 Z" id="Combined-Shape" fill="#333333" fill-rule="nonzero"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="iPad--floatingCard" filter="url(#filter-13)" transform="translate(63.000000, 354.000000)">
+                        <g id="Group-11">
+                            <g id="Rectangle-2">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
+                                <path stroke="#F88800" stroke-width="0.880000019" d="M368.719234,-0.437794764 L3.51972382,-0.209071781 C2.42639983,-0.207146539 1.43720332,0.236848999 0.720909865,0.953591209 C0.00461640794,1.67033342 -0.438759513,2.6598078 -0.439999726,3.75263344 L-0.442203193,227.047809 C-0.441518121,228.141798 0.00249362636,229.131662 0.719747474,229.847569 C1.43690391,230.563379 2.4272224,231.005329 3.52077376,231.003404 L368.720284,230.774681 C369.813608,230.772756 370.802805,230.32876 371.519098,229.612018 C372.235392,228.895276 372.678768,227.905801 372.680008,226.812976 L372.682211,3.51779985 C372.681526,2.42381102 372.237515,1.43394744 371.520261,0.718039971 C370.803104,0.00222972647 369.812786,-0.439719363 368.719234,-0.437794764 Z" fill="#FFFFFF" fill-rule="evenodd"></path>
+                            </g>
+                            <g id="Group-5" transform="translate(0.000000, 154.880003)">
+                                <path d="M371.800008,0.44000001 L0.44000001,0.44000001 L0.44000001,72.1600016 C0.44000001,73.0105201 0.78474076,73.7805201 1.34211114,74.3378905 C1.89948153,74.8952609 2.66948154,75.2400016 3.52000008,75.2400016 L368.720008,75.2400016 C369.570527,75.2400016 370.340527,74.8952609 370.897897,74.3378905 C371.455267,73.7805201 371.800008,73.0105201 371.800008,72.1600016 L371.800008,0.44000001 Z" id="Rectangle" stroke="#E9F3F9" stroke-width="0.880000019" fill="#F7FCFF"></path>
+                                <text id="Messages-Sent" opacity="0.600000024" font-family="ArialMT, Arial" font-size="10.5600002" font-weight="normal" line-spacing="12.3200003" letter-spacing="0.528000032" fill="#333333">
+                                    <tspan x="24.6400005" y="52.2400009">Messages Sent</tspan>
+                                </text>
+                                <text id="Delivery-Rate" opacity="0.600000024" font-family="ArialMT, Arial" font-size="10.5600002" font-weight="normal" line-spacing="12.3200003" letter-spacing="0.528000032" fill="#333333">
+                                    <tspan x="125.840003" y="52.2400009">Delivery Rate</tspan>
+                                </text>
+                                <text id="Opt-outs" opacity="0.600000024" font-family="ArialMT, Arial" font-size="10.5600002" font-weight="normal" line-spacing="12.3200003" letter-spacing="0.528000032" fill="#333333">
+                                    <tspan x="217.360005" y="52.2400009">Opt-outs</tspan>
+                                </text>
+                                <text id="Responses" opacity="0.600000024" font-family="ArialMT, Arial" font-size="10.5600002" font-weight="normal" line-spacing="12.3200003" letter-spacing="0.528000032" fill="#333333">
+                                    <tspan x="283.360006" y="52.2400009">Responses</tspan>
+                                </text>
+                                <text id="35,211" font-family="Helvetica" font-size="14.0800003" font-weight="normal" letter-spacing="0.547555482" fill="#333333">
+                                    <tspan x="25.7438966" y="35.1200005">35,211</tspan>
+                                </text>
+                                <text id="99.23%" font-family="Helvetica" font-size="14.0800003" font-weight="normal" letter-spacing="0.547555482" fill="#333333">
+                                    <tspan x="124.960461" y="35.1200005">99.23%</tspan>
+                                </text>
+                                <text id="320" font-family="Helvetica" font-size="14.0800003" font-weight="normal" letter-spacing="0.547555482" fill="#333333">
+                                    <tspan x="218.872734" y="35.1200005">320</tspan>
+                                </text>
+                                <text id="7,320" font-family="Helvetica" font-size="14.0800003" font-weight="normal" letter-spacing="0.547555482" fill="#333333">
+                                    <tspan x="284.17393" y="35.1200005">7,320</tspan>
+                                </text>
+                            </g>
+                            <text id="Flu-Shot-Barriers" font-family="Roboto-Bold, Roboto" font-size="14.0800003" font-weight="bold" letter-spacing="0.547555482" fill="#333333">
+                                <tspan x="21.1200005" y="36.1200005">Flu Shot Barriers</tspan>
+                            </text>
+                            <text id="Improve-knowledge-Sc" font-family="ArialMT, Arial" font-size="12.3200003" font-weight="normal" line-spacing="15.8400003" letter-spacing="0.616000016" fill="#6B757C">
+                                <tspan x="21.1200005" y="54.1200009">Improve knowledge Schedule flu vaccination </tspan>
+                                <tspan x="21.1200005" y="69.9600013">Assess health beliefs</tspan>
+                            </text>
+                            <text id="Drafted-On--10:54-PM" opacity="0.600000024" font-family="ArialMT, Arial" font-size="10.5600002" font-weight="normal" line-spacing="15.8400003" letter-spacing="0.528000032" fill="#6B757C">
+                                <tspan x="21.1200005" y="88.3200017">Drafted On- 10:54 PM IST, Fri Oct 26 2018</tspan>
+                            </text>
+                            <g id="Group-9" transform="translate(21.120000, 124.960003)">
+                                <text id="members-targeted-in" opacity="0.600000024" font-family="ArialMT, Arial" font-size="10.5600002" font-weight="normal" line-spacing="15.8400003" letter-spacing="0.528000032">
+                                    <tspan x="52.8000011" y="10" fill="#6D757D">members targeted in</tspan>
+                                    <tspan x="159.676691" y="10" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#6D757D"> </tspan>
+                                    <tspan x="163.138598" y="10" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#333333">Flu Shot Barriers list</tspan>
+                                </text>
+                                <text id="36,200" font-family="Roboto-Bold, Roboto" font-size="10.5600002" font-weight="bold" letter-spacing="0.410666612" fill="#333C44">
+                                    <tspan x="13.2000003" y="11.88">36,200</tspan>
+                                </text>
+                                <path d="M8.79544268,12.5589135 C8.79544268,12.8534849 8.53980508,13.0937526 8.22244349,13.0937526 C7.90508191,13.0937526 7.64944431,12.8534849 7.64944431,12.5589135 L7.64944431,11.6602221 C7.64944431,10.9621263 7.04888869,10.3976783 6.31008242,10.3976783 L2.48536026,10.3976783 C1.74655399,10.3976783 1.14599837,10.9621263 1.14599837,11.6602221 L1.14599837,12.5589135 C1.14599837,12.8534849 0.890360767,13.0937526 0.572999183,13.0937526 C0.255637599,13.0937526 -1.8651747e-15,12.8534849 -1.8651747e-15,12.5589135 L-1.8651747e-15,11.6602221 C-1.8651747e-15,10.3729836 1.11183082,9.3280002 2.48536026,9.3280002 L6.31008242,9.3280002 C7.68361186,9.3280002 8.79544268,10.3729836 8.79544268,11.6602221 L8.79544268,12.5589135 Z M0.528000011,12.1440003 L8.27200018,12.1440003 C8.56360653,12.1440003 8.80000019,12.3803939 8.80000019,12.6720003 C8.80000019,12.9636066 8.56360653,13.2000003 8.27200018,13.2000003 L0.528000011,13.2000003 C0.236393657,13.2000003 -2.71764164e-15,12.9636066 -2.75335312e-15,12.6720003 C-2.7890646e-15,12.3803939 0.236393657,12.1440003 0.528000011,12.1440003 Z M4.39772134,9.0644439 C3.0241919,9.0644439 1.91236108,8.01946046 1.91236108,6.732222 C1.91236108,5.44498353 3.0241919,4.4000001 4.39772134,4.4000001 C5.77125078,4.4000001 6.8830816,5.44498353 6.8830816,6.732222 C6.8830816,8.01946046 5.77125078,9.0644439 4.39772134,9.0644439 Z M4.39772134,7.9947658 C5.13652761,7.9947658 5.73708323,7.43031781 5.73708323,6.732222 C5.73708323,6.03412619 5.13652761,5.46967819 4.39772134,5.46967819 C3.65891506,5.46967819 3.05835944,6.03412619 3.05835944,6.732222 C3.05835944,7.43031781 3.65891506,7.9947658 4.39772134,7.9947658 Z" id="user-icon-program-list" fill="#333333" fill-rule="nonzero"></path>
+                            </g>
+                            <line x1="-5.21841696e-08" y1="112.63999" x2="371.360008" y2="113.080002" id="Path-3" stroke="#979797" stroke-width="0.880000019" opacity="0.200000003"></line>
+                        </g>
+                        <g id="Group-2" transform="translate(342.320007, 212.080005)">
+                            <path d="M14.6224897,7.48983326 L14.5488168,7.48983326 C14.2689248,7.4893393 13.991815,7.54725344 13.7340812,7.66010766 C13.6746152,6.91413779 13.2435966,6.25407788 12.5966437,5.91824105 C11.9496907,5.58240422 11.1802577,5.61930309 10.5661467,6.01561541 C10.0404481,5.0836106 8.92731779,4.69996371 7.9659268,5.11943434 L7.9659268,2.16651773 C7.9659268,0.969983026 7.02780941,4.84590156e-14 5.87058295,4.84590156e-14 C4.7133565,4.84590156e-14 3.77523911,0.969983026 3.77523911,2.16651773 L3.77523911,10.1470101 L3.68423141,10.0036212 L3.64089442,9.94088848 C3.28517247,9.4915178 2.7670157,9.21233783 2.207007,9.16831794 C1.6469983,9.12429805 1.09397855,9.31927741 0.676643764,9.7078814 C-0.111684584,10.4475468 -0.226202838,11.6859797 0.412288077,12.566699 L5.04934685,20.0094828 L5.04934685,23.0878647 C5.04934685,23.4590751 5.34038637,23.7600005 5.69940181,23.7600005 L14.2974622,23.7600005 C14.6564776,23.7600005 14.9475172,23.4590751 14.9475172,23.0878647 L14.9475172,20.0274064 L16.5986568,17.6256411 C16.6773395,17.5119097 16.7197569,17.3756361 16.7200004,17.2358024 L16.7200004,9.64514872 C16.7128514,8.45262969 15.7758545,7.48981035 14.6224897,7.48983326 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                            <path d="M5.87925035,0.90427159 C5.53651455,0.90427159 5.22550812,1.04672394 5.0006563,1.27921346 C4.78679329,1.50034088 4.65125785,1.8033092 4.644298,2.139308 L3.58899187,11.5050326 L2.95605056,10.5222696 C2.7431091,10.2604838 2.43503943,10.1033214 2.10619693,10.0839711 C1.78748139,10.0652167 1.47407726,10.1772657 1.23592498,10.3975741 C1.00042097,10.6176558 0.868148906,10.9116491 0.852248772,11.225278 C0.837954087,11.5072395 0.918134317,11.8073017 1.11235865,12.0767091 L5.90945677,19.9359963 L5.90945677,22.8646907 L14.0656488,22.8646907 L14.1989305,19.5671196 L15.8555567,17.1573734 L15.8555567,9.64514872 C15.8555567,9.28906894 15.711892,8.96833814 15.4687777,8.73833242 C15.2419477,8.52373305 14.9253925,8.38514304 14.5488168,8.38514304 C14.2066793,8.38514304 13.8962146,8.52734462 13.6717549,8.75942869 C13.4525261,8.98610421 13.3157497,9.29893217 13.3157497,9.64514872 L12.8956398,11.3434118 L12.8956398,7.85278659 C12.8956398,7.50595136 12.7586209,7.19256329 12.5389999,6.96548232 C12.3141481,6.73299281 12.0031417,6.59054045 11.6604059,6.59054045 C11.3176701,6.59054045 11.0066636,6.73299281 10.7818118,6.96548232 C10.5621908,7.19256329 10.4251719,7.50595136 10.4251719,7.85278659 L10.005062,10.3262463 L10.005062,7.11343721 C10.005062,6.76660198 9.86804313,6.45321391 9.64842217,6.22613294 C9.42357034,5.99364343 9.11256391,5.85119107 8.76982811,5.85119107 C8.42709231,5.85119107 8.11608588,5.99364343 7.89123405,6.22613294 C7.67161309,6.45321391 7.53459419,6.76660198 7.53459419,7.11343721 L7.11448427,10.3262463 L7.11448427,2.16651773 C7.11448427,1.81968249 6.97746537,1.50629442 6.75784441,1.27921346 C6.53299258,1.04672394 6.22198615,0.90427159 5.87925035,0.90427159 Z" id="Path" stroke="#000000" stroke-width="0.880000019"></path>
+                        </g>
+                    </g>
+                    <g id="Colored-ribbons" transform="translate(0.000000, 88.000000)">
+                        <g id="Orange" transform="translate(1073.000000, 0.000000)" fill="#F88800">
+                            <polygon id="orange_opaque" points="36.3265306 0 89 0 52.6734694 84 0 84"></polygon>
+                            <polygon id="orange_transparent'" opacity="0.6" transform="translate(44.500000, 84.000000) scale(-1, -1) translate(-44.500000, -84.000000) " points="36.3265306 42 89 42 52.6734694 126 0 126"></polygon>
+                        </g>
+                        <g id="Blue" transform="translate(0.000000, 376.000000)" fill="#0278B0">
+                            <polygon id="blue---transparent" opacity="0.6" transform="translate(23.000000, 43.500000) scale(-1, 1) translate(-23.000000, -43.500000) " points="18.7755102 22 46 22 27.2244898 65 0 65"></polygon>
+                            <polygon id="blue-opaque" transform="translate(23.000000, 21.500000) scale(-1, 1) translate(-23.000000, -21.500000) " points="18.7755102 0 46 0 27.2244898 43 0 43"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

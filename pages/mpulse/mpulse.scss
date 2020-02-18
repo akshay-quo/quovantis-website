@@ -4,6 +4,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -15,11 +16,13 @@ body {
 
   // First Section
   .banner {
+      background: url(../../images/mpulse/hero-bg.png) no-repeat;
+      height: 1050px;
     .banner-content {
-      padding: 107px;
+      padding: 107px 0 40px;
       max-width: 1350px;
       margin: 0 auto;
-      width: 47%;
+      width: 58%;
 
       .title-tag {
         color: #000000;
@@ -34,44 +37,296 @@ body {
         font-size: 36px;
         letter-spacing: -0.2px;
         line-height: 44px;
+        margin-top: 20px;
         font-family: map-get($font-families, secondary-book);
       }
+    }
+    .hero-img {
+        .responsive {
+            display: block;
+            margin: auto;
+            width: 990px;
+        }
     }
   }
 
   // Second Section
   .what-we-did {
-
+        padding: 10px 99px;
+        max-width: 1350px;
+        margin: 0 auto;
+    .tech-stack {
+        border: 1px solid red;
+        position: relative;
+        bottom: 88px;
+        border-radius: 5px;
+        height: 200px;
+        /*display: flex;*/
+        background: #fff;
+        .technology-tags {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        .tags {
+            width: 33%;
+            .tag-title {
+                color: #3B3B3B;	
+                font-family: map-get($font-families, secondary);	
+                font-size: 14px;	
+                font-weight: 500;	
+                letter-spacing: -0.2px;	
+                line-height: 18px;
+            }
+            .project-tag {
+                .tag {
+                    border-radius: 5px;
+                    color: #01C4CF;
+                    display: inline-block;
+                    line-height: 18px;
+                    padding: 5px;
+                    margin: 4px;
+                    font-size: 14px;
+                    letter-spacing: -0.2px;
+                    font-family: "circular-medium";
+                    border: 2px solid #01C4CF;
+                }
+            }
+          }
+        }
+     }
   }
 
   // Third Section
   .an-overview {
-
+      .overview-content {
+          width: 936px;
+          margin: 0 auto;
+          .overview-title {
+              color: #000000;	
+              font-family: map-get($font-families, secondary-bold);	
+              font-size: 36px;	
+              font-weight: bold;	
+              letter-spacing: -0.2px;	line-height: 44px;
+          }
+          .para-detail {
+              color: #3B3B3B;	
+              font-family: map-get($font-families, primary);	
+              font-size: 18px;	
+              letter-spacing: -0.2px;	
+              line-height: 28px;
+              margin-top: 10px;
+          }
+          .second-para-detail {
+              color: #3B3B3B;	
+              font-family: map-get($font-families, primary);	
+              font-size: 18px;	
+              letter-spacing: -0.2px;	
+              line-height: 28px;
+              margin-top: 10px;
+          }
+      }
+      .diagrame {
+          background: url(../../images/mpulse/diagramme.png) no-repeat;
+          width: 687px;
+          height: 359px;
+          margin: 0 auto;
+          margin-top: 89px;
+      }
   }
 
   // Fourth Section
   .the-challenge {
-
+      max-width: 935px;
+      margin: 0 auto;
+      margin-top: 157px;
+      .tackling-the-scalabi {
+          color: #000000;	
+          font-family: map-get($font-families, secondary-bold);		
+          font-size: 36px;	
+          font-weight: bold;	
+          letter-spacing: -0.2px;	
+          line-height: 44px;
+      }
+      .m-pulse-wanted-us-to {
+          color: #3B3B3B;	
+          font-family: map-get($font-families, primary);	
+          font-size: 18px;	
+          letter-spacing: -0.2px;	
+          line-height: 28px;
+     }
   }
 
   // Fifth Section
   .our-approach {
-
+      height: 600px;	
+      max-width: 1920px;	
+      background-color: #FFFFFF;
+      margin: 0 auto;
+      margin-top: 100px;
+      .approach-content {
+          height: 372px;
+          max-width: 935px;
+          margin: 0 auto;
+          .glued-to-users-prob {
+              color: #000000;	
+              font-family: map-get($font-families, secondary-bold);	
+              font-size: 36px;		
+              letter-spacing: -0.2px;	
+              line-height: 44px;
+          }
+          .row {
+              margin-top: 32px;
+              .column-left {
+                  float: left;
+                  height: 280px;	
+                  width: 425px;
+                  .we-spent-our-initial {
+                      color: #3B3B3B;	
+                      font-family: map-get($font-families, primary);	
+                      font-size: 18px;	
+                      letter-spacing: -0.2px;	
+                      line-height: 28px;
+                  }
+              }
+              .column-right {
+                  float: right;
+                  height: 280px;	
+                  width: 425px;
+                  .to-uncover-answers {
+                      color: #3B3B3B;	
+                      font-family: map-get($font-families, primary);	
+                      font-size: 18px;	
+                      letter-spacing: -0.2px;	
+                      line-height: 28px;
+                  }
+              }
+          }
+      }
   }
 
   // Sixth Section
   .our-design-process {
-
+      	height: 1724px;	
+        max-width: 1920px;
+        margin: 0 auto;
+        background-color: #E8EFF2;
+        .design-process {
+            height: 488px;
+            max-width: 935px;
+            margin: 0 auto;
+            .main-title {
+                color: #000000;	
+                font-family: map-get($font-families, secondary-bold);	
+                font-size: 36px;	
+                letter-spacing: -0.2px;	
+                line-height: 44px;
+                margin-top: 100px;
+            }
+            .simple-text {
+                color: #3B3B3B;	
+                font-family: map-get($font-families, primary);	
+                font-size: 18px;	
+                letter-spacing: -0.2px;	
+                line-height: 28px;
+                margin-top: 17px;
+            }
+            .simple-text-2 {
+                color: #3B3B3B;	
+                font-family: map-get($font-families, primary);	
+                font-size: 18px;	
+                letter-spacing: -0.2px;	
+                line-height: 28px;
+                margin-top: 20px;
+            }
+            .simple-text-3 {
+                color: #3B3B3B;	
+                font-family: map-get($font-families, primary);	
+                font-size: 24px;	
+                letter-spacing: -0.2px;	
+                line-height: 40px;
+                margin-top: 20px;
+            }
+        }
+        .flowchart {
+                height: 856px;
+                max-width: 1012px;
+                margin: 0 auto;
+                margin-top: 81px;
+                background: url(../../images/mpulse/flowchart.png) no-repeat;
+        }
+        .user-flow-diagram {
+            text-align: center;
+            color: #1787E0;	
+            font-family: map-get($font-families, primary);	
+            font-size: 14px;	
+            letter-spacing: -0.2px;	
+            line-height: 24px;
+            margin-top: 30.2px;
+        }
   }
 
   // Seventh Section
   .ui-design {
-
+      height: 1450px;	
+      max-width: 1920px;	
+      background-color: #FFFFFF;
+      margin: 0 auto;
+      .design-approach {
+          height: 276px;
+          width: 935px;
+          margin: 0 auto;
+          margin-top: 90px;
+          .main-title {
+              color: #000000;	
+              font-family: map-get($font-families, secondary-bold);	
+              font-size: 36px;	
+              letter-spacing: -0.2px;	
+              line-height: 44px;
+          }
+          .para-text {
+              color: #3B3B3B;	
+              font-family: map-get($font-families, primary);	
+              font-size: 18px;	
+              letter-spacing: -0.2px;	
+              line-height: 28px;
+              margin-top: 17px;
+          }
+          .para-text-2 {
+              color: #3B3B3B;	
+              font-family: map-get($font-families, primary);	
+              font-size: 18px;	
+              letter-spacing: -0.2px;	
+              line-height: 28px;
+              margin-top: 17px;
+          }
+      }
+      .color-palette {
+          background: url(../../images/mpulse/colors.svg) no-repeat;
+          width: 935px;
+          height: 430px;
+          margin-top: 80px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      .ui-component {
+          background: url(../../images/mpulse/ui-component.svg) no-repeat;
+          max-width: 1290px;
+          height: 427px;
+          margin-top: 80px;
+          margin-left: auto;
+          margin-right: auto;
+      }
   }
 
   // Eighth Section
   .secondary-banner {
-
+      max-width: 1920px;
+      margin: 0 auto;
+      .ui-showcase{
+          background: url(../../images/mpulse/ui-showcase.png) no-repeat;
+          background-size: contain;
+          height: 1020px;
+      }
   }
 
   // Ninth Section
