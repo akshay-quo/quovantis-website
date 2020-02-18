@@ -1,4 +1,4 @@
-﻿    $heading-size: 46px;
+﻿$heading-size: 46px;
 $primary-font: 'apercu-pro';
 $primary-font-bold: 'apercu-bold';
 $primary-font-italic: 'apercu-italic';
@@ -603,11 +603,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /*New Footer*/
 
-.footer {
+.footer-wrapper {
     margin-top: 10%;
-    margin-left: 15%;
-    &-wrapper{
-        margin-top: 10%;
+    padding: 0 40px 0 210px;
+    .footer-content {
+        display: contents;
+    }
         .heading {
             font-size: 36px;
             line-height: 44px;
@@ -662,12 +663,37 @@ h1, h2, h3, h4, h5, h6 {
             margin-top: 8%;
             margin-left: 5rem;
         }
+        .copyright {
+            	color: #7B8080;
+                font-family: map-get($font-families, primary);
+                font-size: 14px;
+                letter-spacing: -0.2px;
+                line-height: 36px;
+        }
+        .social-icons {
+            .linkedin {
+                background: url(../../images/linkedin.svg) no-repeat;
+                height: 30px;
+            }
+        }
     }
-}
 
 @media only screen and (max-width:767px) {
     .footer {
         margin-top: 80%;
         margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .footer-wrapper {
+        .content-right {
+        margin-top: 53%;
+        margin-left: 1rem;
+     }
+        .content-end {
+            margin-top: 25%;
+            margin-left: 11rem;
+        }
     }
 }

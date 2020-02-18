@@ -1,0 +1,86 @@
+@import '../../styles/base/variables';
+
+// Global Styles
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+// Extends
+
+
+// Page Styles
+.mpulse {
+
+  // First Section
+  .banner {
+    .banner-content {
+      padding: 107px;
+      max-width: 1350px;
+      margin: 0 auto;
+      width: 47%;
+
+      .title-tag {
+        color: #000000;
+        font-size: 46px;
+        letter-spacing: -0.2px;
+        line-height: 50px;
+        font-family: map-get($font-families, secondary-bold);
+      }
+
+      .subtitle-tag {
+        color: #000000;
+        font-size: 36px;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+        font-family: map-get($font-families, secondary-book);
+      }
+    }
+  }
+
+  // Second Section
+  .what-we-did {
+
+  }
+
+  // Third Section
+  .an-overview {
+
+  }
+
+  // Fourth Section
+  .the-challenge {
+
+  }
+
+  // Fifth Section
+  .our-approach {
+
+  }
+
+  // Sixth Section
+  .our-design-process {
+
+  }
+
+  // Seventh Section
+  .ui-design {
+
+  }
+
+  // Eighth Section
+  .secondary-banner {
+
+  }
+
+  // Ninth Section
+  .development {
+
+  }
+
+  // Tenth Section
+  .the-outcome {
+
+  }
+}
