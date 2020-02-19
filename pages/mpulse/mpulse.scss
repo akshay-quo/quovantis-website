@@ -15,7 +15,7 @@ body {
 .mpulse {
 
   // First Section
-  .banner {
+  /*.banner {
       background: url(../../images/mpulse/hero-bg.png) no-repeat;
       height: 1050px;
     .banner-content {
@@ -48,6 +48,38 @@ body {
             width: 990px;
         }
     }
+  }*/
+  .banner {
+      background: url(../../images/mpulse/hero-bg.png) no-repeat;
+      /*height: 1050px;*/
+      max-width: 1920px;
+      margin: 0 auto;
+      .banner-content {
+          max-width: 935px;
+          margin: 0 auto;
+          .title-tag {
+              color: #000000;	
+              font-family: map-get($font-families, secondary-bold);	
+              font-size: 46px;	
+              font-weight: bold;	
+              letter-spacing: -0.2px;	
+              line-height: 50px;
+          }
+          .subtitle-tag {
+              color: #000000;	
+              font-family: map-get($font-families, secondary);	
+              font-size: 36px;	
+              letter-spacing: -0.2px;	
+              line-height: 44px;
+              margin-top: 20px;
+          }
+      }
+      .hero-img {
+          height: 817px;
+          max-width: 1162px;
+          margin: 0 auto;
+          margin-top: 67px;          
+      }
   }
 
   // Second Section
@@ -56,7 +88,7 @@ body {
         max-width: 1350px;
         margin: 0 auto;
     .tech-stack {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         position: relative;
         bottom: 88px;
         border-radius: 5px;
@@ -65,10 +97,13 @@ body {
         background: #fff;
         .technology-tags {
             display: flex;
-            align-items: center;
-            justify-content: center;
-        .tags {
-            width: 33%;
+            /*align-items: center;*/
+            max-width: 935px;
+            margin: 0 auto;
+            padding-top: 30px;
+        .items {
+            /*width: 33%;*/
+            width: 257px;
             .tag-title {
                 color: #3B3B3B;	
                 font-family: map-get($font-families, secondary);	
@@ -76,7 +111,7 @@ body {
                 font-weight: 500;	
                 letter-spacing: -0.2px;	
                 line-height: 18px;
-            }
+            }            
             .project-tag {
                 .tag {
                     border-radius: 5px;
@@ -92,14 +127,47 @@ body {
                 }
             }
           }
+        .items-1 {
+            width: 386px;
+            padding-left: 80px;
+            .tag-title {
+                color: #3B3B3B;	
+                font-family: map-get($font-families, secondary);	
+                font-size: 14px;	
+                font-weight: 500;	
+                letter-spacing: -0.2px;	
+                line-height: 18px;
+            }
+            .technologies {
+                color: #3B3B3B;	
+                font-family: map-get($font-families, primary);	
+                font-size: 16px;	
+                letter-spacing: -0.2px;	
+                line-height: 24px;
+            }  
+          }
+        .items-2 {
+            width: 100px;
+            padding-left: 112px;
+            .tag-title {
+                color: #3B3B3B;	
+                font-family: map-get($font-families, secondary);	
+                font-size: 14px;	
+                font-weight: 500;	
+                letter-spacing: -0.2px;	
+                line-height: 18px;
+            } 
+          }
         }
      }
   }
 
   // Third Section
   .an-overview {
+      	max-width: 1920px;
+        margin: 0 auto;
       .overview-content {
-          width: 936px;
+          max-width: 936px;
           margin: 0 auto;
           .overview-title {
               color: #000000;	
@@ -136,9 +204,13 @@ body {
 
   // Fourth Section
   .the-challenge {
-      max-width: 935px;
+      max-width: 1350px;
       margin: 0 auto;
       margin-top: 157px;
+      .challenge {
+          max-width: 935px;
+          margin: 0 auto;
+                
       .tackling-the-scalabi {
           color: #000000;	
           font-family: map-get($font-families, secondary-bold);		
@@ -153,12 +225,14 @@ body {
           font-size: 18px;	
           letter-spacing: -0.2px;	
           line-height: 28px;
-     }
+          margin-top: 10px;
+      }
+    }
   }
 
   // Fifth Section
   .our-approach {
-      height: 600px;	
+      /*height: 600px;*/	
       max-width: 1920px;	
       background-color: #FFFFFF;
       margin: 0 auto;
@@ -175,7 +249,7 @@ body {
               line-height: 44px;
           }
           .row {
-              margin-top: 32px;
+              margin-top: 10px;
               .column-left {
                   float: left;
                   height: 280px;	
@@ -214,13 +288,14 @@ body {
             height: 488px;
             max-width: 935px;
             margin: 0 auto;
+            margin-top: 100px;
             .main-title {
                 color: #000000;	
                 font-family: map-get($font-families, secondary-bold);	
                 font-size: 36px;	
                 letter-spacing: -0.2px;	
                 line-height: 44px;
-                margin-top: 100px;
+                padding-top: 100px;
             }
             .simple-text {
                 color: #3B3B3B;	
@@ -273,7 +348,7 @@ body {
       margin: 0 auto;
       .design-approach {
           height: 276px;
-          width: 935px;
+          max-width: 935px;
           margin: 0 auto;
           margin-top: 90px;
           .main-title {
@@ -330,12 +405,73 @@ body {
   }
 
   // Ninth Section
-  .development {
-
+  .development {      	
+      max-width: 1920px;	
+      background-color: #FFFFFF;
+      margin: 0 auto;
+      margin-top: 100px;
+      .development-process {
+          max-width: 935px;
+          margin: 0 auto;
+          .main-title {
+              color: #000000;	
+              font-family: map-get($font-families, secondary-bold);	
+              font-size: 36px;	
+              letter-spacing: -0.2px;	
+              line-height: 44px;
+          }
+          .process-text {
+              color: #3B3B3B;	
+              font-family: map-get($font-families, primary);	
+              font-size: 18px;	
+              letter-spacing: -0.2px;	
+              line-height: 28px;
+              margin-top: 20px;
+          }
+          .process-text-2 {
+              color: #3B3B3B;	
+              font-family: map-get($font-families, primary);	
+              font-size: 18px;	
+              letter-spacing: -0.2px;	
+              line-height: 28px;
+              margin-top: 20px;
+          }
+          .process-text-3 {
+              color: #3B3B3B;	
+              font-family: map-get($font-families, primary);	
+              font-size: 18px;	
+              letter-spacing: -0.2px;	
+              line-height: 28px;
+              margin-top: 20px;
+          }
+      }
   }
 
   // Tenth Section
   .the-outcome {
-
+      height: 690px;	
+      max-width: 1920px;	
+      background-color: #FFFFFF;
+      margin: 0 auto;
+      .outcome-content {
+          max-width: 935px;
+          margin: 0 auto;
+          margin-top: 100px;
+          .main-title {
+              color: #000000;	
+              font-family: map-get($font-families, secondary-bold);	
+              font-size: 36px;	
+              letter-spacing: -0.2px;	
+              line-height: 44px;
+          }
+          .outcome-para {
+              color: #3B3B3B;	
+              font-family: map-get($font-families, primary);	
+              font-size: 18px;	
+              letter-spacing: -0.2px;	
+              line-height: 28px;
+              margin-top: 32.4px;
+          }
+      }
   }
 }
