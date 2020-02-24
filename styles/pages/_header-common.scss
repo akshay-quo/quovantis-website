@@ -107,10 +107,12 @@
             content: '';
             background: #000;
             height: 13px;
+            height: 1vw;
             width: 1px;
             position: absolute;
             right: 0px;
             bottom: 5px;
+            bottom: .5vw;
         }
         &:first-child {
             padding-left: 0;
