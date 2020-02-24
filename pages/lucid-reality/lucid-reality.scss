@@ -5,7 +5,81 @@ body {
   margin: 0;
   padding: 0;
 }
+.small-heading {
+  color: #01C4CF;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.padding-1 {
+  padding: 50px 25px;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+.padding-btm-20 {
+  padding-bottom: 20px;
+}
+.padding-left-20 {
+  padding-left: 20px;
+}
+.padding-ryt-100 {
+  padding-right: 100px;
+}
+.margin-top-50 {
+  margin-top: 50px;
+}
+.mob-ui {
+  width: 95%;
+}
+.label {
+  color: #01C4CF;	
+  font-family: map-get($font-families, secondary);	
+  font-size: 14px;	
+  font-weight: 500;	
+  letter-spacing: -0.2px;	
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.main-heading{
+  color: #000000;	
+  font-family: map-get($font-families, secondary-bold);		
+  font-size: 36px;	
+  font-weight: bold;	
+  letter-spacing: -0.2px;	
+  line-height: 44px;
+  margin-top: 10px;
+  @media only screen and (max-width: 767px) {
+    font-size: 24px;
+    line-height: 30px;
+  }   
+} 
+.common-para {
+  color: #3B3B3B;	
+  font-family: map-get($font-families, primary);	
+  font-size: 18px;
+  font-size: 1.15vw;	
+  letter-spacing: -0.2px;	
+  line-height: 28px;
+  line-height: 1.7vw;
+  margin-top: 20px;
+  @media only screen and (max-width: 767px) {
+    font-size: 16px;
+    line-height: 24px;
+ }
+ .special-text-bold {
+  font-family: map-get($font-families, primary-bold);
+ }
+}
 
+// Global section divison
+.section-1 {
+  width: 45%;
+}
+.section-2 {
+  width: 55%;
+}
+.section-3 {
+  width: 50%;
+}
 // Variables
 $border-radius: 5px;
 
@@ -16,8 +90,15 @@ $border-radius: 5px;
 
 %gutter {
   //1920
-  padding-left: 24%;
-  padding-right: 24%;
+  padding-left: 20%; //24%
+  padding-right: 20%; //24%
+}
+
+%section-top-spacing {
+  padding-top: 70px;
+}
+%section-btm-spacing {
+  padding-bottom: 70px;
 }
 
 .header {
@@ -34,8 +115,8 @@ $border-radius: 5px;
 
   section {
     width: 100%;
-    height: 100vh;
-    border: 1px solid red;
+    // height: 100vh;
+    // border: 1px solid red;
     box-sizing: border-box;
   }
 
@@ -120,7 +201,43 @@ $border-radius: 5px;
 
   // Fourth Section
   .the-solution {
-
+    @extend %gutter;
+    .common-wrapper {
+      @extend %section-top-spacing;
+      @extend %section-btm-spacing;
+      .solution-list-wrapper {
+        margin-left: 50px;
+        &__items {
+          position: relative;
+          border-left: 2px solid #01C4CF;
+          padding-left: 28px;
+          &:last-child {
+            border-left: 2px solid transparent;
+          }
+          &::after {
+            content: '';
+            background: #01C4CF;
+            position: absolute;
+            height: 14px;
+            width: 14px;
+            border-radius: 50%;
+            left: -8px;
+            top: 0;
+          }
+          &::before {
+            content: '';
+            position: absolute;
+            height: 10px;
+            width: 10px;
+            background: #ffffff;
+            left: -6px;
+            top: 2px;
+            z-index: 1;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
   }
 
   // Fifth Section
@@ -130,12 +247,96 @@ $border-radius: 5px;
 
   // Sixth Section
   .development {
-
+    @extend %gutter;
+    background:url('/images/development-lucid-dream.png');
+    background-color: #E8EFF2;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 77vw;
+    .common-wrapper {
+      @extend %section-top-spacing;
+    }
   }
 
   // Seventh Section
   .the-outcome {
-
+    @extend %gutter;
+    .common-wrapper {
+      @extend %section-top-spacing;
+      @extend %section-btm-spacing;
+      .award-wrapper {
+        padding-top: 80px;
+        .award-bg{
+          position: relative;
+          &::before {
+            content: '';
+            height: 255px;
+            height: 20vw;
+            width: 302px;
+            width: 23.7vw;
+            background: #01C4CF;
+            position: absolute;
+            left: 0;
+            top: 17px;
+            top: 1.2vw;
+            border-radius: 3px;
+          }
+          &__img {
+            position: relative;
+            width: 80%;
+            padding: 0px 13px;
+            padding: 0 1.1vw;
+          }
+        }
+        .award-testimonial {
+          padding: 30px 10px;
+          padding: 2.35vw .78vw;
+          padding-right: 30px;
+          padding-right: 2.35vw;    
+          &__para {
+            font-family: map-get($font-families, secondary-medium);
+            font-size: 1.3vw;
+          }
+          &__wrapper {
+            padding-top: 1.5vw;
+            .testimonial-client-img {
+              width: 36px;
+              height: 36px;
+            }
+            .testimonial-client-para {
+              padding-left: 1.3vw;
+              font-family: map-get($font-families, primary);
+              &__name {
+                text-transform: uppercase;
+                color: #01C4CF;
+                font-weight: 500;
+              }
+              &__designation {
+                line-height: .9;
+                font-size: .9vw;
+                text-transform: uppercase;
+              }
+              &__company {
+                text-transform: capitalize;
+                position: relative;
+                padding-left: 1vw;
+                &::before {
+                  content: '';
+                  background: rgba(0, 0, 0, 0.89);
+                  width: .1vw;
+                  height: .8vw;
+                  position: absolute;
+                  top: 1px;
+                  left: 5px;
+                  z-index: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   // Eighth Section
@@ -145,6 +346,22 @@ $border-radius: 5px;
 
   // Ninth Section
   .see-more {
+    @extend %gutter;
+    background:url('/images/Slide-BG.png');
+    background-color: #E8EFF2;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 31vw;
+    .common-wrapper {
+      @extend %section-top-spacing;
+      .common-para--for-see-more {
+        padding-right: 100px;
+        padding-right: 7.8vw;
+        padding-bottom: 12px;
+        padding-bottom: 1vw;
+      }
+    }
 
   }
 }

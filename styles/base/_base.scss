@@ -93,6 +93,31 @@ h2 {
     }
 }
 
-p, a, button {
+ul.list-style-none {
+    list-style: none;
 }
 
+a {
+    cursor: pointer;
+}
+
+
+.common-outline {
+    position: relative;
+    &::after {
+        position: absolute;
+        content: '';
+        width: 0;
+        height: 2px; // var
+        bottom: 0;
+        left: 0;
+        background: #00f2fe; // var
+        transition: width .5s;
+    }
+    &:hover::after {
+        width: 100%;
+    }
+}
+.d-flex {
+    display: flex;
+}

@@ -77,6 +77,7 @@ input.small {
 .primary-btn-sm {
   background-color: #FC7764; // var
   color: #fff; // var
+  font-weight: 500; // var
   border-radius: 5px;
   border-radius: .4vw;
   padding: 7px 13px;
@@ -91,5 +92,7 @@ input.small {
   background-color: #01C4CF; // var
   color: #fff; // var
   border-radius: 5px;
-  padding: 5px;
+  padding: 7px 7px;
+  padding: .55vw .55vw;
+  display: inline-block;
 }
