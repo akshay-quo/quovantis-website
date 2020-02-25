@@ -1,0 +1,210 @@
+﻿@import '../../styles/base/variables';
+
+// Global Styles
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title-tag {
+    color: #ffffff;	
+    font-family: map-get($font-families, secondary-bold);	
+    font-size: 46px;	
+    font-weight: bold;	
+    letter-spacing: -0.2px;	
+    line-height: 50px;
+     @media only screen and (max-width: 767px) {
+         font-size: 26px;
+         line-height: 32px;
+     }
+ }
+
+.subtitle-tag {
+    color: #ffffff;	
+    font-family: map-get($font-families, secondary);	
+    font-size: 36px;	
+    font-weight: bold;	
+    letter-spacing: -0.2px;	
+    line-height: 44px;
+    margin-top: 20px;
+     @media only screen and (max-width: 767px) {
+         font-size: 24px;
+         line-height: 28px;
+     }
+}
+
+.tag-title {
+   color: #000000;
+   font-family: map-get($font-families, secondary);
+   font-size: 14px;
+   font-weight: 500;
+   letter-spacing: -0.2px;
+   line-height: 18px;
+}
+
+
+.label {
+  color: #01C4CF;	
+  font-family: map-get($font-families, secondary);	
+  font-size: 14px;	
+  font-weight: 500;	
+  letter-spacing: -0.2px;	
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.main-heading{
+  color: #000000;	
+  font-family: map-get($font-families, secondary-bold);		
+  font-size: 36px;	
+  font-weight: bold;	
+  letter-spacing: -0.2px;	
+  line-height: 44px;
+  margin-top: 10px;
+  @media only screen and (max-width: 767px) {
+    font-size: 24px;
+    line-height: 30px;
+  }   
+} 
+.common-para {
+  color: #3B3B3B;	
+  font-family: map-get($font-families, primary);	
+  font-size: 18px;
+  font-size: 1.15vw;	
+  letter-spacing: -0.2px;	
+  line-height: 28px;
+  line-height: 1.7vw;
+  margin-top: 20px;
+  @media only screen and (max-width: 767px) {
+    font-size: 16px;
+    line-height: 24px;
+ }
+ .special-text-bold {
+  font-family: map-get($font-families, primary-bold);
+ }
+}
+
+// Extends
+%top-spacing {
+  padding-top: 180px;
+}
+
+%gutter {
+  //1920
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+%gutter-inner {
+  //936
+  width: 70%;
+  margin: 0 auto;
+}
+
+// Variables
+$border-radius: 5px;
+
+//page-style
+.catalog {
+    position: relative;
+    // First Section
+    .banner {
+        background: url(../../images/catalog/hero-bg.png) no-repeat;
+        height: 1060px;
+        @extend %top-spacing;
+        .ball-medium {
+            background: url(../../images/catalog/ball-large.svg) no-repeat;
+            height: 100px;
+            width: 100px;
+            background-size: cover;
+            position: absolute;
+            top: 43%;
+            left: 2%;
+        }
+        .ball-large {
+            background: url(../../images/catalog/ball-medium.svg) no-repeat;
+            height: 151px;
+            width: 151px;
+            position: absolute;
+            top: 66%;
+            right: -1%;
+            /*top: 73%;
+            right: 15%;*/
+        }
+        .inner-content {
+            @extend %gutter-inner;
+        }
+        .hero-img {
+            background: url(../../images/catalog/hero-img.png) no-repeat;
+            background-size: contain;
+            height: 50vw;
+            width: 73%;
+            margin: 0 auto;
+            margin-top: 5%;
+        }
+    }
+
+    // Second Section
+    .what-we-did {
+        width: 90%;
+        margin: 0 auto;
+        background: #fff;
+        margin-top: -6%;
+        .tech-stack {
+            /*@extend %gutter-inner;*/
+            padding: 2em 10em 0 10em;            
+            display: flex;
+            .items {
+                width: 32%;
+                .project-tag {
+                    margin-top: 16px;
+                    .tag {
+                        border-radius: $border-radius;
+                        color: #01C4CF;
+                        display: inline-block;
+                        line-height: 18px;
+                        padding: 5px;
+                        margin: 3px;
+                        font-size: 14px;
+                        letter-spacing: -0.2px;
+                        font-family: map-get($font-families, secondary-medium);
+                        border: 2px solid #01C4CF;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            .items-1 {
+                width: 40%;
+                margin-left: 13%;
+                ul {
+                    display: flex;
+                    list-style: none;
+                    margin-top: 16px;
+                    li .responsive {
+                        margin-left: 10px;
+                    }
+                }
+                .technologies {
+                    color: #3B3B3B;
+                    font-family: map-get($font-families, primary);
+                    font-size: 14px;
+                    letter-spacing: -0.2px;
+                    margin-top: 3px;
+                }
+            }
+            .items-2 {
+                width: 11%;
+                ul {
+                    display: flex;
+                    list-style: none;
+                    margin-top: 16px;
+                    li .responsive {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
