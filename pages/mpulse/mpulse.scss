@@ -16,801 +16,867 @@ body {
 
   // First Section
   .banner {
-      background: url(../../images/mpulse/hero-bg.png) no-repeat;
-      /*height: 1050px;*/
-      max-width: 1920px;
+    background: url(../../images/mpulse/hero-bg.png) no-repeat;
+    /*height: 1050px;*/
+    max-width: 1920px;
+    margin: 0 auto;
+
+    .banner-content {
+      max-width: 935px;
       margin: 0 auto;
-      .banner-content {
-          max-width: 935px;
-          margin: 0 auto;
-          @media only screen and (max-width: 1024px){
-                        padding-left: 7%;                       
-                    }        
-          .title-tag {
-              color: #000000;	
-              font-family: map-get($font-families, secondary-bold);	
-              font-size: 46px;	
-              font-weight: bold;	
-              letter-spacing: -0.2px;	
-              line-height: 50px;
-              @media only screen and (max-width: 767px) {
-                  font-size: 26px;
-                  line-height: 32px;
-              }
-          }
-          .subtitle-tag {
-              color: #000000;	
-              font-family: map-get($font-families, secondary);	
-              font-size: 36px;	
-              letter-spacing: -0.2px;	
-              line-height: 44px;
-              margin-top: 20px;
-              @media only screen and (max-width: 767px) {
-                  font-size: 24px;
-                  line-height: 28px;
-                  margin-top: 10px;
-              }
-          }
+      @media only screen and (max-width: 767px) {
+        width: 329px;
       }
-      .hero-img {
-          height: 817px;
-          max-width: 1162px;
-          margin: 0 auto;
-          margin-top: 67px; 
-          background: url(../../images/mpulse/device-visual.svg) no-repeat;
-          @media only screen and (max-width: 767px) {
-              background-size: contain;
-              height: 400px;
-          }         
+      @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        width: 637px;
       }
+
+      .title-tag {
+        color: #000000;
+        font-family: map-get($font-families, secondary-bold);
+        font-size: 46px;
+        font-weight: bold;
+        letter-spacing: -0.2px;
+        line-height: 50px;
+        @media only screen and (max-width: 767px) {
+          font-size: 26px;
+          line-height: 32px;
+        }
+      }
+
+      .subtitle-tag {
+        color: #000000;
+        font-family: map-get($font-families, secondary);
+        font-size: 36px;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+        margin-top: 20px;
+        @media only screen and (max-width: 767px) {
+          font-size: 24px;
+          line-height: 28px;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .hero-img {
+      height: 817px;
+      max-width: 1162px;
+      margin: 0 auto;
+      margin-top: 67px;
+      background: url(../../images/mpulse/device-visual.svg) no-repeat;
+      @media only screen and (max-width: 767px) {
+        background-size: contain;
+        height: 400px;
+      }
+    }
   }
 
   // Second Section
   .what-we-did {
-        padding: 10px 99px;
-        max-width: 1350px;
-        margin: 0 auto;
-        @media only screen and (max-width: 767px) {
-            width: 346px;
-            padding: 0;
-        }
+    padding: 10px 99px;
+    max-width: 1350px;
+    margin: 0 auto;
+    @media only screen and (max-width: 767px) {
+      width: 346px;
+      padding: 0;
+    }
+
     .tech-stack {
-        /*border: 1px solid red;*/
-        position: relative;
-        bottom: 88px;
-        border-radius: 5px;
-        /*height: 200px;*/
-        /*display: flex;*/
-        background: #fff;
-        .border-line {
-            border:1px solid #E8EFF2;
-            max-width: 935px;
-            margin: 0 auto;
-            margin-top: 20px;
+      /*border: 1px solid red;*/
+      position: relative;
+      bottom: 88px;
+      border-radius: 5px;
+      /*height: 200px;*/
+      /*display: flex;*/
+      background: #fff;
+
+      .border-line {
+        border: 1px solid #E8EFF2;
+        max-width: 935px;
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+
+      .technology-tags {
+        display: flex;
+        /*align-items: center;*/
+        max-width: 935px;
+        margin: 0 auto;
+        padding-top: 30px;
+        @media only screen and (max-width: 767px) {
+          display: block;
+          padding-left: 14px;
         }
-        .technology-tags {
-            display: flex;
-            /*align-items: center;*/
-            max-width: 935px;
-            margin: 0 auto;
-            padding-top: 30px;
-            @media only screen and (max-width: 767px) {
-            display: block;
-            padding-left: 14px;
-        }
+
         .items {
-            /*width: 33%;*/
-            width: 257px;
-            .tag-title {
-                color: #3B3B3B;	
-                font-family: map-get($font-families, secondary);	
-                font-size: 14px;	
-                font-weight: 500;	
-                letter-spacing: -0.2px;	
-                line-height: 18px;
-            }            
-            .project-tag {
-                margin-top: 14px;
-                .tag {
-                    border-radius: 5px;
-                    color: #01C4CF;
-                    display: inline-block;
-                    line-height: 18px;
-                    padding: 5px;
-                    margin: 4px;
-                    font-size: 14px;
-                    letter-spacing: -0.2px;
-                    font-family: "circular-medium";
-                    border: 2px solid #01C4CF;
-                }
+          /*width: 33%;*/
+          width: 257px;
+
+          .tag-title {
+            color: #3B3B3B;
+            font-family: map-get($font-families, secondary);
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: -0.2px;
+            line-height: 18px;
+          }
+
+          .project-tag {
+            margin-top: 14px;
+
+            .tag {
+              border-radius: 5px;
+              color: #01C4CF;
+              display: inline-block;
+              line-height: 18px;
+              padding: 5px;
+              margin: 4px;
+              font-size: 14px;
+              letter-spacing: -0.2px;
+              font-family: "circular-medium";
+              border: 2px solid #01C4CF;
             }
           }
+        }
+
         .items-1 {
-            width: 386px;
-            padding-left: 80px;
-            @media only screen and (max-width: 767px) {
+          width: 386px;
+          padding-left: 80px;
+          @media only screen and (max-width: 767px) {
             width: 328px;
             padding-left: 0;
             margin-top: 20px;
-        }
-            ul {
-                display: flex;
-                list-style: none;
-                width: 350px;
-                margin-top: 14px;
-                li .responsive {
-                    margin-left: 10px;
-                }
-                li .container {
-                    box-sizing: border-box;	
-                    height: 30px;	
-                    width: 30px;	
-                    border: 2px solid #01C4CF;	
-                    border-radius: 5px;	
-                    background-color: #FFFFFF;
-                    margin-left: 10px;
-                    .count {
-                        color: #01C4CF;
-                        font-size: 16px;
-                        font-weight: bold;
-                        letter-spacing: -0.2px;
-                        padding: 6px 4px;
-                    }
-                }
-            }
-            .tag-title {
-                color: #3B3B3B;	
-                font-family: map-get($font-families, secondary);	
-                font-size: 14px;	
-                font-weight: 500;	
-                letter-spacing: -0.2px;	
-                line-height: 18px;
-            }
-            .technologies {
-                color: #3B3B3B;	
-                font-family: map-get($font-families, primary);	
-                font-size: 14px;	
-                letter-spacing: -0.2px;	
-                margin-top: 3px;
-            }  
           }
+
+          ul {
+            display: flex;
+            list-style: none;
+            width: 350px;
+            margin-top: 14px;
+
+            li .responsive {
+              margin-left: 10px;
+            }
+
+            li .container {
+              box-sizing: border-box;
+              height: 30px;
+              width: 30px;
+              border: 2px solid #01C4CF;
+              border-radius: 5px;
+              background-color: #FFFFFF;
+              margin-left: 10px;
+
+              .count {
+                color: #01C4CF;
+                font-size: 16px;
+                font-weight: bold;
+                letter-spacing: -0.2px;
+                padding: 6px 4px;
+              }
+            }
+          }
+
+          .tag-title {
+            color: #3B3B3B;
+            font-family: map-get($font-families, secondary);
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: -0.2px;
+            line-height: 18px;
+          }
+
+          .technologies {
+            color: #3B3B3B;
+            font-family: map-get($font-families, primary);
+            font-size: 14px;
+            letter-spacing: -0.2px;
+            margin-top: 3px;
+          }
+        }
+
         .items-2 {
-            width: 100px;
-            padding-left: 112px;
-            @media only screen and (max-width: 767px) {
+          width: 100px;
+          padding-left: 112px;
+          @media only screen and (max-width: 767px) {
             width: 100px;
             padding-left: 0;
             margin-top: 20px;
+          }
+
+          .tag-title {
+            color: #3B3B3B;
+            font-family: map-get($font-families, secondary);
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: -0.2px;
+            line-height: 18px;
+          }
+
+          ul {
+            display: flex;
+            list-style: none;
+            margin-top: 14px;
+
+            li .responsive {
+              margin-left: 5px;
+            }
+          }
         }
-            .tag-title {
-                color: #3B3B3B;	
-                font-family: map-get($font-families, secondary);	
-                font-size: 14px;	
-                font-weight: 500;	
-                letter-spacing: -0.2px;	
-                line-height: 18px;
-            } 
-            ul {
-                display: flex;
-                list-style: none;
-                margin-top: 14px;
-                li .responsive {
-                    margin-left: 5px;
-                }
-             }
-           }
-        }
-     }
+      }
+    }
   }
 
   // Third Section
   .an-overview {
-      	max-width: 1920px;
-        margin: 0 auto;
-        margin-top: -3%;
-      .overview-content {
-          max-width: 936px;
-          margin: 0 auto;
-          @media only screen and (max-width: 1024px) {
-                  /*width: 329px*/
-                  padding-left: 2em;
-                  padding-right: 2em;
-              } 
-          .label {
-              color: #01C4CF;	
-              font-family: map-get($font-families, secondary);	
-              font-size: 14px;	
-              font-weight: 500;	
-              letter-spacing: -0.2px;	
-              line-height: 18px;
-              text-transform: uppercase;
-          }
-          .overview-title {
-              color: #000000;	
-              font-family: map-get($font-families, secondary-bold);	
-              font-size: 36px;	
-              font-weight: bold;	
-              letter-spacing: -0.2px;	
-              line-height: 44px; 
-              margin-top: 15px;
-              @media only screen and (max-width: 767px) {
-                  font-size: 26px;
-                  line-height: 30px;
-              }
-          }
-          .para-detail {
-              color: #3B3B3B;	
-              font-family: map-get($font-families, primary);	
-              font-size: 18px;	
-              letter-spacing: -0.2px;	
-              line-height: 28px;
-              margin-top: 32.4px;
-              @media only screen and (max-width: 767px) {
-                  font-size: 16px;
-                  line-height: 24px;
-              }
-          }
-          .second-para-detail {
-              color: #3B3B3B;	
-              font-family: map-get($font-families, primary);	
-              font-size: 18px;	
-              letter-spacing: -0.2px;	
-              line-height: 28px;
-              margin-top: 10px;
-              @media only screen and (max-width: 767px) {
-                  font-size: 16px;
-                  line-height: 24px;
-              }
-          }
+    max-width: 1920px;
+    margin: 0 auto;
+    margin-top: -3%;
+
+    .overview-content {
+      max-width: 936px;
+      margin: 0 auto;
+      @media only screen and (max-width: 767px) {
+        width: 329px
       }
-      .diagrame {
-          background: url(../../images/mpulse/diagramme.png) no-repeat;
-          width: 687px;
-          height: 359px;
-          margin: 0 auto;
-          margin-top: 89px;
-          @media only screen and (max-width: 767px) {
-                  background-size: contain;
-                  height: 216px;
-                  width: 349px;
-                  margin-top: 50px;                  
-         }
+
+      .label {
+        color: #01C4CF;
+        font-family: map-get($font-families, secondary);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.2px;
+        line-height: 18px;
+        text-transform: uppercase;
       }
+
+      .overview-title {
+        color: #000000;
+        font-family: map-get($font-families, secondary-bold);
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+        margin-top: 15px;
+        @media only screen and (max-width: 767px) {
+          font-size: 26px;
+          line-height: 30px;
+        }
+      }
+
+      .para-detail {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 32.4px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+
+      .second-para-detail {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 10px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .diagrame {
+      background: url(../../images/mpulse/diagramme.png) no-repeat;
+      width: 687px;
+      height: 359px;
+      margin: 0 auto;
+      margin-top: 89px;
+      @media only screen and (max-width: 767px) {
+        background-size: contain;
+        height: 216px;
+        width: 349px;
+        margin-top: 50px;
+      }
+    }
   }
 
   // Fourth Section
   .the-challenge {
-      max-width: 1350px;
+    max-width: 1350px;
+    margin: 0 auto;
+    margin-top: 157px;
+    @media only screen and (max-width: 767px) {
+      margin-top: 80px;
+    }
+
+    .challenge {
+      max-width: 935px;
       margin: 0 auto;
-      margin-top: 157px;
       @media only screen and (max-width: 767px) {
-                    margin-top: 60px;
-              }
-      .challenge {
-          max-width: 935px;
-          margin: 0 auto; 
-          @media only screen and (max-width: 1024px) {
-                  padding-left: 2em;
-                  padding-right: 2em;
-              }
-          .label {
-              color: #01C4CF;	
-              font-family: map-get($font-families, secondary);	
-              font-size: 14px;	
-              font-weight: 500;	
-              letter-spacing: -0.2px;	
-              line-height: 18px;
-              text-transform: uppercase;
-          }                
-      .tackling-the-scalabi {
-          color: #000000;	
-          font-family: map-get($font-families, secondary-bold);		
-          font-size: 36px;	
-          font-weight: bold;	
-          letter-spacing: -0.2px;	
-          line-height: 44px;
-          margin-top: 10px;
-          @media only screen and (max-width: 767px) {
-                  font-size: 24px;
-                  line-height: 30px;
-          }
+        width: 329px
       }
+
+      .label {
+        color: #01C4CF;
+        font-family: map-get($font-families, secondary);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.2px;
+        line-height: 18px;
+        text-transform: uppercase;
+      }
+
+      .tackling-the-scalabi {
+        color: #000000;
+        font-family: map-get($font-families, secondary-bold);
+        font-size: 36px;
+        font-weight: bold;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+        margin-top: 10px;
+        @media only screen and (max-width: 767px) {
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+
       .m-pulse-wanted-us-to {
-          color: #3B3B3B;	
-          font-family: map-get($font-families, primary);	
-          font-size: 18px;	
-          letter-spacing: -0.2px;	
-          line-height: 28px;
-          margin-top: 20px;
-          @media only screen and (max-width: 767px) {
-                  font-size: 16px;
-                  line-height: 24px;
-         }
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 20px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
       }
     }
   }
 
   // Fifth Section
   .our-approach {
-      /*height: 600px;*/	
-      max-width: 1920px;	
-      background-color: #FFFFFF;
+    /*height: 600px;*/
+    max-width: 1920px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 100px;
+    @media only screen and (max-width: 767px) {
+      margin-top: 80px;
+    }
+
+    .approach-content {
+      height: 372px;
+      max-width: 935px;
       margin: 0 auto;
-      margin-top: 100px;
       @media only screen and (max-width: 767px) {
-                    margin-top: 60px;
-              }
-      .approach-content {
-          height: 372px;
-          max-width: 935px;
-          margin: 0 auto;
-          @media only screen and (max-width: 1024px) {
-                    padding-left: 2em;
-                    padding-right: 2em;
-              }
-          .label {
-              color: #01C4CF;	
-              font-family: map-get($font-families, secondary);	
-              font-size: 14px;	
-              font-weight: 500;	
-              letter-spacing: -0.2px;	
-              line-height: 18px;
-              text-transform: uppercase;
-          }         
-          .glued-to-users-prob {
-              color: #000000;	
-              font-family: map-get($font-families, secondary-bold);	
-              font-size: 36px;		
-              letter-spacing: -0.2px;	
-              line-height: 44px;
-              margin-top: 10px;
-              @media only screen and (max-width: 767px) {
-                  font-size: 24px;
-                  line-height: 30px;
+        width: 329px;
+      }
+
+      .label {
+        color: #01C4CF;
+        font-family: map-get($font-families, secondary);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.2px;
+        line-height: 18px;
+        text-transform: uppercase;
+      }
+
+      .glued-to-users-prob {
+        color: #000000;
+        font-family: map-get($font-families, secondary-bold);
+        font-size: 36px;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+        margin-top: 10px;
+        @media only screen and (max-width: 767px) {
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+
+      .row {
+        margin-top: 20px;
+
+        .column-left {
+          float: left;
+          height: 280px;
+          width: 425px;
+          @media only screen and (max-width: 768px) {
+            width: auto;
+            height: auto;
+          }
+
+          .we-spent-our-initial {
+            color: #3B3B3B;
+            font-family: map-get($font-families, primary);
+            font-size: 18px;
+            letter-spacing: -0.2px;
+            line-height: 28px;
+            @media only screen and (max-width: 767px) {
+              font-size: 16px;
+              line-height: 24px;
             }
           }
-          .row {
-              margin-top: 20px;
-              .column-left {
-                  float: left;
-                  height: 280px;	
-                  width: 425px;
-                  @media only screen and (max-width: 768px){
-                        width: auto;
-                        height: auto;
-                    }  
-                  .we-spent-our-initial {
-                      color: #3B3B3B;	
-                      font-family: map-get($font-families, primary);	
-                      font-size: 18px;	
-                      letter-spacing: -0.2px;	
-                      line-height: 28px;
-                      @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-                       }
-                  }
-              }
-              .column-right {
-                  float: right;
-                  height: 280px;	
-                  width: 425px;
-                  @media only screen and (max-width: 768px){
-                        width: auto;
-                        height: auto;
-                        margin-top: 15px;
-                    }  
-                  .to-uncover-answers {
-                      color: #3B3B3B;	
-                      font-family: map-get($font-families, primary);	
-                      font-size: 18px;	
-                      letter-spacing: -0.2px;	
-                      line-height: 28px;
-                      @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-                       }
-                  }
-              }
+        }
+
+        .column-right {
+          float: right;
+          height: 280px;
+          width: 425px;
+          @media only screen and (max-width: 768px) {
+            width: auto;
+            height: auto;
+            margin-top: 15px;
           }
+
+          .to-uncover-answers {
+            color: #3B3B3B;
+            font-family: map-get($font-families, primary);
+            font-size: 18px;
+            letter-spacing: -0.2px;
+            line-height: 28px;
+            @media only screen and (max-width: 767px) {
+              font-size: 16px;
+              line-height: 24px;
+            }
+          }
+        }
       }
+    }
   }
 
   // Sixth Section
   .our-design-process {
-      	height: 1724px;	
-        max-width: 1920px;
-        margin: 0 auto;
-        background-color: #E8EFF2;
-        margin-top: 100px;
+    height: 1724px;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #E8EFF2;
+    margin-top: 100px;
+    @media only screen and (max-width: 767px) {
+      margin-top: 275px;
+      height: 1260px;
+    }
+
+    .design-process {
+      height: 488px;
+      max-width: 935px;
+      margin: 0 auto;
+      padding-top: 100px;
+      @media only screen and (max-width: 767px) {
+        width: 329px;
+      }
+
+      .label {
+        color: #01C4CF;
+        font-family: map-get($font-families, secondary);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.2px;
+        line-height: 18px;
+        text-transform: uppercase;
+      }
+
+      .main-title {
+        color: #000000;
+        font-family: map-get($font-families, secondary-bold);
+        font-size: 36px;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+        margin-top: 10px;
         @media only screen and (max-width: 767px) {
-                    margin-top: 275px;
-                    height: 1260px;
-              }
-        .design-process {
-            height: 488px;
-            max-width: 935px;
-            margin: 0 auto; 
-            padding-top: 100px;
-            @media only screen and (max-width: 1024px) {
-                    padding-left: 2em;
-                    padding-right: 2em;
-              }  
-            .label {
-              color: #01C4CF;	
-              font-family: map-get($font-families, secondary);	
-              font-size: 14px;	
-              font-weight: 500;	
-              letter-spacing: -0.2px;	
-              line-height: 18px;
-              text-transform: uppercase;
-          }          
-            .main-title {
-                color: #000000;	
-                font-family: map-get($font-families, secondary-bold);	
-                font-size: 36px;	
-                letter-spacing: -0.2px;	
-                line-height: 44px;
-                margin-top: 10px;
-                @media only screen and (max-width: 767px) {
-                              font-size: 24px;
-                              line-height: 30px;
-                }
-            }
-            .simple-text {
-                color: #3B3B3B;	
-                font-family: map-get($font-families, primary);	
-                font-size: 18px;	
-                letter-spacing: -0.2px;	
-                line-height: 28px;
-                margin-top: 20px;
-                @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-               }
-            }
-            .simple-text-2 {
-                color: #3B3B3B;	
-                font-family: map-get($font-families, primary);	
-                font-size: 18px;	
-                letter-spacing: -0.2px;	
-                line-height: 28px;
-                margin-top: 20px;
-                @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-               }
-            }
-            .simple-text-3 {
-                color: #3B3B3B;	
-                font-family: map-get($font-families, primary);	
-                font-size: 24px;	
-                letter-spacing: -0.2px;	
-                line-height: 40px;
-                margin-top: 20px;
-                @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-                }
-            }
+          font-size: 24px;
+          line-height: 30px;
         }
-        .flowchart {
-                height: 856px;
-                max-width: 1012px;
-                margin: 0 auto;
-                margin-top: 81px;
-                background: url(../../images/mpulse/flowchart.png) no-repeat;
-                @media only screen and (max-width: 767px) {
-                              background-size: contain;
-                              width:370px;
-                              margin-top: 200px;
-                              height: 339px;
-            }
+      }
+
+      .simple-text {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 20px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
         }
-        .user-flow-diagram {
-            text-align: center;
-            color: #1787E0;	
-            font-family: map-get($font-families, primary);	
-            font-size: 14px;	
-            letter-spacing: -0.2px;	
-            line-height: 24px;
-            margin-top: 30.2px;
-            @media only screen and (max-width: 767px) {
-                              font-size: 12px;
-                              line-height: 18px;
-                              margin-top: 22.6px;
-             }
+      }
+
+      .simple-text-2 {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 20px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
         }
+      }
+
+      .simple-text-3 {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 24px;
+        letter-spacing: -0.2px;
+        line-height: 40px;
+        margin-top: 20px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .flowchart {
+      height: 856px;
+      max-width: 1012px;
+      margin: 0 auto;
+      margin-top: 81px;
+      background: url(../../images/mpulse/flowchart.png) no-repeat;
+      @media only screen and (max-width: 767px) {
+        background-size: contain;
+        width: 370px;
+        margin-top: 200px;
+        height: 339px;
+      }
+    }
+
+    .user-flow-diagram {
+      text-align: center;
+      color: #1787E0;
+      font-family: map-get($font-families, primary);
+      font-size: 14px;
+      letter-spacing: -0.2px;
+      line-height: 24px;
+      margin-top: 30.2px;
+      @media only screen and (max-width: 767px) {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 22.6px;
+      }
+    }
   }
 
   // Seventh Section
   .ui-design {
-      height: 1450px;	
-      max-width: 1920px;	
-      background-color: #FFFFFF;
+    height: 1450px;
+    max-width: 1920px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    @media only screen and (max-width: 767px) {
+      margin-top: 80px;
+      height: auto;
+    }
+
+    .design-approach {
+      height: 276px;
+      max-width: 935px;
       margin: 0 auto;
+      margin-top: 90px;
       @media only screen and (max-width: 767px) {
-                    margin-top: 60px;
-                    height: auto;
-             }
-      .design-approach {
-          height: 276px;
-          max-width: 935px;
-          margin: 0 auto;
-          margin-top: 90px;
-          @media only screen and (max-width: 1024px) {
-                    padding-left: 2em;
-                    padding-right: 2em;
-             }
-          .label {
-              color: #01C4CF;	
-              font-family: map-get($font-families, secondary);	
-              font-size: 14px;	
-              font-weight: 500;	
-              letter-spacing: -0.2px;	
-              line-height: 18px;
-              text-transform: uppercase;
-          } 
-          .main-title {
-              color: #000000;	
-              font-family: map-get($font-families, secondary-bold);	
-              font-size: 36px;	
-              letter-spacing: -0.2px;	
-              line-height: 44px;
-              margin-top: 10px;
-              @media only screen and (max-width: 767px) {
-                              font-size: 24px;
-                              line-height: 30px;
-                }
-          }
-          .para-text {
-              color: #3B3B3B;	
-              font-family: map-get($font-families, primary);	
-              font-size: 18px;	
-              letter-spacing: -0.2px;	
-              line-height: 28px;
-              margin-top: 20px;
-              @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-              }
-          }
-          .para-text-2 {
-              color: #3B3B3B;	
-              font-family: map-get($font-families, primary);	
-              font-size: 18px;	
-              letter-spacing: -0.2px;	
-              line-height: 28px;
-              margin-top: 17px;
-              @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-               }
-          }
+        width: 329px;
+        margin-top: 0;
       }
-      .color-palette {
-          background: url(../../images/mpulse/colors.svg) no-repeat;
-          width: 935px;
-          height: 430px;
-          margin-top: 80px;
-          margin-left: auto;
-          margin-right: auto;
-          @media only screen and (max-width: 767px) {
-                width: 281px;
-                margin-top: 35%;
-         }
+
+      .label {
+        color: #01C4CF;
+        font-family: map-get($font-families, secondary);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.2px;
+        line-height: 18px;
+        text-transform: uppercase;
       }
-      .ui-component {
-          background: url(../../images/mpulse/ui-component.svg) no-repeat;
-          max-width: 1290px;
-          height: 427px;
-          margin-top: 80px;
-          margin-left: auto;
-          margin-right: auto;
-          @media only screen and (max-width: 767px) {
-                width: 359px;
-                background-size: contain;
-                margin-top: 30px;
-                height: 200px;
-         }
+
+      .main-title {
+        color: #000000;
+        font-family: map-get($font-families, secondary-bold);
+        font-size: 36px;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+        margin-top: 10px;
+        @media only screen and (max-width: 767px) {
+          font-size: 24px;
+          line-height: 30px;
+        }
       }
+
+      .para-text {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 20px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+
+      .para-text-2 {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 17px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .color-palette {
+      background: url(../../images/mpulse/colors.svg) no-repeat;
+      width: 935px;
+      height: 430px;
+      margin-top: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      @media only screen and (max-width: 767px) {
+        width: 281px;
+      }
+    }
+
+    .ui-component {
+      background: url(../../images/mpulse/ui-component.svg) no-repeat;
+      max-width: 1290px;
+      height: 427px;
+      margin-top: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      @media only screen and (max-width: 767px) {
+        width: 359px;
+        background-size: contain;
+        margin-top: 30px;
+        height: 200px;
+      }
+    }
   }
 
   // Eighth Section
   .secondary-banner {
-      max-width: 1920px;
-      margin: 0 auto;
-      .ui-showcase{
-          background: url(../../images/mpulse/ui-showcase.png) no-repeat;
-          background-size: contain;
-          height: 739px;
-          @media only screen and (max-width: 767px) {
-                height: 205px;
-         }
+    max-width: 1920px;
+    margin: 0 auto;
+
+    .ui-showcase {
+      background: url(../../images/mpulse/ui-showcase.png) no-repeat;
+      background-size: contain;
+      /*height: 1020px;*/
+      height: 739px;
+      @media only screen and (max-width: 767px) {
+        height: 205px;
       }
+    }
   }
 
   // Ninth Section
-  .development {      	
-      max-width: 1920px;	
-      background-color: #FFFFFF;
+  .development {
+    max-width: 1920px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 100px;
+    @media only screen and (max-width: 767px) {
+      margin-top: 80px;
+    }
+
+    .development-process {
+      max-width: 935px;
       margin: 0 auto;
-      margin-top: 100px;
-       @media only screen and (max-width: 767px) {
-                    margin-top: 80px;
-             }
-      .development-process {
-          max-width: 935px;
-          margin: 0 auto;
-           @media only screen and (max-width: 1024px) {
-                    padding-left: 2em;
-                    padding-right: 2em;
-             }
-           .label {
-              color: #01C4CF;	
-              font-family: map-get($font-families, secondary);	
-              font-size: 14px;	
-              font-weight: 500;	
-              letter-spacing: -0.2px;	
-              line-height: 18px;
-              text-transform: uppercase;
-          } 
-          .main-title {
-              color: #000000;	
-              font-family: map-get($font-families, secondary-bold);	
-              font-size: 36px;	
-              letter-spacing: -0.2px;	
-              line-height: 44px;
-              margin-top: 10px;
-              @media only screen and (max-width: 767px) {
-                              font-size: 24px;
-                              line-height: 30px;
-               }
-          }
-          .process-text {
-              color: #3B3B3B;	
-              font-family: map-get($font-families, primary);	
-              font-size: 18px;	
-              letter-spacing: -0.2px;	
-              line-height: 28px;
-              margin-top: 20px;
-              @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-               }
-          }
-          .process-text-2 {
-              color: #3B3B3B;	
-              font-family: map-get($font-families, primary);	
-              font-size: 18px;	
-              letter-spacing: -0.2px;	
-              line-height: 28px;
-              margin-top: 20px;
-              @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-               }
-          }
-          .process-text-3 {
-              color: #3B3B3B;	
-              font-family: map-get($font-families, primary);	
-              font-size: 18px;	
-              letter-spacing: -0.2px;	
-              line-height: 28px;
-              margin-top: 20px;
-              @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-               }
-          }
+      @media only screen and (max-width: 767px) {
+        width: 329px;
       }
+
+      .label {
+        color: #01C4CF;
+        font-family: map-get($font-families, secondary);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.2px;
+        line-height: 18px;
+        text-transform: uppercase;
+      }
+
+      .main-title {
+        color: #000000;
+        font-family: map-get($font-families, secondary-bold);
+        font-size: 36px;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+        margin-top: 10px;
+        @media only screen and (max-width: 767px) {
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+
+      .process-text {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 20px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+
+      .process-text-2 {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 20px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+
+      .process-text-3 {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 20px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
   }
 
   // Tenth Section
   .the-outcome {
-      max-width: 1920px;	
-      background-color: #FFFFFF;
+    max-width: 1920px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+
+    .outcome-content {
+      max-width: 935px;
       margin: 0 auto;
-      .outcome-content {
-          max-width: 935px;
-          margin: 0 auto;
-          margin-top: 100px;
-          .special-bold-text {
-              font-family: map-get($font-families, primary-bold);
-          }
-          @media only screen and (max-width: 1024px) {
-                    padding-left: 2em;
-                    padding-right: 2em;
-             }
-          .label {
-              color: #01C4CF;	
-              font-family: map-get($font-families, secondary);	
-              font-size: 14px;	
-              font-weight: 500;	
-              letter-spacing: -0.2px;	
-              line-height: 18px;
-              text-transform: uppercase;
-          } 
-          .main-title {
-              color: #000000;	
-              font-family: map-get($font-families, secondary-bold);	
-              font-size: 36px;	
-              letter-spacing: -0.2px;	
-              line-height: 44px;
-              margin-top: 10px;
-              @media only screen and (max-width: 767px) {
-                              font-size: 24px;
-                              line-height: 30px;
-               }
-          }
-          .outcome-para {
-              color: #3B3B3B;	
-              font-family: map-get($font-families, primary);	
-              font-size: 18px;	
-              letter-spacing: -0.2px;	
-              line-height: 28px;
-              margin-top: 20px;
-              @media only screen and (max-width: 767px) {
-                              font-size: 16px;
-                              line-height: 24px;
-              }
-          }
+      margin-top: 100px;
+      @media only screen and (max-width: 767px) {
+        width: 329px;
+        margin-top: 80px;
       }
+
+      .label {
+        color: #01C4CF;
+        font-family: map-get($font-families, secondary);
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -0.2px;
+        line-height: 18px;
+        text-transform: uppercase;
+      }
+
+      .main-title {
+        color: #000000;
+        font-family: map-get($font-families, secondary-bold);
+        font-size: 36px;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+        margin-top: 10px;
+        @media only screen and (max-width: 767px) {
+          font-size: 24px;
+          line-height: 30px;
+        }
+      }
+
+      .outcome-para {
+        color: #3B3B3B;
+        font-family: map-get($font-families, primary);
+        font-size: 18px;
+        letter-spacing: -0.2px;
+        line-height: 28px;
+        margin-top: 20px;
+        @media only screen and (max-width: 767px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+    }
   }
 }
 
 //Eleventh section
-  .client-testimonial {
-      margin-top: 89px;
-      @media only screen and (max-width: 767px) {                    
-                    margin-top: 50px;
-             }
-      .testimonial {
-          max-width: 800px;
-          margin: 0 auto;
-          @media only screen and (max-width: 1024px) {
-                    padding-left: 2em;
-                    padding-right: 2em;
-             }
-          .testimonial-text {
-              width: 774px;
-              color: #000000;	
-              font-family: map-get($font-families, secondary);	
-              font-size: 20px;	
-              letter-spacing: -0.2px;	
-              line-height: 36px;
-              @media only screen and (max-width: 767px) {
-                              font-size: 20px;
-                              line-height: 36px;
-                              width: 302px;
-              }
-          }
-          .item-footer {
-              text-align: left;
-              display: table;
-              .image-container {
-                  width: 12%;
-                  display: table-cell;
-                  vertical-align: middle;
-              }
-              .details {
-                  padding: 25px;
-                  display: grid;
-                  .name {
-                      color: #01C4CF;
-                      font-family: map-get($font-families, primary);
-                      font-size: 16px;
-                      line-height: 20px;
-                      font-weight: bold;
-                      text-transform: uppercase;
-                  }
-                  .company {
-                      color: #3B3B3B;
-                      font-family: map-get($font-families, primary);
-                      font-size: 16px;
-                      line-height: 20px;
-                  }
-              }
-          }
-      }
+.client-testimonial {
+  margin-top: 89px;
+  @media only screen and (max-width: 767px) {
+    margin-top: 50px;
   }
+
+  .testimonial {
+    max-width: 800px;
+    margin: 0 auto;
+    @media only screen and (max-width: 767px) {
+      width: 329px;
+    }
+
+    .testimonial-text {
+      width: 774px;
+      color: #000000;
+      font-family: map-get($font-families, secondary);
+      font-size: 20px;
+      letter-spacing: -0.2px;
+      line-height: 36px;
+      @media only screen and (max-width: 767px) {
+        font-size: 20px;
+        line-height: 36px;
+        width: 302px;
+      }
+    }
+
+    .item-footer {
+      text-align: left;
+      display: table;
+
+      .image-container {
+        width: 12%;
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      .details {
+        padding: 25px;
+        display: grid;
+
+        .name {
+          color: #01C4CF;
+          font-family: map-get($font-families, primary);
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        .company {
+          color: #3B3B3B;
+          font-family: map-get($font-families, primary);
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
