@@ -23,12 +23,9 @@ body {
       .banner-content {
           max-width: 935px;
           margin: 0 auto;
-          @media only screen and (max-width: 767px){
-                        width: 329px;                       
-                    }  
-          @media only screen and (min-width: 768px) and (max-width: 1023px){
-                        width: 637px;                       
-                    }         
+          @media only screen and (max-width: 1024px){
+                        padding-left: 7%;                       
+                    }        
           .title-tag {
               color: #000000;	
               font-family: map-get($font-families, secondary-bold);	
@@ -214,8 +211,10 @@ body {
       .overview-content {
           max-width: 936px;
           margin: 0 auto;
-          @media only screen and (max-width: 767px) {
-                  width: 329px
+          @media only screen and (max-width: 1024px) {
+                  /*width: 329px*/
+                  padding-left: 2em;
+                  padding-right: 2em;
               } 
           .label {
               color: #01C4CF;	
@@ -285,13 +284,14 @@ body {
       margin: 0 auto;
       margin-top: 157px;
       @media only screen and (max-width: 767px) {
-                    margin-top: 80px;
+                    margin-top: 60px;
               }
       .challenge {
           max-width: 935px;
           margin: 0 auto; 
-          @media only screen and (max-width: 767px) {
-                  width: 329px
+          @media only screen and (max-width: 1024px) {
+                  padding-left: 2em;
+                  padding-right: 2em;
               }
           .label {
               color: #01C4CF;	
@@ -338,14 +338,15 @@ body {
       margin: 0 auto;
       margin-top: 100px;
       @media only screen and (max-width: 767px) {
-                    margin-top: 80px;
+                    margin-top: 60px;
               }
       .approach-content {
           height: 372px;
           max-width: 935px;
           margin: 0 auto;
-          @media only screen and (max-width: 767px) {
-                    width: 329px;
+          @media only screen and (max-width: 1024px) {
+                    padding-left: 2em;
+                    padding-right: 2em;
               }
           .label {
               color: #01C4CF;	
@@ -431,8 +432,9 @@ body {
             max-width: 935px;
             margin: 0 auto; 
             padding-top: 100px;
-            @media only screen and (max-width: 767px) {
-                    width: 329px;
+            @media only screen and (max-width: 1024px) {
+                    padding-left: 2em;
+                    padding-right: 2em;
               }  
             .label {
               color: #01C4CF;	
@@ -528,7 +530,7 @@ body {
       background-color: #FFFFFF;
       margin: 0 auto;
       @media only screen and (max-width: 767px) {
-                    margin-top: 80px;
+                    margin-top: 60px;
                     height: auto;
              }
       .design-approach {
@@ -536,9 +538,9 @@ body {
           max-width: 935px;
           margin: 0 auto;
           margin-top: 90px;
-          @media only screen and (max-width: 767px) {
-                    width: 329px;
-                    margin-top: 0;
+          @media only screen and (max-width: 1024px) {
+                    padding-left: 2em;
+                    padding-right: 2em;
              }
           .label {
               color: #01C4CF;	
@@ -595,6 +597,7 @@ body {
           margin-right: auto;
           @media only screen and (max-width: 767px) {
                 width: 281px;
+                margin-top: 35%;
          }
       }
       .ui-component {
@@ -620,7 +623,6 @@ body {
       .ui-showcase{
           background: url(../../images/mpulse/ui-showcase.png) no-repeat;
           background-size: contain;
-          /*height: 1020px;*/
           height: 739px;
           @media only screen and (max-width: 767px) {
                 height: 205px;
@@ -640,8 +642,9 @@ body {
       .development-process {
           max-width: 935px;
           margin: 0 auto;
-           @media only screen and (max-width: 767px) {
-                    width: 329px;
+           @media only screen and (max-width: 1024px) {
+                    padding-left: 2em;
+                    padding-right: 2em;
              }
            .label {
               color: #01C4CF;	
@@ -712,9 +715,12 @@ body {
           max-width: 935px;
           margin: 0 auto;
           margin-top: 100px;
-          @media only screen and (max-width: 767px) {
-                    width: 329px;
-                    margin-top: 80px;
+          .special-bold-text {
+              font-family: map-get($font-families, primary-bold);
+          }
+          @media only screen and (max-width: 1024px) {
+                    padding-left: 2em;
+                    padding-right: 2em;
              }
           .label {
               color: #01C4CF;	
@@ -762,8 +768,9 @@ body {
       .testimonial {
           max-width: 800px;
           margin: 0 auto;
-          @media only screen and (max-width: 767px) {
-                    width: 329px;
+          @media only screen and (max-width: 1024px) {
+                    padding-left: 2em;
+                    padding-right: 2em;
              }
           .testimonial-text {
               width: 774px;
