@@ -333,24 +333,25 @@ $border-radius: 5px;
 
   // Sixth Section
   .development {
-    @extend %gutter;
     background: url('/images/development-lucid-dream.png');
     background-color: #E8EFF2;
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
-    height: 77vw;
+    height: 90vh;
 
-    .common-wrapper {
+    @include break-small-to-large(desktop) {
+      height: 77vw;
+    }
+
+    .inner-container {
       @extend %section-top-spacing;
     }
   }
 
   // Seventh Section
   .the-outcome {
-    @extend %gutter;
-
-    .common-wrapper {
+    .inner-container {
       @extend %section-top-spacing;
       @extend %section-btm-spacing;
 
@@ -446,53 +447,67 @@ $border-radius: 5px;
     }
 
     .inner-container {
-      .first-section {
-        h2 {
-          color: #000000;
-          font-family: map-get($font-families, secondary-bold);
-          font-size: 26px;
-          letter-spacing: -0.2px;
-          line-height: 36px;
+      .section-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        @include break-small-to-large(tablet) {
+          flex-direction: row;
         }
 
-        p {
-          color: #3B3B3B;
-          font-family: map-get($font-families, primary);
-          font-size: 16px;
-          letter-spacing: -0.2px;
-          line-height: 24px;
+
+        .first-section {
+          margin-bottom: 60px;
+
+          h2 {
+            color: #000000;
+            font-family: map-get($font-families, secondary-bold);
+            font-size: 26px;
+            letter-spacing: -0.2px;
+            line-height: 36px;
+          }
+
+          p {
+            color: #3B3B3B;
+            font-family: map-get($font-families, primary);
+            font-size: 16px;
+            letter-spacing: -0.2px;
+            line-height: 24px;
+          }
+
+          a {
+            color: #FC7764;
+            font-family: map-get($font-families, secondary-medium);
+            font-size: 18px;
+            line-height: 32px;
+          }
         }
 
-        a {
-          color: #FC7764;
-          font-family: map-get($font-families, secondary-medium);
-          font-size: 18px;
-          line-height: 32px;
-        }
-      }
+        .second-section {
+          margin-bottom: 60px;
 
-      .second-section {
-        h2 {
-          color: #000000;
-          font-family: map-get($font-families, secondary-bold);
-          font-size: 26px;
-          letter-spacing: -0.2px;
-          line-height: 36px;
-        }
+          h2 {
+            color: #000000;
+            font-family: map-get($font-families, secondary-bold);
+            font-size: 26px;
+            letter-spacing: -0.2px;
+            line-height: 36px;
+          }
 
-        p {
-          color: #3B3B3B;
-          font-family: map-get($font-families, primary);
-          font-size: 16px;
-          letter-spacing: -0.2px;
-          line-height: 24px;
-        }
+          p {
+            color: #3B3B3B;
+            font-family: map-get($font-families, primary);
+            font-size: 16px;
+            letter-spacing: -0.2px;
+            line-height: 24px;
+          }
 
-        a {
-          color: #FC7764;
-          font-family: map-get($font-families, secondary-medium);
-          font-size: 18px;
-          line-height: 32px;
+          a {
+            color: #FC7764;
+            font-family: map-get($font-families, secondary-medium);
+            font-size: 18px;
+            line-height: 32px;
+          }
         }
       }
     }
