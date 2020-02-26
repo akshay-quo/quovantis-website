@@ -58,9 +58,11 @@ header {
     transition-duration: 0.05s;
 }
 header.header-white {
-    background-color: #fff;
-    -webkit-animation: slide-down .3s ease-out;
-    -moz-animation: slide-down .3s ease-out;
+    @include break-small-to-large(tablet) {
+        background-color: #fff;
+        -webkit-animation: slide-down .3s ease-out;
+        -moz-animation: slide-down .3s ease-out;
+    }
 }
 
 .white-logo {

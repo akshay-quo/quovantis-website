@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="546989a0-ea52-467c-b29a-d0dec05c0d68" name="Default Changelist" comment="">
+    <list default="true" id="546989a0-ea52-467c-b29a-d0dec05c0d68" name="Default Changelist" comment="responsive header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/_header-common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/_header-common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/pages/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/utilities/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utilities/_helpers.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,87 +17,17 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="251" />
   </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
-                  <caret line="291" column="34" selection-start-line="291" selection-start-column="24" selection-end-line="291" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="61" selection-start-line="61" selection-end-line="61" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>@include break-small-to-large(</find>
-      <find>award-testimonial {</find>
-      <find>map</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html" />
-        <option value="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XnMwJkfHK0HuIFJRWX5DgH1VG2" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="quovantis-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quovantis-website" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -146,9 +78,7 @@
       <workItem from="1582461736749" duration="185000" />
       <workItem from="1582509171499" duration="543000" />
       <workItem from="1582604571217" duration="232000" />
-      <workItem from="1582690832450" duration="4232000" />
-      <workItem from="1582718389862" duration="2198000" />
-      <workItem from="1582725276428" duration="372000" />
+      <workItem from="1582690832450" duration="10752000" />
     </task>
     <task id="LOCAL-00001" summary="Images added">
       <created>1582012243173</created>
@@ -192,42 +122,22 @@
       <option name="project" value="LOCAL" />
       <updated>1582716605937</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="merge">
+      <created>1582717967170</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582717967170</updated>
+    </task>
+    <task id="LOCAL-00008" summary="responsive header">
+      <created>1582721974977</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582721974977</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2570000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="1" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Team" order="0" sideWeight="0.5089286" side_tool="true" weight="0.19547658" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49107143" visible="true" weight="0.15806195" />
-      <window_info id="Structure" order="2" sideWeight="0.5089286" side_tool="true" weight="0.19547658" />
-      <window_info id="npm" order="3" sideWeight="0.5089286" side_tool="true" weight="0.19547658" />
-      <window_info id="Favorites" order="4" sideWeight="0.5089286" side_tool="true" weight="0.19547658" />
-      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32930514" />
-      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49757674" weight="0.35196376" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.326284" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49919224" weight="0.32930514" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.19335347" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49757674" weight="0.46676737" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49676898" weight="0.5876133" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.32930514" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49757674" visible="true" weight="0.2900302" />
-      <window_info anchor="bottom" id="TypeScript" order="13" weight="0.32930514" />
-      <window_info anchor="bottom" id="GitHub Pull Requests" order="14" weight="0.4486405" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.34006462" />
-      <window_info anchor="right" id="CodeStream" order="4" weight="0.2980614" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -238,28 +148,8 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
           </value>
         </entry>
       </map>
@@ -272,25 +162,11 @@
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Worked on what we did section for mobile" />
     <MESSAGE value="Mobile Responsive - 'an overview' section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mobile Responsive - 'an overview' section" />
+    <MESSAGE value="merge" />
+    <MESSAGE value="responsive header" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive header" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/quovantis_website$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1581832837477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="291" column="34" selection-start-line="291" selection-start-column="24" selection-end-line="291" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
