@@ -89,8 +89,8 @@ $border-radius: 5px;
 }
 
 %gutter {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left:15%;
+  padding-right: 15%;
 }
 
 
@@ -177,6 +177,20 @@ $border-radius: 5px;
   // Second Section
   .what-we-did {
     padding: 0 16px;
+
+    .working-area-wrapper {
+      &-list {
+        &__item {
+          display: inline-block;
+          padding: 4px 10px;
+          border: 2px solid #01C4CF;
+          border-radius: 5px;
+          text-transform: uppercase;
+          font-weight: 600;
+          color: #01C4CF;
+        }
+      }
+    }
 
     @include break-small-to-large(tablet) {
 
