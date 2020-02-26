@@ -279,9 +279,8 @@ $border-radius: 5px;
 
   // Fourth Section
   .the-solution {
-    @extend %gutter;
 
-    .common-wrapper {
+    .inner-container {
       @extend %section-top-spacing;
       @extend %section-btm-spacing;
 
