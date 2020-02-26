@@ -40,16 +40,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="185" column="4" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="31" />
+                <state relative-caret-position="394">
+                  <caret line="263" lean-forward="true" selection-start-line="263" selection-end-line="263" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="e#1667#1673#0" expanded="true" />
                     <element signature="e#1676#1682#0" expanded="true" />
                     <element signature="e#1685#1691#0" expanded="true" />
                     <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -119,14 +120,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="130" column="3" lean-forward="true" selection-start-line="130" selection-start-column="3" selection-end-line="130" selection-end-column="3" />
+                <state relative-caret-position="265">
+                  <caret line="289" column="28" lean-forward="true" selection-start-line="289" selection-start-column="28" selection-end-line="289" selection-end-column="28" />
                   <folding>
                     <element signature="e#1882#2084#0" />
                     <element signature="e#3147#5290#0" />
-                    <element signature="e#5330#5336#0" />
+                    <element signature="e#5652#6493#0" />
                     <element signature="e#6352#6358#0" />
-                    <element signature="e#6729#8863#0" />
                     <element signature="e#8898#8904#0" />
                   </folding>
                 </state>
@@ -165,6 +165,12 @@
       <find>padding-left-20</find>
       <find>padding-ryt-100</find>
       <find>secondary-cta</find>
+      <find>the-out</find>
+      <find>d-flex</find>
+      <find>award-testimonial</find>
+      <find>section-wrapper</find>
+      <find>the-solution</find>
+      <find>brea</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -196,6 +202,7 @@
         <option value="$PROJECT_DIR$/images/lucid/dribble.svg" />
         <option value="$PROJECT_DIR$/styles/styles.scss" />
         <option value="$PROJECT_DIR$/styles/utilities/_helpers.scss" />
+        <option value="$PROJECT_DIR$/styles/base/_base.scss" />
         <option value="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss" />
         <option value="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html" />
       </list>
@@ -355,11 +362,25 @@
       <option name="project" value="LOCAL" />
       <updated>1582712944578</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LR page - development section">
+      <created>1582713377484</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582713377484</updated>
+    </task>
+    <task id="LOCAL-00010" summary="LR page - the solution section">
+      <created>1582716235236</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582716235236</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31552000" />
+    <option name="totallyTimeSpent" value="33897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -375,7 +396,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.326284" />
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4986835" weight="0.22507553" />
-      <window_info active="true" anchor="bottom" id="Debug" order="5" visible="true" weight="0.19335347" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.19335347" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49757674" weight="0.46676737" />
@@ -442,7 +463,8 @@
     <MESSAGE value="merge with develop branch" />
     <MESSAGE value="LR page - see more section" />
     <MESSAGE value="LR page - development section" />
-    <option name="LAST_COMMIT_MESSAGE" value="LR page - development section" />
+    <MESSAGE value="LR page - the solution section" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR page - the solution section" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lucid-reality.html" />
@@ -593,14 +615,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="130" column="3" lean-forward="true" selection-start-line="130" selection-start-column="3" selection-end-line="130" selection-end-column="3" />
+        <state relative-caret-position="265">
+          <caret line="289" column="28" lean-forward="true" selection-start-line="289" selection-start-column="28" selection-end-line="289" selection-end-column="28" />
           <folding>
             <element signature="e#1882#2084#0" />
             <element signature="e#3147#5290#0" />
-            <element signature="e#5330#5336#0" />
+            <element signature="e#5652#6493#0" />
             <element signature="e#6352#6358#0" />
-            <element signature="e#6729#8863#0" />
             <element signature="e#8898#8904#0" />
           </folding>
         </state>
@@ -608,16 +629,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="185" column="4" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="31" />
+        <state relative-caret-position="394">
+          <caret line="263" lean-forward="true" selection-start-line="263" selection-end-line="263" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#1667#1673#0" expanded="true" />
             <element signature="e#1676#1682#0" expanded="true" />
             <element signature="e#1685#1691#0" expanded="true" />
             <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>

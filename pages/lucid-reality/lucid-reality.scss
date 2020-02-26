@@ -135,7 +135,7 @@ $border-radius: 5px;
     @extend %mobile-top-spacing;
     background: url(../../images/lucid/banner.svg) center center no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
 
     @include break-small-to-large(tablet) {
 
