@@ -1,4 +1,5 @@
 @import '../../styles/base/variables';
+@import '../../styles/utilities/mixins';
 
 // Global Styles
 body {
@@ -92,6 +93,11 @@ $border-radius: 5px;
   //1920
   padding-left: 20%; //24%
   padding-right: 20%; //24%
+  @include break-large-to-small(mobile) {
+    padding-left: 10%; //24%
+    padding-right: 10%; //24%
+  }
+  
 }
 
 %section-top-spacing {
@@ -129,6 +135,10 @@ $border-radius: 5px;
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     @extend %gutter;
     @extend %top-spacing;
+    @include break-large-to-small(mobile) {
+      // @extend %gutter;
+      // background: red;
+    }
 
     .title {
       color: #FFFFFF;

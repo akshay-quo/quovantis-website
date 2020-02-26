@@ -1,4 +1,4 @@
-let theButton = document.getElementById('nav-more-items');
+let theButton = document.getElementById('hamburger-menu-btn');
 let bgWhite = document.querySelectorAll('.header-main');
 let expandedMenu = document.querySelectorAll('.expanded-menu');
 let headerListItems = document.getElementsByClassName('header-navigation__wrapper');
