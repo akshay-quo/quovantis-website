@@ -1,5 +1,5 @@
+@import '../../styles/base/variables';
 @import '../../styles/utilities/mixins';
-
 
 .theme-light-color {
   color: map-get($theme, light) !important;
@@ -72,6 +72,10 @@ input.small {
   color: #fff; // var
   border-radius: 5px;
   padding: 10px;
+
+  &:hover {
+    background-color: #FF6B57;
+  }
 }
 
 .primary-btn-sm {
@@ -82,17 +86,25 @@ input.small {
   border-radius: .4vw;
   padding: 7px 13px;
   padding: .55vw 1.02vw;
+
+  &:hover {
+    background-color: #FF6B57;
+  }
 }
 
-.primary-btn-lg:hover, .primary-btn-sm:hover {
-  background-color: #FF6B57;
-}
 
-.secondary-btn {
+.secondary-cta {
   background-color: #01C4CF; // var
-  color: #fff; // var
+  color: #ffffff; // var
   border-radius: 5px;
-  padding: 7px 7px;
-  padding: .55vw .55vw;
+  padding: 14px 16px;
+  //padding: 3.2vw 3.8vw;
   display: inline-block;
+
+  color: #FFFFFF;
+  font-family: map-get($font-families, secondary-bold);
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
 }
+
