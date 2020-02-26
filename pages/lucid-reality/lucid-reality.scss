@@ -231,6 +231,7 @@ $border-radius: 5px;
   // Second Section
   .what-we-did {
     padding: 0 16px;
+    margin-top: -58px;
 
     .working-area-wrapper {
       &-list {
@@ -254,7 +255,6 @@ $border-radius: 5px;
       background: #FFFFFF;
       border-radius: 5px;
       overflow: hidden;
-      margin-top: -58px;
       border-bottom: 1px solid #E8EFF2;
     }
 
@@ -330,6 +330,7 @@ $border-radius: 5px;
   .an-overview {
     .section-wrapper {
       display: flex;
+      flex-direction: column;
     }
 
     .award-testimonial {
