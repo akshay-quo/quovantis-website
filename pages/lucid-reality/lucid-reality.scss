@@ -435,24 +435,51 @@ $border-radius: 5px;
       .first-section {
         h2 {
           color: #000000;
-          font-family: Circular;
+          font-family: map-get($font-families, secondary-bold);
           font-size: 26px;
-          font-weight: bold;
           letter-spacing: -0.2px;
           line-height: 36px;
         }
 
         p {
-
+          color: #3B3B3B;
+          font-family: map-get($font-families, primary);
+          font-size: 16px;
+          letter-spacing: -0.2px;
+          line-height: 24px;
         }
 
         a {
-
+          color: #FC7764;
+          font-family: map-get($font-families, secondary-medium);
+          font-size: 18px;
+          line-height: 32px;
         }
       }
 
       .second-section {
+        h2 {
+          color: #000000;
+          font-family: map-get($font-families, secondary-bold);
+          font-size: 26px;
+          letter-spacing: -0.2px;
+          line-height: 36px;
+        }
 
+        p {
+          color: #3B3B3B;
+          font-family: map-get($font-families, primary);
+          font-size: 16px;
+          letter-spacing: -0.2px;
+          line-height: 24px;
+        }
+
+        a {
+          color: #FC7764;
+          font-family: map-get($font-families, secondary-medium);
+          font-size: 18px;
+          line-height: 32px;
+        }
       }
     }
   }

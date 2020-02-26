@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98d08cfe-a94f-4f7e-8089-f7505e5e9810" name="Default Changelist" comment="merge with develop branch">
-      <change afterPath="$PROJECT_DIR$/images/lucid/dribble.svg" afterDir="false" />
+    <list default="true" id="98d08cfe-a94f-4f7e-8089-f7505e5e9810" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/pages/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/pages/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/utilities/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/utilities/_helpers.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,8 +40,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="373">
-                  <caret line="351" lean-forward="true" selection-start-line="351" selection-end-line="351" />
+                <state relative-caret-position="177">
+                  <caret line="337" lean-forward="true" selection-start-line="337" selection-end-line="337" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="e#1667#1673#0" expanded="true" />
@@ -335,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582699712621</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LR page - see more section">
+      <created>1582710686495</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582710686495</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29584000" />
+    <option name="totallyTimeSpent" value="29979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -420,7 +423,8 @@
     <MESSAGE value="mpulse first section" />
     <MESSAGE value="lucid reality second section" />
     <MESSAGE value="merge with develop branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge with develop branch" />
+    <MESSAGE value="LR page - see more section" />
+    <option name="LAST_COMMIT_MESSAGE" value="LR page - see more section" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lucid-reality.html" />
@@ -588,8 +592,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="351" lean-forward="true" selection-start-line="351" selection-end-line="351" />
+        <state relative-caret-position="177">
+          <caret line="337" lean-forward="true" selection-start-line="337" selection-end-line="337" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#1667#1673#0" expanded="true" />
