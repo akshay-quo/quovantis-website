@@ -6,99 +6,117 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .small-heading {
   color: #01C4CF;
   font-size: 14px;
   text-transform: uppercase;
 }
+
 .padding-1 {
   padding: 50px 25px;
   padding-right: 0;
   padding-bottom: 0;
 }
+
 .padding-btm-20 {
   padding-bottom: 20px;
 }
+
 .padding-left-20 {
   padding-left: 20px;
 }
+
 .padding-ryt-100 {
   padding-right: 100px;
 }
+
 .margin-top-50 {
   margin-top: 50px;
 }
+
 .mob-ui {
   width: 95%;
 }
+
 .label {
-  color: #01C4CF;	
-  font-family: map-get($font-families, secondary);	
-  font-size: 14px;	
-  font-weight: 500;	
-  letter-spacing: -0.2px;	
+  color: #01C4CF;
+  font-family: map-get($font-families, secondary);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
   line-height: 18px;
   text-transform: uppercase;
 }
-.main-heading{
-  color: #000000;	
-  font-family: map-get($font-families, secondary-bold);		
-  font-size: 36px;	
-  font-weight: bold;	
-  letter-spacing: -0.2px;	
+
+.main-heading {
+  color: #000000;
+  font-family: map-get($font-families, secondary-bold);
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
   line-height: 44px;
   margin-top: 10px;
   @media only screen and (max-width: 767px) {
     font-size: 24px;
     line-height: 30px;
-  }   
-} 
+  }
+}
+
 .common-para {
-  color: #3B3B3B;	
-  font-family: map-get($font-families, primary);	
+  color: #3B3B3B;
+  font-family: map-get($font-families, primary);
   font-size: 18px;
-  font-size: 1.15vw;	
-  letter-spacing: -0.2px;	
+  font-size: 1.15vw;
+  letter-spacing: -0.2px;
   line-height: 28px;
   line-height: 1.7vw;
   margin-top: 20px;
   @media only screen and (max-width: 767px) {
     font-size: 16px;
     line-height: 24px;
- }
- .special-text-bold {
-  font-family: map-get($font-families, primary-bold);
- }
+  }
+
+  .special-text-bold {
+    font-family: map-get($font-families, primary-bold);
+  }
 }
 
 // Global section divison
 .section-1 {
   width: 45%;
 }
+
 .section-2 {
   width: 55%;
 }
+
 .section-3 {
   width: 50%;
 }
+
 // Variables
 $border-radius: 5px;
 
 // Extends
+%mobile-top-spacing {
+  padding-top: 54px;
+}
+
 %top-spacing {
   padding-top: 180px;
 }
 
+%mobile-gutter {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
 %gutter {
-  //1920
   padding-left: 20%; //24%
   padding-right: 20%; //24%
-  @include break-large-to-small(mobile) {
-    padding-left: 10%; //24%
-    padding-right: 10%; //24%
-  }
-  
 }
+
 
 %section-top-spacing {
   padding-top: 70px;
@@ -128,68 +146,129 @@ $border-radius: 5px;
   }
 
   .inner-container {
-    border: 1px solid black;
+    padding: 26px 14px;
+    margin-left: 32px;
+    margin-right: 32px;
+    @include break-small-to-large(tablet) {
+      padding: 41px 218px;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
   }
 
   // First Section
   .banner {
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    @extend %gutter;
-    @extend %top-spacing;
-    @include break-large-to-small(mobile) {
-      // @extend %gutter;
-      // background: red;
+    @extend %mobile-top-spacing;
+    background: url(../../images/lucid/banner.svg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    @include break-small-to-large(tablet) {
+
     }
 
     .title {
-      color: #FFFFFF;
       font-family: map-get($font-families, secondary-bold);
-      font-size: 46px;
-      letter-spacing: -0.2px;
-      line-height: 50px;
+      font-size: 26px;
+      color: #FFFFFF;
+      line-height: 32px;
+
+      margin-bottom: 20px;
+
+      @include break-small-to-large(tablet) {
+        font-family: map-get($font-families, secondary-bold);
+        font-size: 46px;
+        color: #FFFFFF;
+        letter-spacing: -0.2px;
+        line-height: 50px;
+      }
     }
 
     .sub-title {
+      font-family: map-get($font-families, secondary-bold);
+      font-size: 24px;
       color: #FFFFFF;
-      font-family: map-get($font-families, secondary-book);
-      font-size: 36px;
-      font-weight: 500;
-      letter-spacing: -0.2px;
-      line-height: 44px;
+      line-height: 28px;
+
+      @include break-small-to-large(tablet) {
+        font-family: map-get($font-families, secondary-bold);
+        font-size: 36px;
+        color: #FFFFFF;
+        letter-spacing: -0.2px;
+        line-height: 44px;
+      }
     }
   }
 
   // Second Section
   .what-we-did {
-    @extend %gutter;
+    padding: 0 16px;
+
+    @include break-small-to-large(tablet) {
+      //@extend %gutter;
+    }
+
+    .inner-container {
+      background: #FFFFFF;
+      border-radius: 5px;
+      overflow: hidden;
+      margin-top: -58px;
+      border-bottom: 1px solid #E8EFF2;
+    }
 
     .flex-items {
       display: flex;
+      flex-direction: column;
+
+      @include break-small-to-large(tablet) {
+        flex-direction: row;
+      }
 
       .item {
-        border: 1px solid black;
+        //border: 1px solid black;
+        margin-bottom: calc(24px - 5px);
 
         .title {
-          color: #3B3B3B;
-          font-family: map-get($font-families, secondary-book);
+          margin-bottom: 10px;
+
+          font-family: map-get($font-families, secondary-medium);
           font-size: 14px;
-          font-weight: 500;
+          color: #3B3B3B;
           letter-spacing: -0.2px;
-          line-height: 18px;
+
+          @include break-small-to-large(tablet) {
+            font-family: map-get($font-families, secondary-medium);
+            font-size: 14px;
+            color: #3B3B3B;
+            letter-spacing: -0.2px;
+          }
+        }
+
+        .sub-title {
+          color: #3B3B3B;
+          font-family: map-get($font-families, primary);
+          font-size: 16px;
+          letter-spacing: -0.2px;
+          line-height: 24px;
+
+          @include break-small-to-large(tablet) {
+
+          }
         }
 
         ul {
           display: flex;
+          flex-wrap: wrap;
           list-style: none;
 
           li {
-            margin-right: 10px;
+            margin-right: 5px;
+            margin-bottom: 5px;
 
-            a {
+            .tag {
               color: #01C4CF;
               font-family: map-get($font-families, secondary-book);
               font-size: 14px;
-              font-weight: 500;
               letter-spacing: -0.2px;
               line-height: 18px;
               text-decoration: none;
@@ -213,18 +292,23 @@ $border-radius: 5px;
   // Fourth Section
   .the-solution {
     @extend %gutter;
+
     .common-wrapper {
       @extend %section-top-spacing;
       @extend %section-btm-spacing;
+
       .solution-list-wrapper {
         margin-left: 50px;
+
         &__items {
           position: relative;
           border-left: 2px solid #01C4CF;
           padding-left: 28px;
+
           &:last-child {
             border-left: 2px solid transparent;
           }
+
           &::after {
             content: '';
             background: #01C4CF;
@@ -235,6 +319,7 @@ $border-radius: 5px;
             left: -8px;
             top: 0;
           }
+
           &::before {
             content: '';
             position: absolute;
@@ -259,12 +344,13 @@ $border-radius: 5px;
   // Sixth Section
   .development {
     @extend %gutter;
-    background:url('/images/development-lucid-dream.png');
+    background: url('/images/development-lucid-dream.png');
     background-color: #E8EFF2;
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
     height: 77vw;
+
     .common-wrapper {
       @extend %section-top-spacing;
     }
@@ -273,13 +359,17 @@ $border-radius: 5px;
   // Seventh Section
   .the-outcome {
     @extend %gutter;
+
     .common-wrapper {
       @extend %section-top-spacing;
       @extend %section-btm-spacing;
+
       .award-wrapper {
         padding-top: 80px;
-        .award-bg{
+
+        .award-bg {
           position: relative;
+
           &::before {
             content: '';
             height: 255px;
@@ -293,6 +383,7 @@ $border-radius: 5px;
             top: 1.2vw;
             border-radius: 3px;
           }
+
           &__img {
             position: relative;
             width: 80%;
@@ -300,38 +391,47 @@ $border-radius: 5px;
             padding: 0 1.1vw;
           }
         }
+
         .award-testimonial {
           padding: 30px 10px;
           padding: 2.35vw .78vw;
           padding-right: 30px;
-          padding-right: 2.35vw;    
+          padding-right: 2.35vw;
+
           &__para {
             font-family: map-get($font-families, secondary-medium);
             font-size: 1.3vw;
           }
+
           &__wrapper {
             padding-top: 1.5vw;
+
             .testimonial-client-img {
               width: 36px;
               height: 36px;
             }
+
             .testimonial-client-para {
               padding-left: 1.3vw;
               font-family: map-get($font-families, primary);
+
               &__name {
                 text-transform: uppercase;
                 color: #01C4CF;
                 font-weight: 500;
               }
+
               &__designation {
                 line-height: .9;
                 font-size: .9vw;
                 text-transform: uppercase;
               }
+
               &__company {
                 text-transform: capitalize;
                 position: relative;
                 padding-left: 1vw;
+
                 &::before {
                   content: '';
                   background: rgba(0, 0, 0, 0.89);
@@ -358,14 +458,16 @@ $border-radius: 5px;
   // Ninth Section
   .see-more {
     @extend %gutter;
-    background:url('/images/Slide-BG.png');
+    background: url('/images/Slide-BG.png');
     background-color: #E8EFF2;
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
     height: 31vw;
+
     .common-wrapper {
       @extend %section-top-spacing;
+
       .common-para--for-see-more {
         padding-right: 100px;
         padding-right: 7.8vw;
