@@ -89,7 +89,7 @@ $border-radius: 5px;
 }
 
 %gutter {
-  padding-left:15%;
+  padding-left: 15%;
   padding-right: 15%;
 }
 
@@ -274,7 +274,9 @@ $border-radius: 5px;
 
   // Third Section
   .an-overview {
-
+    .section-wrapper {
+      display: flex;
+    }
   }
 
   // Fourth Section
@@ -284,44 +286,68 @@ $border-radius: 5px;
       @extend %section-top-spacing;
       @extend %section-btm-spacing;
 
-      .solution-list-wrapper {
-        margin-top: 50px;
-        margin-left: 50px;
+      .common-para {
+        margin-bottom: 50px;
+      }
 
-        &__items {
-          position: relative;
-          border-left: 2px solid #01C4CF;
-          padding-left: 28px;
-          padding-bottom: 20px;
+      .section-wrapper {
+        display: flex;
 
-          &:last-child {
-            border-left: 2px solid transparent;
+        .first-section {
+          display: none;
+
+          @include break-small-to-large(desktop) {
+
           }
+        }
 
-          &::after {
-            content: '';
-            background: #01C4CF;
-            position: absolute;
-            height: 14px;
-            width: 14px;
-            border-radius: 50%;
-            left: -8px;
-            top: 0;
-          }
+        .second-section {
+          .solution-list-wrapper {
 
-          &::before {
-            content: '';
-            position: absolute;
-            height: 10px;
-            width: 10px;
-            background: #ffffff;
-            left: -6px;
-            top: 2px;
-            z-index: 1;
-            border-radius: 50%;
+            @include break-small-to-large(desktop) {
+              margin-top: 50px;
+              margin-left: 50px;
+            }
+
+
+            &__items {
+              position: relative;
+              border-left: 2px solid #01C4CF;
+              padding-left: 28px;
+              padding-bottom: 20px;
+
+              &:last-child {
+                border-left: 2px solid transparent;
+              }
+
+              &::after {
+                content: '';
+                background: #01C4CF;
+                position: absolute;
+                height: 14px;
+                width: 14px;
+                border-radius: 50%;
+                left: -8px;
+                top: 0;
+              }
+
+              &::before {
+                content: '';
+                position: absolute;
+                height: 10px;
+                width: 10px;
+                background: #ffffff;
+                left: -6px;
+                top: 2px;
+                z-index: 1;
+                border-radius: 50%;
+              }
+            }
           }
         }
       }
+
+
     }
   }
 
@@ -355,6 +381,7 @@ $border-radius: 5px;
       @extend %section-btm-spacing;
 
       .award-wrapper {
+        display: flex;
         padding-top: 80px;
 
         .award-bg {
@@ -394,6 +421,7 @@ $border-radius: 5px;
           }
 
           &__wrapper {
+            display: flex;
             padding-top: 1.5vw;
 
             .testimonial-client-img {
