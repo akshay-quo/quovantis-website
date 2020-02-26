@@ -319,7 +319,6 @@ $border-radius: 5px;
 
   // Sixth Section
   .development {
-    @extend %gutter;
     background: url('/images/development-lucid-dream.png');
     background-color: #E8EFF2;
     background-size: contain;
@@ -331,16 +330,14 @@ $border-radius: 5px;
       height: 77vw;
     }
 
-    .common-wrapper {
+    .inner-container {
       @extend %section-top-spacing;
     }
   }
 
   // Seventh Section
   .the-outcome {
-    @extend %gutter;
-
-    .common-wrapper {
+    .inner-container {
       @extend %section-top-spacing;
       @extend %section-btm-spacing;
 
