@@ -3,12 +3,6 @@
 
 
 // Common Styles
-.padding-1 {
-  padding: 50px 25px;
-  padding-right: 0;
-  padding-bottom: 0;
-}
-
 .label {
   color: #01C4CF;
   font-family: map-get($font-families, secondary-medium);
@@ -34,7 +28,7 @@
   }
 }
 
-.common-para {
+.description {
   color: #3B3B3B;
   font-family: map-get($font-families, primary);
   font-size: 18px;
@@ -54,13 +48,13 @@
   }
 }
 
-.award-testimonial {
+%award-testimonial {
   padding: 30px 10px;
   padding: 2.35vw .78vw;
   padding-right: 30px;
   padding-right: 2.35vw;
 
-  &__para {
+  .award-testimonial__para {
     font-family: map-get($font-families, secondary-medium);
     font-size: 16px;
     font-size: 4.3vw;
@@ -69,7 +63,7 @@
     }
   }
 
-  &__wrapper {
+  .award-testimonial__wrapper {
     padding-top: 1.5vw;
 
     .testimonial-client-img {
@@ -337,6 +331,10 @@ $border-radius: 5px;
     .section-wrapper {
       display: flex;
     }
+
+    .award-testimonial {
+      @extend %award-testimonial;
+    }
   }
 
   // Fourth Section
@@ -346,7 +344,7 @@ $border-radius: 5px;
       @extend %section-top-spacing;
       @extend %section-btm-spacing;
 
-      .common-para {
+      .description {
         margin-bottom: 50px;
       }
 
@@ -484,60 +482,9 @@ $border-radius: 5px;
         }
 
         .award-testimonial {
-          padding: 30px 10px;
-          padding: 2.35vw .78vw;
-          padding-right: 30px;
-          padding-right: 2.35vw;
-
-          &__para {
-            font-family: map-get($font-families, secondary-medium);
-            font-size: 1.3vw;
-          }
-
-          &__wrapper {
-            display: flex;
-            padding-top: 1.5vw;
-
-            .testimonial-client-img {
-              width: 36px;
-              height: 36px;
-            }
-
-            .testimonial-client-para {
-              padding-left: 1.3vw;
-              font-family: map-get($font-families, primary);
-
-              &__name {
-                text-transform: uppercase;
-                color: #01C4CF;
-                font-weight: 500;
-              }
-
-              &__designation {
-                line-height: .9;
-                font-size: .9vw;
-                text-transform: uppercase;
-              }
-
-              &__company {
-                text-transform: capitalize;
-                position: relative;
-                padding-left: 1vw;
-
-                &::before {
-                  content: '';
-                  background: rgba(0, 0, 0, 0.89);
-                  width: .1vw;
-                  height: .8vw;
-                  position: absolute;
-                  top: 1px;
-                  left: 5px;
-                  z-index: 0;
-                }
-              }
-            }
-          }
+          @extend %award-testimonial;
         }
+
       }
     }
   }
