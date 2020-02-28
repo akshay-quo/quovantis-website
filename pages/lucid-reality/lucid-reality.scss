@@ -32,19 +32,32 @@
   color: #3B3B3B;
   font-family: map-get($font-families, primary);
   font-size: 18px;
-  font-size: 1.15vw;
+  font-size: 1.40vw;
   letter-spacing: -0.2px;
   line-height: 28px;
-  line-height: 1.7vw;
+  line-height: 2.2vw;
   margin-bottom: 20px;
   margin-top: 20px;
   @media only screen and (max-width: 767px) {
     font-size: 16px;
     line-height: 24px;
   }
+  @include break-small-to-large(xDesktop) {
+    font-size: 19px;
+    line-height: 30px;
+  }
 
   .special-text-bold {
     font-family: map-get($font-families, primary-bold);
+  }
+}
+
+.small-description {
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 25px;
+  @include break-small-to-large(xDesktop) {
+    font-size: 14px;
   }
 }
 
@@ -53,6 +66,9 @@
   padding: 2.35vw .78vw;
   padding-right: 30px;
   padding-right: 2.35vw;
+  @include break-small-to-large(tablet) {
+    padding-left: 25px;
+  }
 
   .award-testimonial__para {
     font-family: map-get($font-families, secondary-medium);
@@ -63,25 +79,43 @@
     @include break-small-to-large(tablet) {
       font-size: 1.3vw;
     }
+    @include break-small-to-large(tablet) {
+      font-size: 20px;
+    }
   }
 
   .award-testimonial__wrapper {
     display: flex;
     padding-top: 1.5vw;
+    @include break-small-to-large(tablet) {
+      padding-top: 0;
+    }
 
     .testimonial-client-img {
       width: 36px;
       height: 36px;
+      @include break-small-to-large(xDesktop) {
+        width: 50px;
+        height: 50px;
+      }
     }
 
     .testimonial-client-para {
       padding-left: 1.3vw;
+      padding-left: 25px;
       font-family: map-get($font-families, primary);
 
       &__name {
         text-transform: uppercase;
         color: #01C4CF;
         font-weight: 500;
+        line-height: 1.2;
+        @include break-small-to-large(tablet) {
+          line-height: 22px;
+        }
+        @include break-small-to-large(xDesktop) {
+          line-height: unset;
+        }
       }
 
       &__designation {
@@ -90,6 +124,13 @@
         font-family: map-get($font-families, primary);
         font-size: 16px;
         line-height: 20px;
+        @include break-small-to-large(tablet) {
+          font-size: 14px;
+          line-height: 9px;
+        }
+        @include break-small-to-large(xDesktop) {
+          font-size: 14px;
+        }
       }
 
     }
@@ -137,11 +178,18 @@ $border-radius: 5px;
 
 
 %section-top-spacing {
-  padding-top: 70px;
+  padding-top: 60px;
+  @include break-small-to-large(tablet) {
+    padding-top: 70px;
+  }
+
 }
 
 %section-btm-spacing {
-  padding-bottom: 70px;
+  padding-bottom: 60px;
+  @include break-small-to-large(tablet) {
+    padding-bottom: 70px;
+  }
 }
 
 //.header {
@@ -163,13 +211,21 @@ $border-radius: 5px;
 
   .inner-container {
     padding: 26px 14px;
-    margin-left: 32px;
-    margin-right: 32px;
+    padding: 1.8% .9%;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding-left: 5%;
+    padding-right: 5%;
 
     @include break-small-to-large(tablet) {
-      padding: 41px 100px;
-      margin-left: 100px;
-      margin-right: 100px;
+      margin-left: 32px;
+      margin-right: 32px;
+      max-width: 935px;
+      margin: 0 auto;
+    }
+    @include break-small-to-large(xDesktop) {
+      padding-left: 218px;
+      padding-right: 218px;
     }
   }
 
@@ -178,18 +234,23 @@ $border-radius: 5px;
     @extend %mobile-top-spacing;
     background: url(../../images/lucid/banner.svg) center center no-repeat;
     background-size: cover;
-    height: 80vh;
+    // height: 110vh;
+    min-height: 100vh;
 
     @include break-small-to-large(tablet) {
 
     }
 
+    .inner-container {
+      @include break-small-to-large(tablet) {
+        padding-top: 7%;
+      }
+    }
     .title {
       font-family: map-get($font-families, secondary-bold);
       font-size: 26px;
       color: #FFFFFF;
       line-height: 32px;
-
       margin-bottom: 20px;
 
       @include break-small-to-large(tablet) {
@@ -231,6 +292,15 @@ $border-radius: 5px;
           text-transform: uppercase;
           font-weight: 600;
           color: #01C4CF;
+          @include break-small-to-large(tablet) {
+            display: inline-block;
+            padding: 4px 10px;
+            border: 2px solid #01C4CF;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #01C4CF;
+          }
         }
       }
     }
@@ -243,12 +313,13 @@ $border-radius: 5px;
       background: #FFFFFF;
       border-radius: 5px;
       overflow: hidden;
-      border-bottom: 1px solid #E8EFF2;
+      //border-bottom: 1px solid #E8EFF2;
     }
 
     .flex-items {
       display: flex;
       flex-direction: column;
+      border-bottom: 1px solid #E8EFF2;
 
       @include break-small-to-large(tablet) {
         flex-direction: row;
@@ -257,6 +328,24 @@ $border-radius: 5px;
       .item {
         //border: 1px solid black;
         margin-bottom: calc(24px - 5px);
+
+        &.item-first {
+          @include break-small-to-large(tablet) {
+            width: 42%;
+            padding-right: 35px;
+          }
+        }
+        &.item-second {
+          @include break-small-to-large(tablet) {
+            width: 48%;
+          }
+        }
+        &.item-third {
+          @include break-small-to-large(tablet) {
+            width: 12%;
+            padding-left: 40px;
+          }
+        }
 
         .title {
           margin-bottom: 10px;
@@ -292,8 +381,11 @@ $border-radius: 5px;
           list-style: none;
 
           li {
-            margin-right: 5px;
-            margin-bottom: 5px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+              &:last-child {
+                margin: 0;
+              }
 
             .tag {
               color: #01C4CF;
@@ -319,10 +411,30 @@ $border-radius: 5px;
     .section-wrapper {
       display: flex;
       flex-direction: column;
+      @include break-small-to-large(tablet) {
+        flex-direction: row;
+      }
+      .first-section {
+        @include break-small-to-large(tablet) {
+          width: 55%;
+          padding-right: 35px;
+        }
+      }
+      .second-section {
+        @include break-small-to-large(tablet) {
+          width: 45%;
+        }
+      }
     }
 
     .award-testimonial {
       @extend %award-testimonial;
+      padding: 0;
+      padding-top: 102px;
+      padding-top: 8vw;
+      @include break-small-to-large(tablet) {
+        line-height: 31px;
+      }
     }
   }
 
@@ -344,11 +456,18 @@ $border-radius: 5px;
           display: none;
 
           @include break-small-to-large(tablet) {
-
+            width: 45%;
+            display: block;
+          }
+          .mob-ui {
+            width: 95%;
           }
         }
 
         .second-section {
+          @include break-small-to-large(tablet) {
+            width: 55%;
+          }
           .solution-list-wrapper {
 
             @include break-small-to-large(tablet) {
@@ -400,20 +519,164 @@ $border-radius: 5px;
 
   // Fifth Section
   .our-approach {
+    .inner-container {
+      @extend %section-top-spacing;
+      @extend %section-btm-spacing;
 
+      .design-approach-wrapper {
+        margin-right: -15px;
+        margin-left: -15px;
+        padding-top: 35px;
+
+        .design-approach {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          @include break-small-to-large(tablet) {
+            flex-wrap: nowrap;
+          }
+
+          &-item {
+            position: relative;
+
+            &__img {
+              width: 108px;
+              width: 29vw;
+              @include break-small-to-large(tablet) {
+                width: unset;
+              }
+            }
+
+            &__text {
+              position: absolute;
+              bottom: 18px;
+              left: 10px;
+              text-transform: uppercase;
+              color: #fff;
+              font-size: 14px;
+              font-weight: 600;
+              padding-right: 10px;
+              @include break-small-to-large(tablet) {
+                font-size: 16px;
+                left: 15px;
+              }
+            }
+          }
+        }
+
+        .design-approach-swatch {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          padding-top: 15px;
+          padding-bottom: 21px;
+          @include break-small-to-large(tablet) {
+            justify-content: space-around;
+            padding-top: 26px;
+          }
+
+          &-item {
+            padding-right: 10px;
+            padding-left: 2.2px;
+
+            &__list {
+              display: inline-flex;
+              height: 15px;
+              width: 15px;
+              border-radius: 50%;
+              background-color: #000;
+              @include break-small-to-large(tablet) {
+                height: 36px;
+                width: 36px;
+                margin-right: -22px;
+              }
+            }
+
+            &:first-child {
+              transform: scaleX(-1);
+
+              .design-approach-swatch-item__list {
+                &:nth-child(7) {
+                  background-color: #00C556;
+                }
+
+                &:nth-child(6) {
+                  background-color: #1B8A86;
+                }
+
+                &:nth-child(5) {
+                  background-color: #144995;
+                }
+
+                &:nth-child(4) {
+                  background-color: #501495;
+                }
+
+                &:nth-child(3) {
+                  background-color: #8A0076;
+                }
+
+                &:nth-child(2) {
+                  background-color: #BF4C00;
+                }
+
+                &:nth-child(1) {
+                  background-color: #FF9A00;
+                }
+              }
+            }
+
+            &:last-child {
+              .design-approach-swatch-item__list {
+
+                &:nth-child(1) {
+                  background-color: #FF0000;
+                }
+
+                &:nth-child(2) {
+                  background-color: #C00C41;
+                }
+
+                &:nth-child(3) {
+                  background-color: #84095E;
+                }
+
+                &:nth-child(4) {
+                  background-color: #630984;
+                }
+
+                &:nth-child(5) {
+                  background-color: #501495;
+                }
+
+                &:nth-child(6) {
+                  background-color: #6910CF;
+                }
+
+                &:nth-child(7) {
+                  background-color: #9013FE;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 
   // Sixth Section
   .development {
     background: url('/images/development-lucid-dream.png');
     background-color: #E8EFF2;
-    background-size: contain;
-    background-position: bottom;
+    background-size: 880px;
+    background-position: right 37% bottom 0%;
     background-repeat: no-repeat;
-    height: 90vh;
-
+    height: 1000px;
     @include break-small-to-large(tablet) {
-      height: 77vw;
+      background-position: bottom;
+      background-size: cover;
+      height: 130vh;
     }
 
     .inner-container {
@@ -433,12 +696,14 @@ $border-radius: 5px;
         padding-top: 80px;
 
         @include break-small-to-large(tablet) {
-          display: grid;
-          grid-template-columns: 35% 65%;
+          flex-direction: row;
         }
 
         .first-section {
-
+          display: none;
+          @include break-small-to-large(tablet) {
+            display: block;
+          }
         }
 
         .second-section {
@@ -450,30 +715,44 @@ $border-radius: 5px;
 
           &::before {
             content: '';
-            height: 255px;
-            height: 20vw;
-            width: 302px;
-            width: 23.7vw;
-            background: #01C4CF;
             position: absolute;
+            background: #01C4CF;
             left: 0;
-            top: 17px;
-            top: 1.2vw;
             border-radius: 3px;
+            @include break-small-to-large(tablet) {
+              height: 255px;
+              height: 21vw;
+              width: 302px;
+              width: 24.7vw;
+              top: 17px;
+              top: 1.2vw;
+            }
+            @include break-small-to-large(xDesktop) {
+              height: 255px;
+              height: 21vw;
+              width: 302px;
+              width: 24.7vw;
+              top: 17px;
+              top: 1.2vw;
+            }
           }
 
           &__img {
             position: relative;
-            width: 80%;
-            padding: 0px 13px;
-            padding: 0 1.1vw;
+            //width: 80%;
+            //padding: 0px 13px;
+            padding: 0 22px;
           }
         }
 
         .award-testimonial {
           @extend %award-testimonial;
+          @include break-small-to-large(tablet) {
+            padding-left: 58px;
+            padding-right: 0;
+            line-height: 31px;
+          }
         }
-
       }
     }
   }
@@ -492,35 +771,19 @@ $border-radius: 5px;
           flex-direction: row;
         }
 
-
         .first-section {
-          margin-bottom: 60px;
-
-          h2 {
-            color: #000000;
-            font-family: map-get($font-families, secondary-bold);
-            font-size: 26px;
-            letter-spacing: -0.2px;
-            line-height: 36px;
-          }
-
           p {
-            color: #3B3B3B;
-            font-family: map-get($font-families, primary);
-            font-size: 16px;
-            letter-spacing: -0.2px;
-            line-height: 24px;
-          }
-
-          a {
-            color: #FC7764;
-            font-family: map-get($font-families, secondary-medium);
-            font-size: 18px;
-            line-height: 32px;
+            @include break-small-to-large(tablet) {
+              padding-right: 70px;
+            }
           }
         }
-
         .second-section {
+          @include break-small-to-large(tablet) {
+            padding-left: 142px;
+          }
+        }
+        .first-section, .second-section {
           margin-bottom: 60px;
 
           h2 {
@@ -534,16 +797,16 @@ $border-radius: 5px;
           p {
             color: #3B3B3B;
             font-family: map-get($font-families, primary);
-            font-size: 16px;
+            font-size: 18px;
             letter-spacing: -0.2px;
-            line-height: 24px;
+            line-height: 28px;
           }
 
           a {
             color: #FC7764;
             font-family: map-get($font-families, secondary-medium);
             font-size: 18px;
-            line-height: 32px;
+            line-height: 55px;
           }
         }
       }
@@ -558,7 +821,8 @@ $border-radius: 5px;
     height: 45vh;
 
     .inner-container {
-      //padding-top: 70px;
+      @extend %section-top-spacing;
+      @extend %section-btm-spacing;
 
       .common-para--for-see-more {
         margin-bottom: 20px;

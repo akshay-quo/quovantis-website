@@ -6,6 +6,7 @@
     padding: 1.6% 8%;
     @include break-small-to-large(tablet) {
         padding: 1.6% 12.5%;
+        // padding: 21px 160px;
     }
     .header-navigation {
         display: flex;
@@ -125,7 +126,7 @@
     top: 0;
     &__wrapper {
         padding-right: 30px;
-        padding-top: 100px;
+        padding-top: 80px;
     }
 }
 //end
@@ -136,18 +137,18 @@
 .header-menu-list {
     text-align: right;
     &__items {
-        font-size: 4vw;
-        line-height: 9vw;
+        font-size: 18px;
+        line-height: 42px;
         @include break-small-to-large(tablet) {
             font-size: 14px;
             font-size: .7vw;
             line-height: 2vw;
         }
         &.items-main {
-            font-size: 5.6vw;
+            font-size: 6.6vw;
             font-weight: 600; // var
             letter-spacing: .2px;
-            line-height: 11.6vw;
+            line-height: 12.6vw;
             @include break-small-to-large(tablet) {
                 font-size: 2.6vw; // var
                 //font-size: 46px; // var
@@ -157,23 +158,43 @@
             }
         }
         &.item-btn {
+            padding-top: 30px;
+          @include break-small-to-large(tablet) {
             padding-top: 2vw;
             padding-bottom: .5vw;
+          }
         }
     }
 }
 
-.img-wrapper {
-    border: 1px solid red;
-    background: #070794;
-    padding: 5px 15px;
-    display: inline-block;
+.left-details {
+    padding-top: 50px;
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+    @include break-small-to-large(tablet) {
+        position: unset;
+    }
+    .img-wrapper {
+        border: 1px solid red;
+        background: #070794;
+        padding: 5px 15px;
+        display: inline-block;
+    }
 }
+
 .contact-info-header {
     padding-top: 1.5vw;
     &__items {
         font-family: map-get($font-families, secondary-book);
         line-height: 1.8;
+    }
+}
+
+.social-media-links {
+    display: none;
+    @include break-small-to-large(tablet) {
+        display: block;
     }
 }
 
