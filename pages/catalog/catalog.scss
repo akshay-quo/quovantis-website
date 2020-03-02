@@ -7,6 +7,13 @@ body {
   box-sizing: border-box;
 }
 
+section {
+    width: 100%;
+    // height: 100vh;
+    // border: 1px solid red;
+    box-sizing: border-box;
+  }
+
 .title-tag {
     color: #ffffff;	
     font-family: map-get($font-families, secondary-bold);	
@@ -70,10 +77,8 @@ body {
   color: #3B3B3B;	
   font-family: map-get($font-families, primary);	
   font-size: 18px;
-  font-size: 1.15vw;	
   letter-spacing: -0.2px;	
   line-height: 28px;
-  line-height: 1.7vw;
   margin-top: 20px;
   @media only screen and (max-width: 767px) {
     font-size: 16px;
@@ -82,6 +87,56 @@ body {
  .special-text-bold {
   font-family: map-get($font-families, primary-bold);
  }
+}
+
+.common-para-1 {
+  color: #3B3B3B;	
+  font-family: map-get($font-families, primary);	
+  font-size: 18px;
+  letter-spacing: -0.2px;	
+  line-height: 28px;
+  margin-top: 20px;
+  @media only screen and (max-width: 767px) {
+    font-size: 16px;
+    line-height: 24px;
+ }
+}
+
+.common-para-2 {
+  color: #3B3B3B;	
+  font-family: map-get($font-families, primary);	
+  font-size: 18px;
+  letter-spacing: -0.2px;	
+  line-height: 28px;
+  margin-top: 20px;
+  @media only screen and (max-width: 767px) {
+    font-size: 16px;
+    line-height: 24px;
+ }
+}
+
+.heading {
+    color: #000000;
+    font-family: map-get($font-families, secondary-bold);
+    font-size: 26px;
+    letter-spacing: -0.2px;
+    line-height: 36px;
+}
+
+.stat-label {
+    color: #01C4CF;
+    font-family: map-get($font-families, secondary-bold);
+    font-size: 46px;
+    letter-spacing: -0.2px;
+    line-height: 50px;
+}
+
+.stat-title {
+    color: #3B3B3B;
+    font-family: ".SF NS Display";
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
 }
 
 // Extends
@@ -93,11 +148,12 @@ body {
   //1920
   max-width: 1920px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 %gutter-inner {
   //936
-  width: 70%;
+  max-width: 935px;
   margin: 0 auto;
 }
 
@@ -107,11 +163,16 @@ $border-radius: 5px;
 //page-style
 .catalog {
     position: relative;
+        
     // First Section
     .banner {
         background: url(../../images/catalog/hero-bg.png) no-repeat;
-        height: 1060px;
+        height: 1220px;
+        @extend %gutter;
         @extend %top-spacing;
+        @media only screen and (max-width: 500px) {
+                height: 680px;
+            }
         .ball-medium {
             background: url(../../images/catalog/ball-large.svg) no-repeat;
             height: 100px;
@@ -120,6 +181,9 @@ $border-radius: 5px;
             position: absolute;
             top: 43%;
             left: 2%;
+            @media only screen and (max-width: 1024px) {
+                display: none;
+            }
         }
         .ball-large {
             background: url(../../images/catalog/ball-medium.svg) no-repeat;
@@ -130,17 +194,27 @@ $border-radius: 5px;
             right: -1%;
             /*top: 73%;
             right: 15%;*/
+            @media only screen and (max-width: 1024px) {
+                display: none;
+            }
         }
         .inner-content {
             @extend %gutter-inner;
+            @media only screen and (max-width: 767px) {
+                width: auto;
+            }
         }
         .hero-img {
-            background: url(../../images/catalog/hero-img.png) no-repeat;
-            background-size: contain;
-            height: 50vw;
-            width: 73%;
+            background: url(../../images/catalog/hero-img.png) no-repeat;           
+            height: 668px;
+            width: 972px;
             margin: 0 auto;
             margin-top: 5%;
+            @media only screen and (max-width: 767px) {
+                width: auto;
+                height: 61vw;
+                background-size: contain;
+            }
         }
     }
 
@@ -150,12 +224,22 @@ $border-radius: 5px;
         margin: 0 auto;
         background: #fff;
         margin-top: -6%;
+        @media only screen and (max-width: 500px) {
+                margin-top: -16%;
+            }
         .tech-stack {
             /*@extend %gutter-inner;*/
             padding: 2em 10em 0 10em;            
             display: flex;
+            @media only screen and (max-width: 500px) {
+                padding: 30px;
+                display: block;
+            }
             .items {
                 width: 32%;
+                @media only screen and (max-width: 500px) {
+                width: auto;
+            }
                 .project-tag {
                     margin-top: 16px;
                     .tag {
@@ -176,6 +260,11 @@ $border-radius: 5px;
             .items-1 {
                 width: 40%;
                 margin-left: 13%;
+                @media only screen and (max-width: 500px) {
+                width: auto;
+                margin-left: 0;
+                margin-top: 20px;
+            }
                 ul {
                     display: flex;
                     list-style: none;
@@ -194,6 +283,10 @@ $border-radius: 5px;
             }
             .items-2 {
                 width: 11%;
+                @media only screen and (max-width: 500px) {
+                width: auto;
+                margin-top: 20px;
+            }
                 ul {
                     display: flex;
                     list-style: none;
@@ -206,5 +299,233 @@ $border-radius: 5px;
         }
     }
 
+    //Third Section
+    .an-overview {
+        @extend %gutter;
+        .overview-content {
+            @extend %gutter-inner;
+        }
+        .bold-para {
+            color: #000000;
+            font-family: map-get($font-families, secondary);
+            font-size: 26px;
+            font-weight: 300;
+            letter-spacing: -0.2px;
+            line-height: 42px;
+            margin-top: 9%;
+        }
+    }
 
+    //Forth Section
+    .the-solution {
+        @extend %gutter;
+        .solution-content {
+            @extend %gutter-inner;
+        }
+    }
+
+    //Fifth Section
+    .our-approach {
+        @extend %gutter;
+        .approach-content {
+            @extend %gutter-inner;
+        }
+    }
+
+    //Sixth Section
+    .research {
+        background-color: #E8EFF2;
+        height: 1024px;
+        .content-left {
+            width: 30rem;
+            margin-left: 15.75em;
+        }
+    }
+
+    //Seventh Section
+    .onboarding {
+        @extend %gutter;
+        .onboarding-content{
+            @extend %gutter-inner;
+        }
+        .conversion-stats {
+            .product-portfolio .product-img {
+                width: 935px;
+                margin-left: 8%;
+            }
+            .product-stat {
+                margin: 4%;
+                .conversion-rate {
+                    .conversion-num {
+                        color: #01C4CF;
+                        font-family: map-get($font-families, secondary-bold);
+                        font-size: 26px;
+                        letter-spacing: -0.2px;
+                        line-height: 36px                        
+                    }
+                    .conversion-txt {
+                        color: #3B3B3B;
+                        font-family: map-get($font-families, primary);
+                        font-size: 12px;
+                        letter-spacing: 1.71px;
+                        line-height: 16px;
+                        text-transform: uppercase;
+                    }
+                }
+                .portfolio-stats {
+                border-left: 6px dotted #E8EFF2;
+                height: 95px;
+            }
+          }            
+        }
+    }
+
+    //Eight Section
+    .design-and-develop {
+        @extend %gutter;
+        .design-content {
+            @extend %gutter-inner;
+        }
+        .typo-container {
+            width: 967px;
+            margin: 0 auto;
+            margin-top: 3%;
+            display: flex;
+            .color-palette {                               
+                .palette-img {
+                    background: url(../../images/catalog/color-pallette.svg) no-repeat;
+                    height: 200px;
+                    margin-top: 20px;
+                }
+            }
+           .typography {
+               margin-left: 29%;
+               .typo-img {
+                   background: url(../../images/catalog/typograph.svg) no-repeat;
+                   height: 118px;
+                   margin-top: 20px;
+             }
+               .font-label {
+                   margin-top: 25px;
+                   .project-font {
+                       color: #716F6F;
+                       font-family: "Source Sans Pro";
+                       font-size: 18px;
+                       font-weight: 600;
+                       line-height: 23px;
+                   }
+                   .project-font-size {
+                       color: #716F6F;
+                       font-family: "Source Sans Pro";
+                       font-size: 14px;
+                       line-height: 18px;
+                   }
+               }
+           } 
+        }
+        .art-work {
+            max-width: 1673px;
+            margin: 0 auto;
+            margin-top: 80px;
+            .art-work-heading {
+                color: #000000;
+                font-family: map-get($font-families, secondary-bold);
+                font-size: 26px;
+                font-weight: 300;
+                letter-spacing: -0.2px;
+                line-height: 36px;
+                text-transform: uppercase;
+                margin-left: 14%;
+            }
+            .art-work-subheading {
+                color: #000000;
+                font-family: map-get($font-families, secondary);
+                font-size: 16px;
+                font-weight: 300;
+                letter-spacing: -0.2px;
+                line-height: 31px;
+                margin-left: 14%;
+            }
+            .art-icons {
+                background: url(../../images/catalog/icon-artworks.svg) no-repeat;
+                height: 169px;
+            }
+        }
+        .product-website {
+            @extend %gutter-inner;
+            border: 1px solid;
+            height: 200px;
+            color: #000000;
+            font-family: map-get($font-families, secondary);
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: -0.14px;
+            line-height: 36px;
+            margin-top: 119px;
+        }
+    }
+
+    //Ninth Section
+    .the-outcome {
+        @extend %gutter-inner;
+        padding-top: 100px;
+        .project-stats {
+            margin-top: 80px;        
+        .outcome-stats-1 {
+            margin-left: 147px;
+        }
+        .outcome-stats-2 {
+            margin-left: 133px;
+        }
+      }
+    }
+
+    //Tenth Section
+    .client-testimonial {
+        @extend %gutter-inner;
+        padding-top: 100px;
+        .testimonial-text {
+            color: #000000;
+            font-family: map-get($font-families, secondary);
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: -0.2px;
+            line-height: 36px;
+            @media only screen and (max-width: 767px) {
+                         font-size: 20px;
+                         line-height: 36px;
+             }
+        }
+        .item-footer {
+      text-align: left;
+      display: table;
+
+      .image-container {
+        width: 12%;
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      .details {
+        padding: 25px;
+        display: grid;
+
+        .name {
+          color: #01C4CF;
+          font-family: map-get($font-families, primary);
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        .company {
+          color: #3B3B3B;
+          font-family: map-get($font-families, primary);
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+    }
 }
