@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="258px" height="948px" viewBox="0 0 258 948" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>FF2DE1CF-03AB-446B-AFA5-F0B9D29A1436</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="250" height="300" rx="5"></rect>
+        <filter x="-2.6%" y="-1.8%" width="105.2%" height="104.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.666766545   0 0 0 0 0.741317328   0 0 0 0 0.773267663  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="250" height="300" rx="5"></rect>
+        <filter x="-2.6%" y="-1.8%" width="105.2%" height="104.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.666766545   0 0 0 0 0.741317328   0 0 0 0 0.773267663  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="250" height="300" rx="5"></rect>
+        <filter x="-2.6%" y="-1.8%" width="105.2%" height="104.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.666766545   0 0 0 0 0.741317328   0 0 0 0 0.773267663  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="01.-catalog---Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Case-Study---catalog---Desktop" transform="translate(-1199.000000, -3152.000000)">
+            <g id="::-Creative-solutions-::" transform="translate(0.000000, 2980.000000)">
+                <g id="Features" transform="translate(933.000000, 0.000000)">
+                    <g id="Features_col_02" transform="translate(270.000000, 175.000000)">
+                        <g id="02">
+                            <g id="Rectangle">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <rect id="Rectangle" fill="#5ECCDF" x="20" y="20" width="210" height="150" rx="5"></rect>
+                            <g id="ic_planningBoard" transform="translate(43.000000, 47.000000)">
+                                <rect id="Rectangle" stroke="#1191A8" stroke-width="3" stroke-linejoin="round" x="0" y="0" width="150" height="40" rx="5"></rect>
+                                <rect id="Rectangle" fill="#26BED9" x="18" y="53" width="150" height="40" rx="5"></rect>
+                                <rect id="Rectangle" stroke="#1191A8" stroke-width="3" stroke-linejoin="round" x="10" y="48" width="150" height="40" rx="5"></rect>
+                                <path d="M86.7819491,107.971087 L79.3480305,100.538831 L75.7446381,104.142035 C75.433582,104.453075 74.9819475,104.581245 74.5513786,104.481699 C74.1208946,104.379689 73.7749275,104.063638 73.6356232,103.644388 L66.4276493,82.0227015 C66.2745845,81.5648053 66.3940124,81.0596841 66.734968,80.7187463 C67.0746494,80.3790826 67.5810712,80.2546497 68.0389914,80.4114437 L89.661809,87.6190407 C90.0811656,87.7584226 90.3971484,88.1042867 90.4991632,88.5347482 C90.5999889,88.9640206 90.471812,89.4156314 90.1594818,89.7279453 L86.5560894,93.3311493 L93.9887339,100.764594 C94.4864067,101.262241 94.4864067,102.068549 93.9887339,102.566196 L88.5836453,107.971002 C88.0858875,108.468819 87.2796219,108.468819 86.7819491,107.971087 Z" id="Path" fill="#1191A8" fill-rule="nonzero"></path>
+                            </g>
+                            <text id="Create-a-new-request" font-family="Circular-Medium, Circular" font-size="20" font-weight="400" line-spacing="28" letter-spacing="-0.2" fill="#000000">
+                                <tspan x="20" y="205">Planning Board</tspan>
+                            </text>
+                            <text id="Request-multiple-sho" font-family="ApercuPro, Apercu Pro" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="-0.2" fill="#3B3B3B">
+                                <tspan x="20" y="228">End users can provide shots </tspan>
+                                <tspan x="20" y="252">details, and review </tspan>
+                                <tspan x="20" y="276">specifications</tspan>
+                            </text>
+                        </g>
+                        <g id="04" transform="translate(0.000000, 320.000000)">
+                            <g id="card_01">
+                                <g id="Rectangle">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                </g>
+                                <rect id="Rectangle" fill="#FFD56E" x="20" y="20" width="210" height="150" rx="5"></rect>
+                                <g id="ic_dailySprintview" transform="translate(74.000000, 52.000000)">
+                                    <g id="Group-3">
+                                        <polygon id="Clip-2" fill="#F7C854" points="10 10.0000207 112 10.0000207 112 96 10 96"></polygon>
+                                        <path d="M97.0645161,82.6923284 L4.93548387,82.6923284 C4.02735484,82.6923284 3.29032258,81.9514053 3.29032258,81.0384822 L3.29032258,23.1538668 L98.7096774,23.1538668 L98.7096774,81.0384822 C98.7096774,81.9514053 97.9726452,82.6923284 97.0645161,82.6923284 L97.0645161,82.6923284 Z M4.93548387,9.9230976 L9.87096774,9.9230976 L9.87096774,13.2307899 C9.87096774,15.0549822 11.3466774,16.5384822 13.1612903,16.5384822 L16.4516129,16.5384822 C18.2662258,16.5384822 19.7419355,15.0549822 19.7419355,13.2307899 L19.7419355,9.9230976 L26.3225806,9.9230976 L26.3225806,13.2307899 C26.3225806,15.0549822 27.7982903,16.5384822 29.6129032,16.5384822 L32.9032258,16.5384822 C34.7178387,16.5384822 36.1935484,15.0549822 36.1935484,13.2307899 L36.1935484,9.9230976 L65.8064516,9.9230976 L65.8064516,13.2307899 C65.8064516,15.0549822 67.2821613,16.5384822 69.0967742,16.5384822 L72.3870968,16.5384822 C74.2017097,16.5384822 75.6774194,15.0549822 75.6774194,13.2307899 L75.6774194,9.9230976 L82.2580645,9.9230976 L82.2580645,13.2307899 C82.2580645,15.0549822 83.7337742,16.5384822 85.5483871,16.5384822 L88.8387097,16.5384822 C90.6533226,16.5384822 92.1290323,15.0549822 92.1290323,13.2307899 L92.1290323,9.9230976 L97.0645161,9.9230976 C97.9726452,9.9230976 98.7096774,10.6640207 98.7096774,11.5769437 L98.7096774,19.8461745 L3.29032258,19.8461745 L3.29032258,11.5769437 C3.29032258,10.6640207 4.02735484,9.9230976 4.93548387,9.9230976 L4.93548387,9.9230976 Z M13.1612903,3.30771298 L16.4516129,3.30771298 L16.4549032,13.2307899 L13.1612903,13.2307899 L13.1612903,3.30771298 Z M29.6129032,3.30771298 L32.9032258,3.30771298 L32.9065161,13.2307899 L29.6129032,13.2307899 L29.6129032,3.30771298 Z M69.0967742,3.30771298 L72.3870968,3.30771298 L72.3903871,13.2307899 L69.0967742,13.2307899 L69.0967742,3.30771298 Z M85.5483871,3.30771298 L88.8387097,3.30771298 L88.842,13.2307899 L85.5483871,13.2307899 L85.5483871,3.30771298 Z M97.0645161,6.61540529 L92.1290323,6.61540529 L92.1290323,3.30771298 C92.1290323,1.48352067 90.6533226,2.06730769e-05 88.8387097,2.06730769e-05 L85.5483871,2.06730769e-05 C83.7337742,2.06730769e-05 82.2580645,1.48352067 82.2580645,3.30771298 L82.2580645,6.61540529 L75.6774194,6.61540529 L75.6774194,3.30771298 C75.6774194,1.48352067 74.2017097,2.06730769e-05 72.3870968,2.06730769e-05 L69.0967742,2.06730769e-05 C67.2821613,2.06730769e-05 65.8064516,1.48352067 65.8064516,3.30771298 L65.8064516,6.61540529 L36.1935484,6.61540529 L36.1935484,3.30771298 C36.1935484,1.48352067 34.7178387,2.06730769e-05 32.9032258,2.06730769e-05 L29.6129032,2.06730769e-05 C27.7982903,2.06730769e-05 26.3225806,1.48352067 26.3225806,3.30771298 L26.3225806,6.61540529 L19.7419355,6.61540529 L19.7419355,3.30771298 C19.7419355,1.48352067 18.2662258,2.06730769e-05 16.4516129,2.06730769e-05 L13.1612903,2.06730769e-05 C11.3466774,2.06730769e-05 9.87096774,1.48352067 9.87096774,3.30771298 L9.87096774,6.61540529 L4.93548387,6.61540529 C2.2143871,6.61540529 0,8.84148221 0,11.5769437 L0,81.0384822 C0,83.773737 2.2143871,86.0000207 4.93548387,86.0000207 L97.0645161,86.0000207 C99.7856129,86.0000207 102,83.773737 102,81.0384822 L102,11.5769437 C102,8.84148221 99.7856129,6.61540529 97.0645161,6.61540529 L97.0645161,6.61540529 Z" id="Fill-1" fill="#BA8D1D"></path>
+                                    </g>
+                                    <path d="M85.8374225,67.856517 L91.0831612,71.3592552 L85.8374225,74.8617881 L85.8374225,67.856517 Z M20.2041581,53.8340635 L18.5633264,51.6440307 L21.8449897,51.6440307 L20.2041581,53.8340635 Z M80.9149277,45.6193866 L79.2740961,43.4293538 L82.5557593,43.4293538 L80.9149277,45.6193866 Z M82.5557593,69.7163198 L51.2093122,69.7163198 C57.2131151,65.9326396 61.2249484,59.2555449 61.2249484,51.6440307 C61.2249484,46.7497262 59.5545818,42.2480832 56.7782947,38.6418401 C58.1697199,33.7688938 62.670521,30.2858708 67.7882748,30.2858708 C73.5623613,30.2858708 78.3421037,34.5805038 79.1428296,40.143483 L72.7107696,40.143483 L80.9149277,51.0969332 L89.1190858,40.143483 L82.4589503,40.143483 C81.6401753,32.761569 75.377121,27 67.7882748,27 C61.8697952,27 56.5649866,30.6126095 54.2530548,35.8962897 C50.4594522,32.4249726 45.4270216,30.2858708 39.8941374,30.2858708 C29.3895334,30.2858708 20.4305928,38.1126095 18.8340637,48.3581599 L12,48.3581599 L20.2041581,59.3116101 L28.4083161,48.3581599 L22.1469027,48.3581599 C23.7040519,39.9362678 31.1763991,33.5717415 39.8941374,33.5717415 C49.8457811,33.5717415 57.9432851,41.6796276 57.9432851,51.6440307 C57.9432851,61.6082284 49.8457811,69.7163198 39.8941374,69.7163198 L20.2041581,69.7163198 L20.2041581,73.0021906 L82.5557593,73.0021906 L82.5557593,81 L97,71.3592552 L82.5557593,61.718305 L82.5557593,69.7163198 Z" id="Fill-4" fill="#BA8D1D"></path>
+                                </g>
+                                <text id="Create-a-new-request" font-family="Circular-Medium, Circular" font-size="20" font-weight="400" line-spacing="28" letter-spacing="-0.2" fill="#000000">
+                                    <tspan x="20" y="205">Daily sprint view</tspan>
+                                </text>
+                                <text id="Request-multiple-sho" font-family="ApercuPro, Apercu Pro" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="-0.2" fill="#3B3B3B">
+                                    <tspan x="20" y="228">Photographers can find the </tspan>
+                                    <tspan x="20" y="252">creative brief in this view</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="06" transform="translate(0.000000, 640.000000)">
+                            <g id="card_01">
+                                <g id="Rectangle">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                </g>
+                                <rect id="Rectangle" fill="#F09471" x="20" y="20" width="210" height="150" rx="5"></rect>
+                                <g id="ic_delivery" transform="translate(127.500000, 98.000000) scale(-1, 1) translate(-127.500000, -98.000000) translate(94.000000, 64.000000)">
+                                    <rect id="Rectangle" fill="#EE7D53" x="0" y="9" width="59" height="59"></rect>
+                                    <path d="M61.1875,0 L10.8125,0 C7.60230469,0 5,2.60230469 5,5.8125 L5,56.1875 C5,59.3976953 7.60230469,62 10.8125,62 L61.1875,62 C64.3976953,62 67,59.3976953 67,56.1875 L67,5.8125 C67,2.60230469 64.3976953,0 61.1875,0 Z M63.125,37.955625 L54.813125,29.64375 C54.0573789,28.8924844 52.8369961,28.8924844 52.08125,29.64375 L41.8125,39.893125 L29.625625,27.70625 C28.8698789,26.9549844 27.6494961,26.9549844 26.89375,27.70625 L8.875,45.705625 L8.875,5.8125 C8.875,4.74239453 9.74239453,3.875 10.8125,3.875 L61.1875,3.875 C62.2576055,3.875 63.125,4.74239453 63.125,5.8125 L63.125,37.955625 Z" id="Shape" fill="#C5552B" fill-rule="nonzero"></path>
+                                    <path d="M47,9 C42.58175,9 39,12.58175 39,17 C39,21.41825 42.58175,25 47,25 C51.41825,25 55,21.41825 55,17 C55,12.58175 51.41825,9 47,9 Z M47,21 C44.790875,21 43,19.209125 43,17 C43,14.790875 44.790875,13 47,13 C49.209125,13 51,14.790875 51,17 C51,19.209125 49.209125,21 47,21 Z" id="Shape" fill="#C5552B" fill-rule="nonzero"></path>
+                                </g>
+                                <text id="Create-a-new-request" font-family="Circular-Medium, Circular" font-size="20" font-weight="400" line-spacing="28" letter-spacing="-0.2" fill="#000000">
+                                    <tspan x="20" y="205">Delivery</tspan>
+                                </text>
+                                <text id="Request-multiple-sho" font-family="ApercuPro, Apercu Pro" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="-0.2" fill="#3B3B3B">
+                                    <tspan x="20" y="228">Requested content is </tspan>
+                                    <tspan x="20" y="252">uploaded into the photo </tspan>
+                                    <tspan x="20" y="276">library of the brand</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
