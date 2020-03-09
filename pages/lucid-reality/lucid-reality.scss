@@ -43,13 +43,13 @@
     line-height: 24px;
   }
   @include break-small-to-large(xDesktop) {
-    font-size: 19px;
+    font-size: 16px;
     line-height: 30px;
   }
+}
 
-  .special-text-bold {
-    font-family: map-get($font-families, primary-bold);
-  }
+.special-text-bold {
+  font-family: map-get($font-families, primary-bold);
 }
 
 .small-description {
@@ -238,7 +238,7 @@ $border-radius: 5px;
     min-height: 100vh;
 
     @include break-small-to-large(tablet) {
-
+      min-height: 1214px;
     }
 
     .inner-container {
@@ -478,35 +478,34 @@ $border-radius: 5px;
 
             &__items {
               position: relative;
-              border-left: 2px solid #01C4CF;
               padding-left: 28px;
               padding-bottom: 20px;
 
-              &:last-child {
-                border-left: 2px solid transparent;
-              }
-
               &::after {
                 content: '';
-                background: #01C4CF;
+                background: #fff;
+                border: 3.5px solid #01C4CF;
                 position: absolute;
-                height: 14px;
-                width: 14px;
+                height: 8px;
+                width: 8px;
                 border-radius: 50%;
-                left: -8px;
-                top: 0;
+                left: -5px;
+                top: 8px;
+                z-index: 1;
               }
 
               &::before {
                 content: '';
                 position: absolute;
-                height: 10px;
-                width: 10px;
-                background: #ffffff;
-                left: -6px;
-                top: 2px;
+                height: -webkit-fill-available;
+                width: 3px;
+                background: #01C4CF;
+                left: 1px;
+                top: 9px;
                 z-index: 1;
-                border-radius: 50%;
+              }
+              &:last-child::before {
+                content: unset;
               }
             }
           }
@@ -672,11 +671,11 @@ $border-radius: 5px;
     background-size: 880px;
     background-position: right 37% bottom 0%;
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 1081px;
     @include break-small-to-large(tablet) {
       background-position: bottom;
       background-size: cover;
-      height: 130vh;
+      height: 1395px;
     }
 
     .inner-container {
@@ -720,20 +719,20 @@ $border-radius: 5px;
             left: 0;
             border-radius: 3px;
             @include break-small-to-large(tablet) {
-              height: 255px;
               height: 21vw;
-              width: 302px;
               width: 24.7vw;
               top: 17px;
               top: 1.2vw;
+              width: 473px;
+              height: 405px;
             }
             @include break-small-to-large(xDesktop) {
-              height: 255px;
               height: 21vw;
-              width: 302px;
               width: 24.7vw;
               top: 17px;
               top: 1.2vw;
+              width: 473px;
+              height: 405px;
             }
           }
 
@@ -818,7 +817,7 @@ $border-radius: 5px;
     background: url('/images/Slide-BG.png') no-repeat;
     background-size: cover;
     background-position: right 15% bottom 0%;
-    height: 45vh;
+    height: 600px;
 
     .inner-container {
       @extend %section-top-spacing;
@@ -838,5 +837,75 @@ $border-radius: 5px;
       }
     }
 
+  }
+}
+
+.footer {
+  .inner-container {
+    margin-left: 32px;
+    margin-right: 32px;
+    max-width: 935px;
+    margin: 0 auto;
+  }
+  &__inner-section {
+    padding-top: 100px;
+  }
+  .footer-section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 86px;
+    &__left {
+      width: 301px;
+    }
+    &__right {
+      display: flex;
+      .footer-section-links-wrapper {
+        margin-right: 90px;
+        &:last-child {
+          margin-right: unset;
+        }
+        .footer-links-heading {
+          font-family: map-get($font-families, secondary);
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: -0.2px;
+          line-height: 18px;
+          color: #01C4CF;
+          text-transform: uppercase;
+          padding-bottom: 17px;
+        }
+        & > li {
+          font-family: map-get($font-families, primary);
+          font-size: 16px;
+          color: #3B3B3B;
+          letter-spacing: -0.2px;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+  .footer-bottom-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 24px;
+    &__left-side {
+      .logo-wrapper {
+        &__Quovantis-logo {
+          width: 7vw;
+        }
+      }
+      .description {
+        margin: 0;
+      }
+    }
+    &__right-side {
+      .footer-social-media-wrapper {
+        display: flex;
+        &__links {
+          margin-right: 10px;
+        }
+      }
+    }
   }
 }
