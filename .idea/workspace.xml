@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="546989a0-ea52-467c-b29a-d0dec05c0d68" name="Default Changelist" comment="">
+    <list default="true" id="546989a0-ea52-467c-b29a-d0dec05c0d68" name="Default Changelist" comment="- made mobile responsive and desktop all size responsive&#10;- some of the dummy images has been used for now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/what-we-do/what-we-do.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/what-we-do/what-we-do.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/what-we-do/what-we-do.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/what-we-do/what-we-do.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +42,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.lucid-reality.html">
+  <component name="RunManager" selected="JavaScript Debug.what-we-do.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quovantis-website/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="lucid-reality.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quovantis-website/pages/lucid-reality/lucid-reality.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="what-we-do.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quovantis-website/pages/what-we-do/what-we-do.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.what-we-do.html" />
         <item itemvalue="JavaScript Debug.lucid-reality.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
@@ -77,7 +81,7 @@
       <workItem from="1582509171499" duration="543000" />
       <workItem from="1582604571217" duration="232000" />
       <workItem from="1582690832450" duration="37745000" />
-      <workItem from="1583483905447" duration="34251000" />
+      <workItem from="1583483905447" duration="53654000" />
     </task>
     <task id="LOCAL-00001" summary="Images added">
       <created>1582012243173</created>
@@ -156,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583714201452</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- animated outline added to footer's link">
+      <created>1583714623988</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583714623988</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +198,8 @@
     <MESSAGE value="responsive header expanded menu" />
     <MESSAGE value="- Created 'our approach' section&#10;- Made desktop &amp; mobile responsive" />
     <MESSAGE value="- UI developed for 'what we do' page for desktop &amp; laptop view only (not mobile responsive)&#10;- Footer created (not mobile responsive)&#10;- some fixes done on 'lucid reality' page" />
-    <option name="LAST_COMMIT_MESSAGE" value="- UI developed for 'what we do' page for desktop &amp; laptop view only (not mobile responsive)&#10;- Footer created (not mobile responsive)&#10;- some fixes done on 'lucid reality' page" />
+    <MESSAGE value="- animated outline added to footer's link" />
+    <option name="LAST_COMMIT_MESSAGE" value="- animated outline added to footer's link" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/quovantis_website$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1581832837477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
