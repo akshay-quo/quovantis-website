@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="546989a0-ea52-467c-b29a-d0dec05c0d68" name="Default Changelist" comment="- made mobile responsive and desktop all size responsive&#10;- some of the dummy images has been used for now">
+    <list default="true" id="546989a0-ea52-467c-b29a-d0dec05c0d68" name="Default Changelist" comment="'an overview' section">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/what-we-do/what-we-do.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/what-we-do/what-we-do.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/what-we-do/what-we-do.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/what-we-do/what-we-do.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/catalog/catalog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/catalog/catalog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +16,79 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="251" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="103" column="10" lean-forward="true" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>@include break-small-to-large(</find>
+      <find>award-testimonial {</find>
+      <find>map</find>
+      <find>section-2</find>
+      <find>section-3</find>
+      <find>section-1</find>
+      <find>%gutter-inner</find>
+      <find>.inner-content</find>
+      <find>%gutter</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html" />
+        <option value="$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pages/catalog/catalog.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-157" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1735" />
+    <option name="height" value="1033" />
   </component>
   <component name="ProjectId" id="1XnMwJkfHK0HuIFJRWX5DgH1VG2" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="quovantis-website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quovantis-website" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -42,23 +105,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.what-we-do.html">
+  <component name="RunManager" selected="JavaScript Debug.lucid-reality.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quovantis-website/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="lucid-reality.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quovantis-website/pages/lucid-reality/lucid-reality.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="what-we-do.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quovantis-website/pages/what-we-do/what-we-do.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.what-we-do.html" />
         <item itemvalue="JavaScript Debug.lucid-reality.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,8 +142,10 @@
       <workItem from="1582461736749" duration="185000" />
       <workItem from="1582509171499" duration="543000" />
       <workItem from="1582604571217" duration="232000" />
-      <workItem from="1582690832450" duration="37745000" />
-      <workItem from="1583483905447" duration="53654000" />
+      <workItem from="1582690832450" duration="4232000" />
+      <workItem from="1582718389862" duration="2198000" />
+      <workItem from="1582725276428" duration="2407000" />
+      <workItem from="1583896289780" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="Images added">
       <created>1582012243173</created>
@@ -125,50 +189,58 @@
       <option name="project" value="LOCAL" />
       <updated>1582716605937</updated>
     </task>
-    <task id="LOCAL-00007" summary="merge">
-      <created>1582717967170</created>
+    <task id="LOCAL-00007" summary="'an overview' section">
+      <created>1582733792750</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1582717967170</updated>
+      <updated>1582733792750</updated>
     </task>
-    <task id="LOCAL-00008" summary="responsive header">
-      <created>1582721974977</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1582721974977</updated>
-    </task>
-    <task id="LOCAL-00009" summary="responsive header expanded menu">
-      <created>1582746688218</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1582746688218</updated>
-    </task>
-    <task id="LOCAL-00010" summary="- Created 'our approach' section&#10;- Made desktop &amp; mobile responsive">
-      <created>1582869580455</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1582869580455</updated>
-    </task>
-    <task id="LOCAL-00011" summary="- UI developed for 'what we do' page for desktop &amp; laptop view only (not mobile responsive)&#10;- Footer created (not mobile responsive)&#10;- some fixes done on 'lucid reality' page">
-      <created>1583714201452</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1583714201452</updated>
-    </task>
-    <task id="LOCAL-00012" summary="- animated outline added to footer's link">
-      <created>1583714623988</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1583714623988</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4984000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-157" y="-1057" width="1735" height="1033" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Team" order="0" sideWeight="0.5089286" side_tool="true" weight="0.19547658" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49107143" visible="true" weight="0.11610268" />
+      <window_info id="Structure" order="2" sideWeight="0.5089286" side_tool="true" weight="0.19547658" />
+      <window_info id="npm" order="3" sideWeight="0.5089286" side_tool="true" weight="0.19547658" />
+      <window_info id="Favorites" order="4" sideWeight="0.5089286" side_tool="true" weight="0.19547658" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32930514" />
+      <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49757674" weight="0.35196376" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.326284" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49919224" weight="0.3281471" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.6238671" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49757674" weight="0.46676096" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49676898" visible="true" weight="0.46078432" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50080776" side_tool="true" weight="0.32930514" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49757674" weight="0.27157003" />
+      <window_info anchor="bottom" id="TypeScript" order="13" weight="0.32930514" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="14" weight="0.4486405" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.34006462" />
+      <window_info anchor="right" id="CodeStream" order="4" weight="0.2980614" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -179,8 +251,35 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -193,15 +292,44 @@
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Worked on what we did section for mobile" />
     <MESSAGE value="Mobile Responsive - 'an overview' section" />
-    <MESSAGE value="merge" />
-    <MESSAGE value="responsive header" />
-    <MESSAGE value="responsive header expanded menu" />
-    <MESSAGE value="- Created 'our approach' section&#10;- Made desktop &amp; mobile responsive" />
-    <MESSAGE value="- UI developed for 'what we do' page for desktop &amp; laptop view only (not mobile responsive)&#10;- Footer created (not mobile responsive)&#10;- some fixes done on 'lucid reality' page" />
-    <MESSAGE value="- animated outline added to footer's link" />
-    <option name="LAST_COMMIT_MESSAGE" value="- animated outline added to footer's link" />
+    <MESSAGE value="'an overview' section" />
+    <option name="LAST_COMMIT_MESSAGE" value="'an overview' section" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/quovantis_website$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1581832837477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="119" column="31" lean-forward="true" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lucid-reality/lucid-reality.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/catalog/catalog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="103" column="10" lean-forward="true" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -106,5 +106,5 @@ dist
 *.css
 *.css.map
 
-.idea/
+.idea/*
 
