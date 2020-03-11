@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>C91A2CD7-7C10-4F58-B865-E2239B74348C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M13.8712,11.7503 L21.0602,4.5613 C21.6462,3.9753 21.6462,3.0253 21.0602,2.4393 C20.4752,1.8543 19.5252,1.8543 18.9392,2.4393 L11.7502,9.6293 L4.5602,2.4393 C3.9752,1.8543 3.0252,1.8543 2.4392,2.4393 C1.8532,3.0253 1.8532,3.9753 2.4392,4.5613 L9.6292,11.7503 L2.4392,18.9393 C1.8532,19.5253 1.8532,20.4753 2.4392,21.0613 C2.7322,21.3543 3.1162,21.5003 3.5002,21.5003 C3.8842,21.5003 4.2672,21.3543 4.5602,21.0613 L11.7502,13.8713 L18.9392,21.0613 C19.2322,21.3543 19.6162,21.5003 20.0002,21.5003 C20.3842,21.5003 20.7672,21.3543 21.0602,21.0613 C21.6462,20.4753 21.6462,19.5253 21.0602,18.9393 L13.8712,11.7503 Z" id="path-1"></path>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Navigation/24px/menu-Icons/Navigation/24px/close">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="ic_close" fill="#231F20" xlink:href="#path-1"></use>
+            <g id="color-colors/primary---Black" mask="url(#mask-2)" fill="#000000">
+                <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

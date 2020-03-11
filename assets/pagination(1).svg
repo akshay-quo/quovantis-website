@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 61.2 (101010) - https://sketch.com -->
+    <title>BB0633B8-C373-472C-B78D-8203DEA1C3E3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M46,0 L46,46 L0,46 L0,0 L46,0 Z M44,2 L2,2 L2,44 L44,44 L44,2 Z" id="path-1"></path>
+        <polygon id="path-3" points="12.528 7.614 17.064 3.816 12.528 0 12.528 3.078 0 3.078 0 4.572 12.528 4.572"></polygon>
+    </defs>
+    <g id="Asset-Artboard-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Navigation/48px/pagination">
+            <g id="square-outline" transform="translate(1.000000, 1.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="colors/primary---Neutral-Gray" mask="url(#mask-2)" fill="#E6F2EE">
+                    <g transform="translate(-1.000000, -1.000000)" id="Rectangle">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="Arrow" transform="translate(15.000000, 20.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="→" fill="#000000" fill-rule="nonzero" xlink:href="#path-3"></use>
+                <g id="colors/primary---CTA" mask="url(#mask-4)" fill="#FC7764">
+                    <g transform="translate(-15.000000, -20.000000)" id="Rectangle">
+                        <rect x="0" y="0" width="48" height="48"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
