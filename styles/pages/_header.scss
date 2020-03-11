@@ -3,21 +3,15 @@ $font-m: "AvenirNext-medium", sans-serif, arial;
 $font-b: "AvenirNext-bold", sans-serif, arial;
 $white: #fff;
 
-/*@font: "Circular"
-@font-b: "Circular-bold"
-@nav-text: 16px;
-@nav-color: #0D0D0D;
-@cta-background: #FC7764;*/
-
 $primary-font: 'apercu-pro';
 $primary-font-bold: 'apercu-bold';
-$primary-font-italic: 'apercu-italic';            
-$primary-font-medium: 'apercu-medium';            
+$primary-font-italic: 'apercu-italic';
+$primary-font-medium: 'apercu-medium';
 
 $secondary-font: 'circular-pro';
 $secondary-font-bold: 'circular-bold';
-$secondary-font-medium: 'circular-medium'; 
-$secondary-font-book: 'circular-pro-book'; 
+$secondary-font-medium: 'circular-medium';
+$secondary-font-book: 'circular-pro-book';
 
 
 html,
@@ -64,9 +58,11 @@ header {
     transition-duration: 0.05s;
 }
 header.header-white {
-    background-color: #fff;
-    -webkit-animation: slide-down .3s ease-out;
-    -moz-animation: slide-down .3s ease-out;
+    @include break-small-to-large(tablet) {
+        background-color: #fff;
+        -webkit-animation: slide-down .3s ease-out;
+        -moz-animation: slide-down .3s ease-out;
+    }
 }
 
 .white-logo {
@@ -130,7 +126,7 @@ header.header-white {
         z-index: 912;
         top: -7px;
     }
-   
+
     .menu {
         background: url("../images/new-theme/menu.svg") no-repeat;
         height: 20px;
@@ -158,9 +154,9 @@ header.header-white {
 }
 
 @media (max-width: 500px) {
-    header {
-        background: white;
-    }
+    //header {
+    //    background: white;
+    //}
 
     .header-wrapper {
         .company-logo {
@@ -722,7 +718,7 @@ li {
             }
             .focus-link {
                 color: white;
-               
+
             }
 
         }

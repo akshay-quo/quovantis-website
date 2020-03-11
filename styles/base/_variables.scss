@@ -7,9 +7,9 @@ $breakpoints: (
   xSmall: 576px,
   small: 768px,
   xMedium: 992px,
-  medium: 1200px,
-  xLarge: 1408px,
-  large: 1920px
+  medium: 1100px,
+  large: 1408px,
+  xLarge: 1920px
 );
 
 /*
@@ -24,14 +24,14 @@ $theme: (
 * Font Family
 */
 $font-families: (
-  primary: 'apercu-pro',
+  primary: 'apercu-pro', // regular
   primary-bold: 'apercu-bold',
   primary-italic: 'apercu-italic',
   primary-medium: 'apercu-medium',
   secondary: 'circular-pro',
-  secondary-bold: 'circular-bold',
+  secondary-bold: 'circular-bold', // font-weight: bold
   secondary-book: 'circular-pro-book',
-  secondary-medium: 'circular-medium',
+  secondary-medium: 'circular-medium', // font-weight: 500
 );
 
 /*
@@ -107,6 +107,7 @@ $paragraph-fonts: (
 $letter-spacings: (
   ls1: 0.61px,
   mls1: 0.44px
-)
+);
+
 
 
