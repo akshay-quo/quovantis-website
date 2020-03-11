@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="258px" height="948px" viewBox="0 0 258 948" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>3A43D072-B104-49BE-9C2D-91F2B03EACDD</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="250" height="300" rx="5"></rect>
+        <filter x="-2.6%" y="-1.8%" width="105.2%" height="104.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.666766545   0 0 0 0 0.741317328   0 0 0 0 0.773267663  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="250" height="300" rx="5"></rect>
+        <filter x="-2.6%" y="-1.8%" width="105.2%" height="104.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.666766545   0 0 0 0 0.741317328   0 0 0 0 0.773267663  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="250" height="300" rx="5"></rect>
+        <filter x="-2.6%" y="-1.8%" width="105.2%" height="104.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.666766545   0 0 0 0 0.741317328   0 0 0 0 0.773267663  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="01.-catalog---Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Case-Study---catalog---Desktop" transform="translate(-929.000000, -2977.000000)">
+            <g id="::-Creative-solutions-::" transform="translate(0.000000, 2980.000000)">
+                <g id="Features" transform="translate(933.000000, 0.000000)">
+                    <g id="Features_col_01">
+                        <g id="01">
+                            <g id="card_01">
+                                <g id="Rectangle">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                </g>
+                                <rect id="Rectangle" fill="#C7B2DC" x="20" y="20" width="210" height="150" rx="5"></rect>
+                                <g id="ic_contentRequest" transform="translate(36.000000, 53.000000)">
+                                    <rect id="Rectangle" stroke="#7848A8" stroke-width="3" stroke-linejoin="round" x="0" y="19" width="40" height="40" rx="5"></rect>
+                                    <rect id="Rectangle" stroke="#7848A8" stroke-width="3" stroke-linejoin="round" x="139" y="19" width="40" height="40" rx="5"></rect>
+                                    <rect id="Rectangle" fill="#AD8FCA" x="56" y="6.5" width="79" height="79" rx="5"></rect>
+                                    <rect id="Rectangle" stroke="#7848A8" stroke-width="3" stroke-linejoin="round" x="50" y="0" width="79" height="79" rx="5"></rect>
+                                    <path d="M99.8571429,37.8571429 L92.5714286,37.8571429 C92.3347517,37.8571429 92.1428571,37.6652483 92.1428571,37.4285714 L92.1428571,30.1428571 C92.1428571,28.9594726 91.1833845,28 90,28 C88.8166155,28 87.8571429,28.9594726 87.8571429,30.1428571 L87.8571429,37.4285714 C87.8571429,37.6652483 87.6652483,37.8571429 87.4285714,37.8571429 L80.1428571,37.8571429 C78.9594726,37.8571429 78,38.8166155 78,40 C78,41.1833845 78.9594726,42.1428571 80.1428571,42.1428571 L87.4285714,42.1428571 C87.6652483,42.1428571 87.8571429,42.3347517 87.8571429,42.5714286 L87.8571429,49.8571429 C87.8571429,51.0405274 88.8166155,52 90,52 C91.1833845,52 92.1428571,51.0405274 92.1428571,49.8571429 L92.1428571,42.5714286 C92.1428571,42.3347517 92.3347517,42.1428571 92.5714286,42.1428571 L99.8571429,42.1428571 C101.040527,42.1428571 102,41.1833845 102,40 C102,38.8166155 101.040527,37.8571429 99.8571429,37.8571429 Z" id="Path" fill="#7848A8" fill-rule="nonzero"></path>
+                                </g>
+                                <text id="Create-a-new-request" font-family="Circular-Medium, Circular" font-size="20" font-weight="400" line-spacing="28" letter-spacing="-0.2" fill="#000000">
+                                    <tspan x="20" y="205">Create a new request</tspan>
+                                </text>
+                                <text id="Request-multiple-sho" font-family="ApercuPro, Apercu Pro" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="-0.2" fill="#3B3B3B">
+                                    <tspan x="20" y="228">Request multiple shots </tspan>
+                                    <tspan x="20" y="252">including photo, video and </tspan>
+                                    <tspan x="20" y="276">GIFs.</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="03" transform="translate(0.000000, 320.000000)">
+                            <g id="card_01">
+                                <g id="Rectangle">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                </g>
+                                <rect id="Rectangle" fill="#F3A0B9" x="20" y="20" width="210" height="150" rx="5"></rect>
+                                <g id="ic_contentProduction" transform="translate(77.000000, 48.000000)">
+                                    <circle id="Oval" fill="#ED8DAA" cx="53.5" cy="51.5" r="43.5"></circle>
+                                    <path d="M49.1512298,0.409538227 C49.0284347,0.384315533 48.9122771,0.362411414 48.792801,0.355110211 C47.0524292,0.141380268 45.2941361,0 43.5,0 C19.5131379,0 0,19.5131379 0,43.5 C0,67.4868621 19.5131379,87 43.5,87 C67.4868621,87 87,67.4868621 87,43.5 C87,21.4347152 70.4697876,3.19333653 49.1512298,0.409538227 Z M77,25 L39,25 L50.0423113,6 C61.6274891,7.99954448 71.4473448,15.1454354 77,25 Z M51.5,56 L36.5,56 L29,43 L36.5,30 L51.5,30 L59,43 L51.5,56 Z M43.4191649,5 C43.6165686,5 43.8066114,5.02551849 44,5.02954763 L25.0331906,38 L14,18.8303047 C21.0463063,10.3877414 31.6150964,5 43.4191649,5 Z M10.3811689,24 L29,57 L7.33663805,57 C5.85052317,52.8638171 5,48.4148474 5,43.7566807 C5,36.5309729 6.98893567,29.7862167 10.3811689,24 Z M10,62 L48,62 L36.9524599,81 C25.3661788,78.998004 15.5475578,71.8542915 10,62 Z M43.5879861,81 C43.3906529,81 43.1973333,80.9744929 43,80.9704656 L61.967401,48 L73,67.1725281 C65.9568766,75.6146695 55.3918571,81 43.5879861,81 Z M76.6227748,63 L58,30 L79.6561318,30 C81.1455332,34.1392908 82,38.5946608 82,43.2551458 C82,50.4758712 80.0150079,57.2157531 76.6227748,63 Z" id="Shape" fill="#CE557A" fill-rule="nonzero"></path>
+                                </g>
+                                <text id="Create-a-new-request" font-family="Circular-Medium, Circular" font-size="20" font-weight="400" line-spacing="28" letter-spacing="-0.2" fill="#000000">
+                                    <tspan x="20" y="205">Content production</tspan>
+                                </text>
+                                <text id="Request-multiple-sho" font-family="ApercuPro, Apercu Pro" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="-0.2" fill="#3B3B3B">
+                                    <tspan x="20" y="228">This board shows task </tspan>
+                                    <tspan x="20" y="252">scheduling from backlog</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <g id="05" transform="translate(0.000000, 640.000000)">
+                            <g id="card_01">
+                                <g id="Rectangle">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                </g>
+                                <rect id="Rectangle" fill="#AECFB2" x="20" y="20" width="210" height="150" rx="5"></rect>
+                                <text id="Create-a-new-request" font-family="Circular-Medium, Circular" font-size="20" font-weight="400" line-spacing="28" letter-spacing="-0.2" fill="#000000">
+                                    <tspan x="20" y="205">Post-Production</tspan>
+                                </text>
+                                <text id="Request-multiple-sho" font-family="ApercuPro, Apercu Pro" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="-0.2" fill="#3B3B3B">
+                                    <tspan x="20" y="228">Photoshoot, editing, and </tspan>
+                                    <tspan x="20" y="252">feedback happens here</tspan>
+                                </text>
+                                <rect id="Rectangle" fill="#90BB95" x="107" y="77" width="51" height="51"></rect>
+                                <g id="ic_postProduction" transform="translate(83.000000, 53.000000)" fill="#65926B" fill-rule="nonzero">
+                                    <path d="M82.1666667,64.39464 L70.0613067,64.39464 L70.0613067,18.9457067 L79.7875733,9.21944 C80.8939333,8.11285333 80.8939333,6.31901333 79.7875733,5.21242667 C78.6812133,4.10606667 76.88692,4.10606667 75.78056,5.21242667 L66.0542933,14.9386933 L20.60536,14.9386933 L20.60536,2.83333333 C20.60536,1.26865333 19.3367067,0 17.7720267,0 C16.2073467,0 14.9386933,1.26865333 14.9386933,2.83333333 L14.9386933,14.9386933 L2.83333333,14.9386933 C1.26865333,14.9386933 0,16.2073467 0,17.7720267 C0,19.3367067 1.26865333,20.60536 2.83333333,20.60536 L14.9386933,20.60536 L14.9386933,67.2279733 C14.9386933,68.7926533 16.2073467,70.0613067 17.7720267,70.0613067 L64.39464,70.0613067 L64.39464,82.1666667 C64.39464,83.7313467 65.6632933,85 67.2279733,85 C68.7926533,85 70.0613067,83.7313467 70.0613067,82.1666667 L70.0613067,70.0613067 L82.1666667,70.0613067 C83.73112,70.0613067 85,68.7926533 85,67.2279733 C85,65.6632933 83.73112,64.39464 82.1666667,64.39464 Z M61,21 L21,61 L21,21 L61,21 Z M24,64 L64,24 L64,64 L24,64 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -5,6 +5,10 @@
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link crossorigin="anonymous"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          rel="stylesheet">
     <title>Catalog</title>
     <link href="../../styles/styles.css" rel="stylesheet">
     <link href="catalog.css" rel="stylesheet">
@@ -12,18 +16,24 @@
 <body>
     <header class="header"></header>
 
-    <main class="catalog" id="catalog">
-        <section class="banner">
-            <div class="ball-medium"></div>
-            <div class="ball-large"></div>
-            <div class="inner-content">
-                <h1 class="title-tag">Catalog</h1>
-                <h2 class="subtitle-tag">Revolutionizing content production workflows with technology and design</h2>
-            </div>
-            <div class="hero-img"></div>
-        </section>
-        <section class="what-we-did">
-            <div class="tech-stack">
+    <main class="catalog" id="catalog">        
+            <section class="banner">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="ball-medium"></div>
+                            <div class="ball-large"></div>
+                            <div class="inner-content">
+                                <h1 class="title-tag">Catalog</h1>
+                                <h2 class="subtitle-tag">Revolutionizing content production workflows with technology and design</h2>
+                            </div>
+                            <div class="hero-img"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="what-we-did">
+                <div class="tech-stack">
                     <div class="items">
                         <p class="tag-title">What we did:</p>
                         <div class="project-tag">
@@ -39,10 +49,13 @@
                         <ul>
                             <li>
                                 <img src="../../images/mpulse/phython.png" alt="phython" />
-                            </li>                            
+                            </li>
                             <li>
                                 <img src="../../images/mpulse/react.png" alt="react" class="responsive" />
-                            </li>                           
+                            </li>
+                            <li>
+                                <img src="../../images/angular.png" alt="react" class="responsive" />
+                            </li>
                         </ul>
                         <div class="technologies">Python, React, Angular</div>
                     </div>
@@ -73,12 +86,235 @@
                             </li>
                         </ul>
                     </div>
-                <div class="border-line"></div>
-            </div>
-        </section>
-        <section class=""></section>
-        <section></section>
-        <section></section>
+                    <div class="border-line"></div>
+                </div>
+            </section>
+            <section class="an-overview">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="overview-content">
+                                <div class="label">an overview</div>
+                                <h2 class="main-heading">A creative solution that automates photoshoots for consumer brands</h2>
+                                <p class="common-para">Catalog is a digital platform to help brands source original visual content without any hassles of managing content production. Founded by Patrick Ip and Jacobo Lumbreras, who had a vision to reinvent the photography market, Catalog makes it simple to order custom photos, videos and GIFs for products.</p>
+                                <p class="bold-para">Catalog aims to solve the biggest struggle that small & emerging brands face of producing <span class="special-text"> unique, high-quality product photography</span> at affordable prices. With Catalog, brands and creatives don’t have to manage the logistics of the production process. They can all spend their time doing what they do best: making cool things.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="the-solution">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="solution-content">
+                                <div class="label">the solution</div>
+                                <h2 class="main-heading">An MVP to get to the market fast</h2>
+                                <p class="common-para">Our partners wanted to develop a self-serving platform that can take requests from a customer with required specifications, branding aesthetics and provide the photos within two weeks or less.</p>
+                                <p class="common-para-1">For that they wanted to launch an MVP, validate their idea and see if users would be willing to pay for the services that Catalog offered. More than that, they wanted to get user feedback on the application and quickly iterate over it to include more features.</p>
+                                <p class="common-para-2">We helped them build an MVP in <span class="special-text-bold">20 weeks</span> with the most lovable features that were crucial for the product's success. After a great response from the target audience, we went ahead with the little details that added delight.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="our-approach">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="approach-content">
+                                <div class="label">our approach</div>
+                                <h2 class="main-heading">Validating the product idea in product discovery workshop</h2>
+                                <p class="common-para">Our partners approached us when Catalog was just an idea on a napkin. During the kick-off meetings, our team traveled to LA at our partner’s location to participate in product discovery and roadmapping discussions which also involved <span class="special-text">mentors & leaders from <span class="special-text-bold">Techstars.</span></span></p>
+                                <p class="common-para-1">We began from ground level and started building the first version of the product for Catalog’s first customer Naked Poppy, a fashion and beauty products brand. This helped us kickstart our ideation phase as now we had a real customer for whom we were building this platform.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="research">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!--<div class="col-md-7">-->
+                            <div class="content-left">
+                                <div class="label">Research and Brainstorming</div>
+                                <div class="main-heading">Discovering problems and seeking creative solutions</div>
+                                <div class="common-para">We conducted several interview rounds with Naked Poppy to understand the process they follow, their pain areas and challenges. Besides that, we had brainstorming sessions with our partners and mentors to understand what features we will provide, how the onboarding process will be, and what would make the checkout experience more rewarding.</div>
+                                <div class="common-para-1">These interview sessions helped us come up with a solution to build a self-serving platform for our users where they can send content request, see their photo library, purchase them and download it as per their requirements.</div>
+                                <div class="common-para-2">We designed a prototype where users can share the creative brief having specifications like model’s gender, model type (kid, adult, old), photoshoot backgrounds, camera angle, lighting, shadows, number of models, etc. We also came up with a feature for the internal stakeholders to get feedback on the content and make changes as they deemed fit.</div>
+                            </div>
+                        <!--</div>-->
+
+                        <div class="content-right">
+                            <ul>
+                                <li><img src="../../images/catalog/features_col_01.svg" alt="col-features" class="first-feature" /> </li>
+                                <li><img src="../../images/catalog/features_col_02.svg" alt="col-features" class="second-feature" /> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="onboarding">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="onboarding-content">
+                                <div class="label">Redefining onboarding and checkout experience</div>
+                                <h2 class="main-heading">Improving conversion rate by 21%</h2>
+                                <p class="common-para">One of the biggest challenges was to design the onboarding and the checkout experience. We wanted to make sure the user is able to transact and submit requests in minimal clicks. However, after the first launch, when we evaluated the users’ journey through Google analytics, we realized that our checkout and onboarding flows were not optimized.</p>
+                                <p class="common-para-1">The entire process was a perfect example of validated learning where we quickly redesigned and reiterated on feedback. We went through a lot of iterations to make the experience better and saw improved results right after changing our designs.</p>
+                                <p class="common-para-2">Our conversion rate improved by 21% and due to this we saw a 33.85% rise in returning customers as well.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conversion-stats">
+                        <div class="row">                            
+                                <!--<div class="product-portfolio">
+                                    <div class="col">
+                                        <img src="../../images/catalog/products.png" class="product-img" alt="products" />
+                                    </div>
+                                 </div>-->                            
+                                <!--<div class="product-stat">
+                                    <div class="col-md-7">
+                                        <div class="conversion-rate">
+                                            <div class="conversion-num">21%</div>
+                                            <p class="conversion-txt">Increase in conversion rate</p>
+                                        </div>
+                                        <div class="portfolio-stats"></div>
+                                        <div class="conversion-rate">
+                                            <div class="conversion-num">33.58%</div>
+                                            <p class="conversion-txt">Rise in returning customers</p>
+                                        </div>
+                                    </div>
+                              </div>-->
+
+                            <div class="product-portfolio">
+                                <img src="../../images/catalog/products.png" class="product-img" alt="products" />
+                             </div>  
+                            <div class="product-stat">
+                                        <div class="conversion-rate">
+                                            <div class="conversion-num">21%</div>
+                                            <p class="conversion-txt">Increase in conversion rate</p>
+                                        </div>
+                                        <div class="portfolio-stats"></div>
+                                        <div class="conversion-rate">
+                                            <div class="conversion-num">33.58%</div>
+                                            <p class="conversion-txt">Rise in returning customers</p>
+                                    </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="design-and-develop">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="design-content">
+                                <div class="label">design and development</div>
+                                <h2 class="main-heading">Designing a content production management tool</h2>
+                                <p class="common-para">Catalog takes care of all the production planning and post production including logistics, usage rights and contracts. To manage this complex process with efficiency the Catalog team needed a tool to collect all of the necessary creative data and execute on customer’s vision in the shortest possible time.</p>
+                                <p class="common-para-1">After indulging in in-depth stakeholder interviews and understanding the entire production lifecycle, our team started building a <span class="special-text-bold">backend handling system in Python and the frontend in React and Angular.</span></p>
+                                <p class="common-para-2">Since the tool is meant to handle lots of data, we designed it keeping in mind our end users. The colors, theme and visual hierarchy is such that the users are intuitively guided to pay attention to the most important information.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="typo-container">
+                            <div class="col-md-6">
+                                <div class="color-palette">
+                                    <h3 class="heading">Colors</h3>
+                                    <div class="palette-img"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="typography">
+                                    <h3 class="heading">Typography</h3>
+                                    <div class="typo-img"></div>
+                                    <div class="font-label">
+                                        <div class="project-font">Source Sans Pro</div>
+                                        <div class="project-font-size">Bold / Regular / Semi-bold</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="art-work">
+                        <div class="row">
+                            <div class="col">
+                                <div class="art-work-heading">illustration</div>
+                                <div class="art-work-subheading">Icon Graphics - Empty States / Errors / Timeline Steps etc</div>
+                                <div class="art-icons"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-website">
+                        <div class="row">
+                            <div class="col">
+                                <div class="product-txt">Product Website</div>
+                                <div class="sketch-illustration"></div>
+                                <p class="common-para">We designed and built the platform which notifies important stakeholders about the order submission and initiates necessary transactions. We also created an admin panel and a content production calendar for the catalog team to manage clients’ requests effectively and deliver content on time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="the-outcome">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="outcome-content">
+                                <div class="label">The Outcome</div>
+                                <h2 class="main-heading">The fastest, reliable and most efficient platform to outsource custom content</h2>
+                                <p class="common-para">The unique selling point of Catalog is the cost of content production which is very affordable for small & medium fashion brands. Additionally, the quality of images is very high, it can be customized and the entire process can be <span class="special-text">completed in two weeks.</span></p>
+                            </div>
+                        </div>
+                    </div>   
+                    <div class="project-stats">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="outcome-stats">
+                                    <div class="stat-label">$2.5m</div>
+                                    <div class="stat-title">Total funding raised (1.5M raised from Moonshot Capital)</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="outcome-stats-1">
+                                    <div class="stat-label">250+</div>
+                                    <div class="stat-title">Clients across the globe</div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="outcome-stats-2">
+                                    <div class="stat-label">50%</div>
+                                    <div class="stat-title">Repeat Business</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="client-testimonial">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="testimonial">
+                                <p class="testimonial-text">Quovantis was absolutely essential to the project, building a final product that functions well and looks great. They work quickly and efficiently, paying close attention to details. </p>
+                                <div class="item-footer">
+                                    <div class="image-container">
+                                        <img class="partner-image" src="../../images/jacobo.png">
+                                    </div>
+                                    <div class="details">
+                                        <span class="name">Jacobo Lumbreras</span>
+                                        <span class="company">CPO | Catalog</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </main>
 </body>
 </html>
